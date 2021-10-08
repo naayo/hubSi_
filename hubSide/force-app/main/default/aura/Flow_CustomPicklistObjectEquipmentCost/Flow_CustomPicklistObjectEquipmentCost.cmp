@@ -1,0 +1,14 @@
+<aura:component implements="lightning:availableForFlowScreens" controller="Flow_CustomPicklistObjectEquipmentCost">
+    
+    <aura:attribute name="recordTypeId" type="String"/>
+    <aura:attribute name="objects" type="String[]"/>
+    <aura:attribute name="selectedValue" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <lightning:select label="Objet" value="{!v.selectedValue}">
+        <aura:iteration items="{!v.objects}" var="object">
+            <option value="{!object}" text="{!object}"></option>
+        </aura:iteration>
+    </lightning:select>
+    
+</aura:component>

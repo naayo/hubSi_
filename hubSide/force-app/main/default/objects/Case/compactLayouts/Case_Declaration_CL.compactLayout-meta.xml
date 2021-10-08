@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Declaration_CL</fullName>
+    <fields>Numero_sinistre__c</fields>
+    <fields>Status</fields>
+    <fields>OwnerId</fields>
+    <fields>ClientDeclarationValidationDate__c</fields>
+    <fields>Typologie_Sinistre__c</fields>
+    <fields>AccountId</fields>
+    <label>Case Déclaration CL</label>
+</CompactLayout>

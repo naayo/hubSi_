@@ -1,0 +1,59 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "1820051d-7316-44c5-be7a-cf421db92c5b",
+  "label" : "Réservation",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "aa4b77a5-dcc7-4874-91df-c44137b41611",
+          "columns" : [ {
+            "UUID" : "633e37ee-0637-4709-bfc0-40e93f86d7ff",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "aa4b77a5-dcc7-4874-91df-c44137b41611",
+      "regions" : [ {
+        "id" : "633e37ee-0637-4709-bfc0-40e93f86d7ff",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cabf35c9-8f6e-4950-b6a3-3d2e2cb8b870",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Réservation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8258f711-fc2b-4b3b-b5bc-dc2c8bc2f2dd",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b2f950de-2dd0-49d1-91d4-cd3926c3d629",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-reservation"
+}

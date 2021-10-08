@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a71dd1da-d62e-423e-8ace-c85924f3992c",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "f5b03950-2f80-4dc3-a82b-ca0abe56406a",
+  "label" : "Gamme Liste associée",
+  "objectApiName" : "Gamme__c",
+  "routeType" : "relatedlist-a6D",
+  "type" : "route",
+  "urlPrefix" : "gamme"
+}

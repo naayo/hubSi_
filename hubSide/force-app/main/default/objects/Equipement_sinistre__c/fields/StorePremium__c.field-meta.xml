@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StorePremium__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Magasin choisi pour l&apos;échange avec la prime en magasin</description>
+    <externalId>false</externalId>
+    <label>Magasin pour prime</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Distributeur location</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.StorePremiumEligible__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Equipement sinistre</relationshipLabel>
+    <relationshipName>Equipement_sinistre</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

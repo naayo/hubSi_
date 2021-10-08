@@ -1,0 +1,104 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "4843913a-741f-4497-85c5-3ad6c9514f29",
+  "label" : "User Settings",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Welcome!",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "d07080b6-cd45-472c-982d-f0b05a16f7a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c979b03f-72b6-40b1-b70f-7a1056eccd7d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "19ff8c67-85df-419a-9489-38e213386964",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "58276e59-ed76-4cee-9684-58c75e2318ea",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Famille de produit"
+          }, {
+            "UUID" : "d25ff800-9e12-4b64-8530-a20dbd7315de",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Marque de produit"
+          }, {
+            "UUID" : "b46e5674-c185-46d8-877f-3caa4b7b1a3e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Nom de produit"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "19ff8c67-85df-419a-9489-38e213386964",
+      "regions" : [ {
+        "id" : "58276e59-ed76-4cee-9684-58c75e2318ea",
+        "regionLabel" : "Famille de produit",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "d25ff800-9e12-4b64-8530-a20dbd7315de",
+        "regionLabel" : "Marque de produit",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "b46e5674-c185-46d8-877f-3caa4b7b1a3e",
+        "regionLabel" : "Nom de produit",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "661456f5-8f47-4f04-ad85-93db1972f26f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "channel" : "CustomChannel1",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:recommendations",
+      "id" : "6bd6c972-0eb0-47a7-987a-d88bfe166a3d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81e71ff7-38aa-4ee9-8bd3-3ae1042769ad",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}

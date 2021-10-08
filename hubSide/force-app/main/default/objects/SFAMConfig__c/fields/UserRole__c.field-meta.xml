@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserRole__c</fullName>
+    <description>Role tel que défini dans Salesforce - Role as defined in Salesforce</description>
+    <externalId>false</externalId>
+    <label>Utilisateur - Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Admin_Enseigne</fullName>
+                <default>false</default>
+                <label>Admin Enseigne</label>
+            </value>
+            <value>
+                <fullName>Direction_ADM</fullName>
+                <default>false</default>
+                <label>Direction ADM</label>
+            </value>
+            <value>
+                <fullName>Direction_Back_up</fullName>
+                <default>false</default>
+                <label>Direction Back-up</label>
+            </value>
+            <value>
+                <fullName>Direction_Exp_dition</fullName>
+                <default>false</default>
+                <label>Direction Expédition</label>
+            </value>
+            <value>
+                <fullName>Direction_Expertise_SAV_suite_change</fullName>
+                <default>false</default>
+                <label>Direction Expertise - SAV suite à échange</label>
+            </value>
+            <value>
+                <fullName>Direction_Gestion_Sinistre</fullName>
+                <default>false</default>
+                <label>Direction Gestion Sinistre</label>
+            </value>
+            <value>
+                <fullName>Direction_GS_Qualit</fullName>
+                <default>false</default>
+                <label>Direction GS Qualité</label>
+            </value>
+            <value>
+                <fullName>Direction_Logistique</fullName>
+                <default>false</default>
+                <label>Direction Logistique</label>
+            </value>
+            <value>
+                <fullName>Direction_R_ception_colis</fullName>
+                <default>false</default>
+                <label>Direction Réception colis</label>
+            </value>
+            <value>
+                <fullName>Direction_R_paration</fullName>
+                <default>false</default>
+                <label>Direction Réparation</label>
+            </value>
+            <value>
+                <fullName>Direction_R_paration_ADM</fullName>
+                <default>false</default>
+                <label>Direction Réparation ADM</label>
+            </value>
+            <value>
+                <fullName>Direction_TC_Qualit</fullName>
+                <default>false</default>
+                <label>Direction TC Qualité</label>
+            </value>
+            <value>
+                <fullName>Direction_Teleconseiller_Sinistre</fullName>
+                <default>false</default>
+                <label>Direction Téléconseiller Sinistre</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_ADM</fullName>
+                <default>false</default>
+                <label>Equipe 1 ADM</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_Back_up</fullName>
+                <default>false</default>
+                <label>Equipe 1 Back-up</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_Exp_dition</fullName>
+                <default>false</default>
+                <label>Equipe 1 Expédition</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_EXP_SAV_suite_change</fullName>
+                <default>false</default>
+                <label>Equipe 1 EXP - SAV suite à échange</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_GS</fullName>
+                <default>false</default>
+                <label>Equipe 1 GS</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_GS_Qualit</fullName>
+                <default>false</default>
+                <label>Equipe 1 GS Qualité</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_Logistique</fullName>
+                <default>false</default>
+                <label>Equipe 1 Logistique</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_R_ception_colis</fullName>
+                <default>false</default>
+                <label>Equipe 1 Réception colis</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_R_paration</fullName>
+                <default>false</default>
+                <label>Equipe 1 Réparation</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_R_paration_ADM</fullName>
+                <default>false</default>
+                <label>Equipe 1 Réparation ADM</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_TC</fullName>
+                <default>false</default>
+                <label>Equipe 1 TC</label>
+            </value>
+            <value>
+                <fullName>Equipe_1_TC_Qualit</fullName>
+                <default>false</default>
+                <label>Equipe 1 TC Qualité</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_ADM</fullName>
+                <default>false</default>
+                <label>Equipe 2 ADM</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_Back_up</fullName>
+                <default>false</default>
+                <label>Equipe 2 Back-up</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_Exp_dition</fullName>
+                <default>false</default>
+                <label>Equipe 2 Expédition</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_EXP_SAV_suite_change</fullName>
+                <default>false</default>
+                <label>Equipe 2 EXP - SAV suite à échange</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_GS</fullName>
+                <default>false</default>
+                <label>Equipe 2 GS</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_GS_Qualit</fullName>
+                <default>false</default>
+                <label>Equipe 2 GS Qualité</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_Logistique</fullName>
+                <default>false</default>
+                <label>Equipe 2 Logistique</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_R_ception_colis</fullName>
+                <default>false</default>
+                <label>Equipe 2 Réception colis</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_R_paration</fullName>
+                <default>false</default>
+                <label>Equipe 2 Réparation</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_R_paration_ADM</fullName>
+                <default>false</default>
+                <label>Equipe 2 Réparation ADM</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_TC</fullName>
+                <default>false</default>
+                <label>Equipe 2 TC</label>
+            </value>
+            <value>
+                <fullName>Equipe_2_TC_Qualit</fullName>
+                <default>false</default>
+                <label>Equipe 2 TC Qualité</label>
+            </value>
+            <value>
+                <fullName>Pole_Logistique</fullName>
+                <default>false</default>
+                <label>Pole_Logistique</label>
+            </value>
+            <value>
+                <fullName>Pole_Sinistre</fullName>
+                <default>false</default>
+                <label>Pole_Sinistre</label>
+            </value>
+            <value>
+                <fullName>POLE_SMARTPHONE_RECYCLE</fullName>
+                <default>false</default>
+                <label>POLE_SMARTPHONE_RECYCLE</label>
+            </value>
+            <value>
+                <fullName>Responsable_boutique</fullName>
+                <default>false</default>
+                <label>Responsable boutique</label>
+            </value>
+            <value>
+                <fullName>Vendeur</fullName>
+                <default>false</default>
+                <label>Vendeur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

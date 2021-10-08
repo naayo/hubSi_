@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat_contrat__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+CASE(  Status , 
+&quot;valid&quot;, &quot;/img/samples/flag_green.gif&quot;,
+&quot;pendingApproval&quot;,  &quot;/img/samples/flag_yellow.gif&quot;,
+&quot;unpaid&quot;,   &quot;/img/samples/flag_yellow.gif&quot;,
+&quot;closing&quot;,    &quot;/img/samples/flag_red.gif&quot;,
+&quot;incomplete&quot;, &quot;/img/samples/flag_red.gif&quot;, 
+&quot;closed&quot; , &quot;/img/samples/flag_red.gif&quot;,
+&quot;/s.gif&quot;), 
+&quot;Priority Flag&quot;)</formula>
+    <label>Etat contrat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

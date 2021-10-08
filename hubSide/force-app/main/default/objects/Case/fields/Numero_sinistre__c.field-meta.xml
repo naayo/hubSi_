@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_sinistre__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+    Record_Type_Name__c, 
+    &apos;Sinistre&apos;, 
+    if(
+        !vlocity_ins__Verified__c, 
+        &quot;INS&quot; + &apos;&apos; + LPAD(TEXT(tech_numsin__c), 6, &apos;0&apos;),
+        &quot;TMP&quot; + &apos;&apos; + RIGHT(CaseNumber, 6)
+    ),
+    &apos;SinistreBApp&apos;, Num_sinistre_B_Appli__c,
+    &apos;Sinistre clôturé&apos;, Subject, 
+    &apos;Déclaration&apos;, CaseNumber, 
+    &apos;SAV&apos;, 
+    if(
+        !vlocity_ins__Verified__c, 
+        &quot;SAV&quot; + LPAD(TEXT(tech_numsin__c), 6, &apos;0&apos;), 
+        &quot;DEM&quot; + &apos;&apos; + RIGHT(CaseNumber, 6)
+    ),
+    &apos;Réclamation&apos;, &quot;REC&quot; + LPAD(TEXT(tech_numsin__c), 6, &apos;0&apos;),
+				&apos;Demande&apos;, &quot;DEM&quot; + LPAD(TEXT(tech_numsin__c), 6, &apos;0&apos;),
+    &apos;GED&apos; + &apos;&apos; + RIGHT(CaseNumber, 6)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Numéro de la requête</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

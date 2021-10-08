@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Illipass_Espace_client_Email_de_relance</fullName>
+        <ccEmails>said.halhali@inetum.world</ccEmails>
+        <description>1-[Illipass : Espace client] Email de relance</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Illipass_templates/Illipass_Community_Welcome_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Passloc_Espace_client_Email_de_relance</fullName>
+        <ccEmails>said.halhali@inetum.world</ccEmails>
+        <description>1-[Passloc : Espace client] Email de relance</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Location_templates/PassLoc_Community_Welcome_Email</template>
+    </alerts>
+</Workflow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_reservation_date_retrait</fullName>
+    <active>false</active>
+    <description>La date de retrait doit être aujourd&apos;hui si la réservation est convertie en emprunt.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status__c, &apos;Réservation_convertie&apos;), 
+    Date_retrait__c != TODAY()
+)
+&amp;&amp; 
+    NOT ($Setup.Bypass__c.Bypass_validation_rule__c)</errorConditionFormula>
+    <errorMessage>Un emprunt ne peut être créé qu&apos;avec une date de retrait qui soit aujourd&apos;hui.</errorMessage>
+</ValidationRule>

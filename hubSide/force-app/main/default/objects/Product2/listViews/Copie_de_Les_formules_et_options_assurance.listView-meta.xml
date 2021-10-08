@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copie_de_Les_formules_et_options_assurance</fullName>
+    <columns>vlocity_ins__Type__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Id_externe__c</columns>
+    <columns>Tout_risques__c</columns>
+    <columns>Vol_Caracterise__c</columns>
+    <columns>Vol_toute_cause__c</columns>
+    <columns>Perte__c</columns>
+    <columns>Pertes_avec_franchise__c</columns>
+    <columns>Oxydation__c</columns>
+    <columns>Casse__c</columns>
+    <columns>FranchiseAmount1__c</columns>
+    <columns>FranchiseLevel1__c</columns>
+    <columns>Nombre_echanges__c</columns>
+    <columns>Plafond__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Assurance</value>
+    </filters>
+    <filters>
+        <field>vlocity_ins__Type__c</field>
+        <operation>equals</operation>
+        <value>Formula</value>
+    </filters>
+    <label>Formules Option Assurance Paramétrage</label>
+</ListView>

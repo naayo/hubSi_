@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangeOwnerForbidden</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+Record_Type_Name__c = &apos;Sinistre&apos;, 
+AND(NOT(ISPICKVAL(Status, &apos;A attribuer&apos;)), NOT(ISPICKVAL(Status, &apos;Reception_dossier&apos;))),
+AND(
+ $Profile.Name &lt;&gt; &apos;Administrateur système&apos;,
+ NOT(ISPICKVAL($User.BusinessProfile__c, &apos;ManagerGS&apos;))
+
+))</errorConditionFormula>
+    <errorMessage>Vous n&apos;avez pas le droit de changer le propriétaire du sinistre.</errorMessage>
+</ValidationRule>

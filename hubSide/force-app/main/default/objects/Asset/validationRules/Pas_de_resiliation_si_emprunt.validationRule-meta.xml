@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pas_de_resiliation_si_emprunt</fullName>
+    <active>true</active>
+    <description>Le contrat ne peut être résilié s&apos;il y a un emprunt actif.</description>
+    <errorConditionFormula>AND(
+    RecordType.Name = &apos;Contrat location&apos;, 
+    NOT(ISPICKVAL(Motif_cloture__c, &apos;&apos;)), 
+    NOT(ISBLANK( Emprunt_en_cours__c ))
+)</errorConditionFormula>
+    <errorMessage>Il n&apos;est pas possible de clôturer un contrat qui a un emprunt en cours.</errorMessage>
+</ValidationRule>

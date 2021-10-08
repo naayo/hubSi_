@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstChoice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Premier choix du GS lors de du choix de l&apos;indemnisation - First choice made by the GS when choosing a compensation.</description>
+    <externalId>false</externalId>
+    <label>Choix 1</label>
+    <referenceTo>Matrice_cout_equipement__c</referenceTo>
+    <relationshipLabel>Equipement sinistre (Choix 1)</relationshipLabel>
+    <relationshipName>Equipement_sinistre2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

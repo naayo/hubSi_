@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Champ du contrat client</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Champs d&apos;contrat client</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>asset_field</name>
+    <startsWith>Consonant</startsWith>
+</CustomFieldTranslation>

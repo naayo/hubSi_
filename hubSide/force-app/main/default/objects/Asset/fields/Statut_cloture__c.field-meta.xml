@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_cloture__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut de clôture</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>clientRequest</fullName>
+                <default>false</default>
+                <label>A la demande du client</label>
+            </value>
+            <value>
+                <fullName>providerRequest</fullName>
+                <default>false</default>
+                <label>Initié par la SFAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

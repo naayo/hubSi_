@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AdyenCheckout</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://checkout-test.adyen.com/v67/</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">AQEihmfuXNWTK0Qc+iSYh2YrruCeO9LordtbvjWlxjvBSRVwBRDBXVsNvuR83LVYjEgiTGAH-+uG6cu7Poupg75RbUVVRd/kgFr+NbTxG2zz411kBqDQ=-?7pRsrSsS2C5V,w:</value>
+    </values>
+    <values>
+        <field>Username__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,83 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "c9e11ecf-1bef-4152-b09f-37578eddeeeb",
+  "label" : "Produit Détails",
+  "regions" : [ {
+    "id" : "69799dd6-f006-4045-ae1e-6dd83deda2f8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "1e827565-8706-4cd0-bf9a-7d24783a917d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9137cb8b-8019-4bcd-8111-5a8bb6ea763b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4954e016-ab62-4a95-8f4f-b55307ff4e52",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b45fd92c-9be9-43c1-9afa-d82ede2027bc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e2cd138-d1df-4d16-9b23-f3f0bafad186",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "align" : "Center",
+        "autoLaunchFlow" : false,
+        "buttonBackgroundColor" : "",
+        "buttonLabel" : "Réserver ce produit",
+        "buttonTextColor" : "",
+        "flowInputVariablesString" : "[{\"name\" : \"selectedProduit\", \"type\" : \"String\", \"value\" : \"_RECORDID_\"}]",
+        "flowModalHeader" : "Réservation",
+        "flowName" : "Reservation_depuis_un_produit",
+        "hideButton" : false,
+        "hideFlowTransitionOverlay" : false,
+        "redirectUrlOnFlowCompletion" : "",
+        "refreshPageOnFlowCompletion" : false
+      },
+      "componentName" : "sf_flowmodal:ccp_launchFlowModal",
+      "id" : "1e7068d5-2004-4213-9c08-1a730ba79b1d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "300",
+        "pageName" : "community_productAvailability",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "e8b470a6-d6cb-4d92-8850-4126e79af67e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "baaa95d6-7c11-4c86-883a-483e9025bbcf",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-01t"
+}

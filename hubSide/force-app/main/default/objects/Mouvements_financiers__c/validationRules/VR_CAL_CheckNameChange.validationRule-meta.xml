@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_CAL_CheckNameChange</fullName>
+    <active>true</active>
+    <description>Block update if the name of the record have changed</description>
+    <errorConditionFormula>AND(
+				$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+				$Profile.Name &lt;&gt; &quot;SFAM API&quot;,
+				$Profile.Name &lt;&gt; &quot;Administrateur système&quot;,
+				PRIORVALUE(Name) &lt;&gt; Name)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas renommer un calcul indemnisation.</errorMessage>
+</ValidationRule>

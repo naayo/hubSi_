@@ -1,0 +1,151 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "8643794d-e673-4462-b4b3-afb7eac82e26",
+  "label" : "Casques VR",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "1ff4ebbc-4765-46d4-8243-ed5138ce2943",
+          "columns" : [ {
+            "UUID" : "01a3e622-8ee9-4bae-85e4-24317fc4baac",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1c7f7b2b-046f-4893-94b4-93213b406b98",
+            "columnKey" : "07fcb",
+            "columnName" : "Column 2",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1ff4ebbc-4765-46d4-8243-ed5138ce2943",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">T</a><a href=\"https://sit-reservation.cs100.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">é</a><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">léphones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">D</a><a href=\"https://sit-reservation.cs100.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">r</a><a href=\"https://uat-reservation.cs128.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">ones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">A</a><a href=\"https://sit-reservation.cs100.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">p</a><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">pareils photo</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/objets-connectes\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">O</a><a href=\"https://uat-reservation.cs128.force.com/s/objets-connectes\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">bjets connectés</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">G</a><a href=\"https://sit-reservation.cs100.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">a</a><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">ming</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/cameras-sportives\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://uat-reservation.cs128.force.com/s/cameras-sportives\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">améras sportives</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://sit-reservation.cs100.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">a</a><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">sques VR</a></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "016dfcc7-5653-4d00-ba98-200892be7abb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "01a3e622-8ee9-4bae-85e4-24317fc4baac",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "00B3N000002OT6FUAW",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "Product2",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "c60f3fb5-e8f8-45f8-8a62-0499195a11de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1c7f7b2b-046f-4893-94b4-93213b406b98",
+        "regionLabel" : "Column 2",
+        "regionName" : "07fcb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 25,
+        "sectionConfig" : {
+          "UUID" : "5a94ed99-955f-4735-840e-fc9b493eea41",
+          "columns" : [ {
+            "UUID" : "c1c7d24b-73cf-4f56-801e-2b7585bc6abc",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5a94ed99-955f-4735-840e-fc9b493eea41",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "rgb(255, 255, 255)",
+            "buttonBgHoverColor" : "rgb(160, 27, 103)",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 100,
+            "buttonRadius" : 50,
+            "buttonTextColor" : "rgb(160, 27, 103)",
+            "buttonTextHoverColor" : "",
+            "label" : "NOUS CONTACTER"
+          },
+          "componentName" : "forceCommunity:contactSupportButton",
+          "id" : "a50522f9-adec-4a7f-89e7-af108a23aa0c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1c7d24b-73cf-4f56-801e-2b7585bc6abc",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8abb12b6-25d6-45bd-a7e1-1a4cae7e1d7e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Casques VR"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e43cc5df-9820-4c7f-b08f-8aefae5c0f78",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dd64a012-d69a-47a2-b078-01f9de6e35a2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-casques-vr"
+}

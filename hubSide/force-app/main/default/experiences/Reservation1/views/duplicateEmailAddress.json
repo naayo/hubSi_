@@ -1,0 +1,47 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a2801c0f-1621-4bbb-8b08-85930c03fb78",
+  "label" : "duplicateEmailAddress",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class='slds-grid slds-grid--vertical slds-align--absolute-center slds-container--large'>   <div class='slds-align-middle slds-m-bottom--xx-large slds-m-top--xx-large'>      <img src='/sfsites/c/resource/community_duplicateEmailAddress' class='slds-p-horizontal--large' width=\"300\" height=\"300\"/>   </div>   <h4 class='slds-text-align--center slds-text-heading--large slds-text-color--weak slds-m-bottom--small'></h4>    <p class='slds-text-align--center slds-text-heading--medium slds-text-color--weak'>L'adresse email utilisée est déjà présente dans notre système, et ce pour plusieurs comptes. Merci de contacter un de nos conseillers au 0X XX XX XX XX pour connaître vos identifiants de connexion.</p>  </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "c9a03efc-f273-41da-8189-e6aa69c9cb69",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c6c4e57-abfa-496c-8745-f5d22909e78f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "a31c387a-55aa-4f78-93cf-f916ca3db080",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "450dcdd2-6301-4611-8552-ae1f5fe5cabf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "duplicateEmailAddress"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "44158556-de56-478b-9416-980159645a29",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e5818eaf-d862-485b-a628-67ddc6ca2b7a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-duplicateemailaddress"
+}

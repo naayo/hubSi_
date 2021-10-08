@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sous_statut__c</fullName>
+    <externalId>false</externalId>
+    <label>Sous-statut</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Statut_equipement__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>EquipSin_SousStatut</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>A retourner PSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Repare_client_Expedition</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>Réceptionné - A expédier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Repare_client_Expedition</controllingFieldValue>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>Préparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <valueName>Retourné client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <valueName>Repaired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <valueName>Unrepairable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CustomerReception</controllingFieldValue>
+            <valueName>Cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Repare_client_Expedition</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <controllingFieldValue>En Attente Réparation</controllingFieldValue>
+            <valueName>A sortir - Retour client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Irréparable</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <controllingFieldValue>En Attente Réparation</controllingFieldValue>
+            <valueName>A sortir - Retour SFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Irréparable</controllingFieldValue>
+            <controllingFieldValue>Repare_client_Expedition</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <valueName>Sortie PSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Irréparable</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <valueName>Réceptionné - A conserver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <valueName>Retour Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulé - A retourner</controllingFieldValue>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <valueName>Retour SFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Livraison PSM</controllingFieldValue>
+            <valueName>A sortir du stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irréparable</controllingFieldValue>
+            <controllingFieldValue>Echangé</controllingFieldValue>
+            <valueName>Réception client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irréparable</controllingFieldValue>
+            <valueName>Conservé SFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repare_client_Expedition</controllingFieldValue>
+            <valueName>A sortir PSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irréparable - A retourner</controllingFieldValue>
+            <controllingFieldValue>En Cours de Réparation</controllingFieldValue>
+            <valueName>En attente GS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Attente Réception</controllingFieldValue>
+            <valueName>Réceptionné SFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Attente Réparation</controllingFieldValue>
+            <valueName>A stocker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Attente Réparation</controllingFieldValue>
+            <valueName>Stocké</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Cours de Réparation</controllingFieldValue>
+            <valueName>A dispatcher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Cours de Réparation</controllingFieldValue>
+            <valueName>En cours d&apos;expertise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En Cours de Réparation</controllingFieldValue>
+            <valueName>En cours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Echangé</controllingFieldValue>
+            <valueName>Via prime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Echangé</controllingFieldValue>
+            <valueName>Via prime magasin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>Réceptionné - à expédier (Irréparable)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>Réceptionné - à expédier (Annulé)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expédition client</controllingFieldValue>
+            <valueName>Préparation - Irréparable/Annulé</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

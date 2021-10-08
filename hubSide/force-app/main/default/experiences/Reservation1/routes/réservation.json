@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1820051d-7316-44c5-be7a-cf421db92c5b",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "d0c02b2d-0ba6-48a2-a455-6d43eb2ab5b5",
+  "label" : "Réservation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-reservation",
+  "type" : "route",
+  "urlPrefix" : "reservation"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "39523796-20ff-4eee-889a-ec31cce81177",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "6630fe66-8946-4744-a459-907bc716eef8",
+  "label" : "Nos magasins",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-nos-magasins",
+  "type" : "route",
+  "urlPrefix" : "nos-magasins"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>L&apos;équipement produit unique associé</description>
+    <externalId>false</externalId>
+    <label>Catalogue équipement</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.vlocity_ins__RecordTypeName__c</field>
+            <operation>equals</operation>
+            <value>itemCatalog</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.IsInsurance__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Equipement sinistre</relationshipLabel>
+    <relationshipName>Equipement_sinistre</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

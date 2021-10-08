@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LesEquipementsEnCommande</fullName>
+    <columns>Sinistre__c</columns>
+    <columns>NAME</columns>
+    <columns>Type_de_materiel__c</columns>
+    <columns>Statut_equipement__c</columns>
+    <columns>Sous_statut__c</columns>
+    <columns>SerieNumberEC__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Statut_equipement__c</field>
+        <operation>equals</operation>
+        <value>En commmande</value>
+    </filters>
+    <label>Les équipements en commande</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriction_de_creation</fullName>
+    <active>true</active>
+    <description>La création d&apos;un emprunt ne peut se faire que via le stock, le contrat ou le client.</description>
+    <errorConditionFormula>AND(
+    Caution_recue__c, 
+    ISNEW()
+)</errorConditionFormula>
+    <errorMessage>La création d&apos;un emprunt ne peut se faire que via un stock, un contrat ou un client.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>En attente d&apos;approbation</masterLabel>
+        <translation>Pendiente de aprobación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>En cours de fermeture</masterLabel>
+        <translation>En proceso de cierre</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fermé</masterLabel>
+        <translation>Cerrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Impayé</masterLabel>
+        <translation>Impago</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incomplet</masterLabel>
+        <translation>Incompleto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Obsolète</masterLabel>
+        <translation><!-- Obsolète --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Valide</masterLabel>
+        <translation>Válido</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

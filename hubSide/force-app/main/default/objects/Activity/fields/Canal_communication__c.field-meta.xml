@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canal_communication__c</fullName>
+    <externalId>false</externalId>
+    <label>Canal communication</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appel entrant</fullName>
+                <default>false</default>
+                <label>Appel entrant</label>
+            </value>
+            <value>
+                <fullName>Appel sortant</fullName>
+                <default>false</default>
+                <label>Appel sortant</label>
+            </value>
+            <value>
+                <fullName>Mail entrant</fullName>
+                <default>false</default>
+                <label>Mail entrant</label>
+            </value>
+            <value>
+                <fullName>Mail sortant</fullName>
+                <default>false</default>
+                <label>Mail sortant</label>
+            </value>
+            <value>
+                <fullName>Print</fullName>
+                <default>false</default>
+                <label>Courrier</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Téléphone</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

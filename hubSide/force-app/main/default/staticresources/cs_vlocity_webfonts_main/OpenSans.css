@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansLight.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSans.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansSemibold.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansBold.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansExtrabold.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansLightItalic.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansItalic.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansBoldItalic.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Italic'), url(/resource/1586948846000/vlocity_ins__cs_pdftron_webfonts_opensans/OpenSansExtraboldItalic.ttf?orgId=00D3X000003JH5o) format( 'truetype');
+}

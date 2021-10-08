@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8fb2bf5c-708a-4169-8cdb-cbdf9e9218b3",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "1285fd2b-0134-44ea-9801-ea9b438da7ad",
+  "label" : "Gamme Détails",
+  "objectApiName" : "Gamme__c",
+  "routeType" : "detail-a6D",
+  "type" : "route",
+  "urlPrefix" : "gamme"
+}

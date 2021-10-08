@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThirdChoice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Troisième choix du GS lors du choix de l&apos;indemnisation - Third choice made by the GS when choosing the compensation.</description>
+    <externalId>false</externalId>
+    <label>Choix 3</label>
+    <referenceTo>Matrice_cout_equipement__c</referenceTo>
+    <relationshipLabel>Equipement sinistre (3ème choix)</relationshipLabel>
+    <relationshipName>Equipement_sinistre4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

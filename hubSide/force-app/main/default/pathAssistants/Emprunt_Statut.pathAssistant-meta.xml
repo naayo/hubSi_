@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Emprunt__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Emprunt Statut</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;Rédaction du bon de sortie&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;La saisie de ces champs est obligatoire pour générer le bon de sortie &lt;/i&gt;&lt;/p&gt;&lt;p&gt;Date et heure de sortie&lt;/p&gt;&lt;p&gt;Date et heure du retour prévu&lt;/p&gt;&lt;p&gt;Montant de la caution sortie&lt;/p&gt;&lt;p&gt;Caution reçue ?&lt;/p&gt;</info>
+        <picklistValueName>En magasin</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Rédaction du bon de retour&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;La saisie de ces champs est obligatoire pour générer le bon de retour&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Date et heure de retour&lt;/p&gt;&lt;p&gt;Etat de retour&lt;/p&gt;&lt;p&gt;Montant de la caution retour&lt;/p&gt;&lt;p&gt;Caution restituée ?&lt;/p&gt;&lt;p&gt;Ainsi que les champs relatifs au défaut s&amp;#39;il y avait.&lt;/p&gt;</info>
+        <picklistValueName>Sortie</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Emprunt</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actiontype__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Coût</fullName>
+                <default>false</default>
+                <label>Coût</label>
+            </value>
+            <value>
+                <fullName>Délai</fullName>
+                <default>false</default>
+                <label>Délai</label>
+            </value>
+            <value>
+                <fullName>Coût &amp; Délai</fullName>
+                <default>false</default>
+                <label>Coût &amp; Délai</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

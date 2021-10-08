@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valider_les_declarations</fullName>
+    <availability>online</availability>
+    <description>Permet la validation en masse des cases sélectionnés</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Valider les déclarations</masterLabel>
+    <openType>sidebar</openType>
+    <page>DeclaWeb_MassValidation</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

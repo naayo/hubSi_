@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nouvel_emprunt</fullName>
+    <active>true</active>
+    <description>Record type pour la création de l&apos;objet emprunt</description>
+    <label>Nouvel emprunt</label>
+    <picklistValues>
+        <picklist>AdyenCaptureStatus__c</picklist>
+        <values>
+            <fullName>Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Etat_retour__c</picklist>
+        <values>
+            <fullName>Bon état</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rayé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LastAdyenAdjustStatus__c</picklist>
+        <values>
+            <fullName>Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motif_geste_commercial__c</picklist>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bon client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>En magasin</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Retour avec défaut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retourné</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sortie</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

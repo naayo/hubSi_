@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_termine_manuel</fullName>
+    <active>true</active>
+    <description>Le statut d&apos;un CalcIndem prime magasin peut passer à Terminé seulement quand il est à Demande en cours</description>
+    <errorConditionFormula>ISPICKVAL(Type_mouvement__c, &apos;Cout prime magasin&apos;)
+&amp;&amp;
+ISPICKVAL(Statut__c, &apos;Completed&apos;)
+&amp;&amp; 
+NOT(ISPICKVAL(PRIORVALUE(Statut__c), &apos;Demande en cours&apos;))</errorConditionFormula>
+    <errorDisplayField>Statut__c</errorDisplayField>
+    <errorMessage>Le statut d&apos;un Calcul d&apos;Indemnisation peut passer à &quot;Terminé&quot; seulement quand sa valeur précédente est  &quot;Demande en cours&quot;</errorMessage>
+</ValidationRule>

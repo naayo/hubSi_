@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7a747d4f-80a1-4711-9e09-33b3fa0ccdc0",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "09caf232-a6b8-4080-b180-ca398291961e",
+  "label" : "Reservation Détails",
+  "objectApiName" : "Reservation__c",
+  "routeType" : "detail-a6E",
+  "type" : "route",
+  "urlPrefix" : "reservation"
+}

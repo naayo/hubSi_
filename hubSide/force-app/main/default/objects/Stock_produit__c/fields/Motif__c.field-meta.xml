@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif d&apos;entrée</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stock SFAM</fullName>
+                <default>false</default>
+                <label>Stock SFAM</label>
+            </value>
+            <value>
+                <fullName>Stock magasin</fullName>
+                <default>false</default>
+                <label>Stock magasin</label>
+            </value>
+            <value>
+                <fullName>Transfer SFAM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transfer SFAM</label>
+            </value>
+            <value>
+                <fullName>Transfer enseigne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transfer enseigne</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

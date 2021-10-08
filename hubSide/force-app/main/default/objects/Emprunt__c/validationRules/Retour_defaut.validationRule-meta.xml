@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retour_defaut</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.Name = &quot;Emprunt&quot;
+&amp;&amp;
+ ISPICKVAL(  Etat_retour__c  , &quot;Rayé&quot;) 
+&amp;&amp;
+ ISBLANK(  Montant_a_deduire__c  ) 
+&amp;&amp;
+ ISBLANK( Default__c )
+&amp;&amp;
+Etat_sortie__c  &lt;&gt; &quot;Rayé&quot;</errorConditionFormula>
+    <errorMessage>Les champs &quot;Montant à déduire&quot; et &quot;Défaut&quot; doivent être remplis si l&apos;état retour du produit n&apos;est plus le même que celui de l&apos;état de sortie</errorMessage>
+</ValidationRule>

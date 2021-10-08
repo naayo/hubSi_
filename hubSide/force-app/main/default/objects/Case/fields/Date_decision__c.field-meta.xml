@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_decision__c</fullName>
+    <description>Date à laquelle le GS décide de la prise en charge à adopter (validation/refus/annulation).
+A remplir pour réparation – échange – prime
+En attente : date du jour à laquelle le dossier est mis en attente</description>
+    <externalId>false</externalId>
+    <label>Date de la décision GS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

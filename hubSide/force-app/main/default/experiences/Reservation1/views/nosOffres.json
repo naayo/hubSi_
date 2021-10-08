@@ -1,0 +1,241 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "5761661d-9af7-411e-bdab-4f358ddcb1a7",
+  "label" : "Nos offres",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "dd821e46-95ed-4738-bab4-83db029a03ac",
+          "columns" : [ {
+            "UUID" : "6fb0525c-4f04-462d-8237-95651f382c25",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "dd821e46-95ed-4738-bab4-83db029a03ac",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><b style=\"font-size: 26px;\">Optez pour votre Pass</b></p><p style=\"text-align: center;\">1er mois offert - Sans engagement de durée</p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c8980294-743f-4612-9e51-860525d7c781",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6fb0525c-4f04-462d-8237-95651f382c25",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "fdf5f516-360a-44cb-bbda-d5ea9152ef47",
+          "columns" : [ {
+            "UUID" : "d03b24ec-a8fa-4a73-ae3a-d90645fb7a2b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "56180554-6482-4708-9f01-f85b6d6d7241",
+            "columnKey" : "96d7a",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b07048fc-f3d6-430f-abe9-b59403f17f8c",
+            "columnKey" : "a0976",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b7375881-3711-4b78-89cf-4bf85ac712a3",
+            "columnKey" : "1a8da",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "20756de9-e9a5-412b-9980-0890ed60098b",
+            "columnKey" : "dbbd9",
+            "columnName" : "Column 5",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fdf5f516-360a-44cb-bbda-d5ea9152ef47",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><b style=\"font-size: 24px; color: rgb(178, 107, 0);\">﻿</b><b style=\"font-size: 24px; color: rgb(255, 235, 204);\">Loisir</b></p><p style=\"text-align: center;\"><u style=\"font-size: 20px; color: rgb(255, 235, 204);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><span style=\"color: rgb(255, 235, 204);\">&nbsp;</span></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c3aa5c7c-b18b-4018-9421-6f8ee476a9a3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 18px; color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent;\">1 jour / mois</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">produits d’une valeur inférieure ou égale à 1 500€</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 16px; color: rgb(0, 102, 204);\">1er mois offert</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 14px;\">puis 9,99€ /mois</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4ed245d6-7d31-462c-9aaf-363d1f369b7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d03b24ec-a8fa-4a73-ae3a-d90645fb7a2b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><b style=\"font-size: 24px; color: rgb(255, 194, 102);\">Plaisir﻿</b></p><p style=\"text-align: center;\"><u style=\"font-size: 20px; color: rgb(255, 194, 102);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bb66bef6-681a-4fde-be5e-0f883d7bfce8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 18px; color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent;\">2 jours / mois</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">produits d’une valeur inférieure ou égale à 1 500€</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 16px; color: rgb(0, 102, 204);\">1er mois offert</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 14px;\">puis 19,99€ /mois</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "586993e2-bfe4-4f9c-be43-910ad243e1dc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "56180554-6482-4708-9f01-f85b6d6d7241",
+        "regionLabel" : "Column 2",
+        "regionName" : "96d7a",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><b style=\"color: rgb(255, 153, 0); font-size: 24px;\">Liberté﻿</b></p><p style=\"text-align: center;\"><u style=\"color: rgb(255, 153, 0); font-size: 20px;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><span style=\"color: rgb(255, 153, 0); font-size: 20px;\">&nbsp;</span></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "968d0d0a-28fa-45be-ba2f-2e40f812fb03",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 18px; color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent;\">4 jours / mois</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">produits d’une valeur inférieure ou égale à 1 500€</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 16px; color: rgb(0, 102, 204);\">1er mois offert</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 14px;\">puis 49,99€ /mois</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e120b745-425a-497d-a83e-d286de4e5768",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b07048fc-f3d6-430f-abe9-b59403f17f8c",
+        "regionLabel" : "Column 3",
+        "regionName" : "a0976",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(194, 133, 255); font-size: 24px;\">Émotion</span></p><p style=\"text-align: center;\"><u style=\"background-color: transparent; color: rgb(194, 133, 255); font-size: 20px;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "21425162-0a47-494f-baf3-e24bb3305a4a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 12px;\">Livraison UPS à domicile</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"background-color: transparent; color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); font-size: 18px;\">10 jours / mois</span></p><p style=\"text-align: center;\"><span style=\"color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent; font-size: 12px;\">sans limite de valeur de produit</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"color: rgb(0, 102, 204); font-size: 16px;\">1er mois offert</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 14px;\">puis 99,98€ /mois</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e6efb82f-1f06-4159-a8cb-4ef5345b3c7b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b7375881-3711-4b78-89cf-4bf85ac712a3",
+        "regionLabel" : "Column 4",
+        "regionName" : "1a8da",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 24px; color: rgb(153, 51, 255);\">Insolite</span></p><p style=\"text-align: center;\"><u style=\"font-size: 20px; color: rgb(153, 51, 255);\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "26c37fed-f8e4-4162-b7a9-da691ffe492d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: transparent; font-size: 12px; color: rgb(0, 0, 0);\">Livraison UPS à domicile</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">20 jours / mois</span></p><p style=\"text-align: center;\"><span style=\"color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent; font-size: 12px;\">sans limite de valeur de produit</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 16px; color: rgb(0, 102, 204);\">1er mois offert</b></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"font-size: 14px;\">puis 199,98€ /mois</b></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f57dabdf-cd2a-46de-8536-f2e28e281427",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "20756de9-e9a5-412b-9980-0890ed60098b",
+        "regionLabel" : "Column 5",
+        "regionName" : "dbbd9",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84ca8f7e-ccb2-47f4-834e-c41a9fa2b032",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nos offres"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "baddbc10-d676-4bee-8af4-f844018087b1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "18c86689-cf5b-4104-bb8b-c678b734e460",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nos-offres"
+}

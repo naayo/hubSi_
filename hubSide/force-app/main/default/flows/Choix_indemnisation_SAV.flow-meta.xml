@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <choices>
+        <name>CoutInterneEchange</name>
+        <choiceText>Cout interne d&apos;echange</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Cout interne d&apos;echange</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CoutInterneReparation</name>
+        <choiceText>Cout interne reparation</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Cout interne reparation</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CoutPrimeMagasin</name>
+        <choiceText>Cout prime magasin</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Cout prime magasin</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Echange</name>
+        <choiceText>Echange</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Echange</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>GesteCommercial</name>
+        <choiceText>Geste commercial</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Geste commercial</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>IndemniteRetardSuiteExpertise</name>
+        <choiceText>Indemnité retard suite à expertise</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Indemnite retard suite à expertise</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PrimePourCommunicationFrauduleuse</name>
+        <choiceText>Prime pour communication frauduleuse</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Prime pour communication frauduleuse</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PrimePourEchange</name>
+        <choiceText>Prime pour echange</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Prime pour echange</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>PrimePourReparationClient</name>
+        <choiceText>Prime pour réparation par le client</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Prime pour reparation par le client</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Primes</name>
+        <choiceText>Primes</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Primes</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Reparation</name>
+        <choiceText>&lt;span style=&quot;background-color: rgb(227, 243, 255); font-size: 11.36px; font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Réparation&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Réparation</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Indemnisation_choisie</name>
+        <label>Indemnisation choisie</label>
+        <locationX>182</locationX>
+        <locationY>398</locationY>
+        <defaultConnector>
+            <targetReference>Indemnisation_reparation</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Reparation</defaultConnectorLabel>
+        <rules>
+            <name>Perte_Vol</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Cout_choisi</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Primes</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Cout_choisi</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Echange</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Indemnisation_Prime_Echange</targetReference>
+            </connector>
+            <label>Perte/Vol</label>
+        </rules>
+    </decisions>
+    <description>TSC 06072021 : reparation subflow</description>
+    <formulas>
+        <name>Type_cout</name>
+        <dataType>String</dataType>
+        <expression>IF(
+{!Cout_choisi} == &apos;Primes&apos;,
+{!Type_cout_prime}, 
+IF(
+{!Cout_choisi} == &apos;Echange&apos;, 
+{!Type_cout_echange},
+{!Type_cout_reparation}
+))</expression>
+    </formulas>
+    <interviewLabel>Choix indemnisation SAV {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Choix indemnisation SAV</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_EquipSin</name>
+        <label>Get EquipSin</label>
+        <locationX>182</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Indemnisations</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Sinistre__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>caseId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Equipement_sinistre__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_SAV</name>
+        <label>Update SAV</label>
+        <locationX>182</locationX>
+        <locationY>734</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>caseId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>SAVInProgress</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>Indemnisations</name>
+        <label>Indemnisations</label>
+        <locationX>182</locationX>
+        <locationY>278</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Indemnisation_choisie</targetReference>
+        </connector>
+        <fields>
+            <name>Cout_choisi</name>
+            <choiceReferences>Primes</choiceReferences>
+            <choiceReferences>Echange</choiceReferences>
+            <choiceReferences>Reparation</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Coût choisi</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Type_cout_prime</name>
+            <choiceReferences>PrimePourEchange</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Type coût</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Cout_choisi</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Primes</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Type_cout_echange</name>
+            <choiceReferences>CoutInterneEchange</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Type coût</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Cout_choisi</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Echange</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Type_cout_reparation</name>
+            <choiceReferences>CoutInterneReparation</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Type coût</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Cout_choisi</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Reparation</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Libelle</name>
+            <fieldText>Libellé</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_EquipSin</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Indemnisation_Prime_Echange</name>
+        <label>Indemnisation Prime/Echange</label>
+        <locationX>50</locationX>
+        <locationY>518</locationY>
+        <connector>
+            <targetReference>Update_SAV</targetReference>
+        </connector>
+        <flowName>SF_Indemnisation_Prime_Echange</flowName>
+        <inputAssignments>
+            <name>CaseId</name>
+            <value>
+                <elementReference>caseId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CoutChoisi</name>
+            <value>
+                <elementReference>Cout_choisi</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>EquipSinId</name>
+            <value>
+                <elementReference>Get_EquipSin.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>LibelleIndemn</name>
+            <value>
+                <elementReference>Libelle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>TypeMouvement</name>
+            <value>
+                <elementReference>Type_cout</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Indemnisation_reparation</name>
+        <label>Indemnisation réparation</label>
+        <locationX>314</locationX>
+        <locationY>518</locationY>
+        <connector>
+            <targetReference>Update_SAV</targetReference>
+        </connector>
+        <flowName>SF_Indemnisation_Reparation</flowName>
+        <inputAssignments>
+            <name>CaseId</name>
+            <value>
+                <elementReference>caseId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Cout_choisi</name>
+            <value>
+                <elementReference>Cout_choisi</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>EqpmSinId</name>
+            <value>
+                <elementReference>Get_EquipSin.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Libelle</name>
+            <value>
+                <elementReference>Libelle</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Type_mouvement</name>
+            <value>
+                <elementReference>Type_cout</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <name>caseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

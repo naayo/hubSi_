@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_BlockChoosenEquipementSection</fullName>
+    <active>true</active>
+    <description>Cette validation bloque le changement des champs de la section &quot;Equipement client client choisi&quot; lorsque l&apos;équipement sinsitré est au statut &quot;En Commande&quot; ou &quot;En destockage&quot;.</description>
+    <errorConditionFormula>AND(
+        OR(
+            ISCHANGED(ChosenEquip__c),
+            ISCHANGED(ChooseEqp__c),
+            ISCHANGED(FirstChoice__c),
+            ISCHANGED(SecondChoice__c),
+            ISCHANGED(ThirdChoice__c),
+            ISCHANGED(StorePremium__c),
+            ISCHANGED(ClientChoiceDate__c),
+            ISCHANGED(Grade__c),
+            ISCHANGED(FirstChoiceRank__c),
+            ISCHANGED(SecondChoiceRank__c),
+            ISCHANGED(ThirdChoiceRank__c)        
+        ),
+        OR(
+            ISPICKVAL(Statut_equipement__c, &quot;En commmande&quot;),
+            ISPICKVAL(Statut_equipement__c, &quot;En destockage&quot;)
+        )       
+)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas modifier les champs de cette section car l&apos;équipement est dans un statut &quot;En commande&quot; ou &quot;En destockage&quot;.</errorMessage>
+</ValidationRule>

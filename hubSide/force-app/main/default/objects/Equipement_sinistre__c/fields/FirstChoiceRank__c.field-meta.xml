@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstChoiceRank__c</fullName>
+    <description>Grade du choix #1 - First choice rank</description>
+    <externalId>false</externalId>
+    <label>Grade choix 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>GradeEquipSin</valueSetName>
+    </valueSet>
+</CustomField>

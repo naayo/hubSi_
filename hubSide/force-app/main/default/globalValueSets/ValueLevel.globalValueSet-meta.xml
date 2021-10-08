@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Haute Valeur</fullName>
+        <default>false</default>
+        <label>Haute Valeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Moyenne Valeur</fullName>
+        <default>false</default>
+        <label>Moyenne Valeur</label>
+    </customValue>
+    <customValue>
+        <fullName>Basse Valeur</fullName>
+        <default>false</default>
+        <label>Basse Valeur</label>
+    </customValue>
+    <customValue>
+        <fullName>SAV DEBIT</fullName>
+        <default>false</default>
+        <label>SAV DEBIT</label>
+    </customValue>
+    <customValue>
+        <fullName>IPHONE 8+ / 11 / XR</fullName>
+        <default>false</default>
+        <label>IPHONE 8+ / 11 / XR</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone X / XS / 11 Pro / 12 Pro</fullName>
+        <default>false</default>
+        <label>Iphone X / XS / 11 Pro / 12 Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone XS Max / 11 Pro Max / 12 Pro Max</fullName>
+        <default>false</default>
+        <label>Iphone XS Max / 11 Pro Max / 12 Pro Max</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 12</fullName>
+        <default>false</default>
+        <label>Iphone 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 12 Mini</fullName>
+        <default>false</default>
+        <label>Iphone 12 Mini</label>
+    </customValue>
+    <customValue>
+        <fullName>Ipad *</fullName>
+        <default>false</default>
+        <label>Ipad *</label>
+    </customValue>
+    <customValue>
+        <fullName>Macbook / IMAC *</fullName>
+        <default>false</default>
+        <label>Macbook / IMAC *</label>
+    </customValue>
+    <customValue>
+        <fullName>APPLE</fullName>
+        <default>false</default>
+        <label>APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>Autres marques</fullName>
+        <default>false</default>
+        <label>Autres marques</label>
+    </customValue>
+    <customValue>
+        <fullName>Plasturgie *</fullName>
+        <default>false</default>
+        <label>Plasturgie *</label>
+    </customValue>
+    <customValue>
+        <fullName>Carte mère *</fullName>
+        <default>false</default>
+        <label>Carte mère *</label>
+    </customValue>
+    <customValue>
+        <fullName>Set écran *</fullName>
+        <default>false</default>
+        <label>Set écran *</label>
+    </customValue>
+    <customValue>
+        <fullName>Console *</fullName>
+        <default>false</default>
+        <label>Console *</label>
+    </customValue>
+    <customValue>
+        <fullName>APN</fullName>
+        <default>false</default>
+        <label>APN</label>
+    </customValue>
+    <customValue>
+        <fullName>Autre *</fullName>
+        <default>false</default>
+        <label>Autre *</label>
+    </customValue>
+    <customValue>
+        <fullName>Camera</fullName>
+        <default>false</default>
+        <label>Camera</label>
+    </customValue>
+    <customValue>
+        <fullName>Bras</fullName>
+        <default>false</default>
+        <label>Bras</label>
+    </customValue>
+    <customValue>
+        <fullName>Flex</fullName>
+        <default>false</default>
+        <label>Flex</label>
+    </customValue>
+    <masterLabel>Niveau de Valeur</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

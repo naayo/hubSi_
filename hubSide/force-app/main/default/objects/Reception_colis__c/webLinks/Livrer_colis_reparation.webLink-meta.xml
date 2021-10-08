@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Livrer_colis_reparation</fullName>
+    <availability>online</availability>
+    <description>Bascule tous les colis réceptionnés au statut Transféré / Emis</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Livrer colis à la réparation</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!URLFOR(&apos;/flow/AutoFlow_Transfert_colis_reparation?retURL=/lightning/page/home&apos;)}</url>
+</WebLink>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champs_obligatoires_Offre_location</fullName>
+    <active>true</active>
+    <description>La durée de l&apos;offre et le nombre de jours inclus sont des champs obligatoires pour le record type Offre location</description>
+    <errorConditionFormula>AND(
+    $RecordType.Name = &apos;Formule location&apos;,
+    OR(
+        ISBLANK(Gamme_formule__c),
+        ISBLANK(Duree_formule_mois__c),
+        ISBLANK(Nombre_jours_inclus__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Merci de bien vouloir renseigner la gamme, le nombre de jours inclus ainsi que la durée de l&apos;offre.</errorMessage>
+</ValidationRule>

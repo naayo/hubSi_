@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipement_livres</fullName>
+    <columns>NAME</columns>
+    <columns>Statut_equipement__c</columns>
+    <columns>Sous_statut__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Equipement_sinistre__c.Equipement_a_reparer</value>
+    </filters>
+    <filters>
+        <field>Statut_equipement__c</field>
+        <operation>equals</operation>
+        <value>Livraison PSM</value>
+    </filters>
+    <filters>
+        <field>Sous_statut__c</field>
+        <operation>equals</operation>
+        <value>Sortie PSM</value>
+    </filters>
+    <label>Equipement à sortir</label>
+</ListView>

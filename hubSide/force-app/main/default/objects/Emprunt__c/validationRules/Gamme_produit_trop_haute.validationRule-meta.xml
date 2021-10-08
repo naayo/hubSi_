@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gamme_produit_trop_haute</fullName>
+    <active>true</active>
+    <description>Si le coefficient de décompte est nul, empêcher l&apos;emprunt.</description>
+    <errorConditionFormula>Coefficient_decompte__c = 0</errorConditionFormula>
+    <errorMessage>La gamme du produit est trop haute par rapport à la gamme offre choisie.</errorMessage>
+</ValidationRule>

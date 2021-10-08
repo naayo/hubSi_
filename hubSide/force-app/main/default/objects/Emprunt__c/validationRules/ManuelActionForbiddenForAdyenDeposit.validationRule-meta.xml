@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManuelActionForbiddenForAdyenDeposit</fullName>
+    <active>true</active>
+    <description>Empecher le passage manuel a Vrai de la checkbox si la Caution a été réalisée par Adyen.</description>
+    <errorConditionFormula>ISCHANGED(Caution_restituee__c)
+&amp;&amp; NOT(ISBLANK(PspReference__c)) 
+&amp;&amp; (FlowBypass__c &lt; NOW()
+  || ISNULL(FlowBypass__c) 
+  || ISBLANK(FlowBypass__c))</errorConditionFormula>
+    <errorDisplayField>Caution_restituee__c</errorDisplayField>
+    <errorMessage>le statut de restitution d&apos;un dépôt de garantie réalisé par Adyen ne peut être modifié manuellement. Vous devez utiliser le bouton de restitution de dépôt de garantie prévu à cet effet.</errorMessage>
+</ValidationRule>

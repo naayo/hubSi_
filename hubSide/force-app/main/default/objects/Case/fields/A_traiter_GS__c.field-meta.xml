@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_traiter_GS__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    OR( 
+        ISPICKVAL(Status, &apos;Attribué&apos;),
+        Tech_Nombre_tache_ouverte__c &gt; 0,
+        ISBLANK(Attente_client_final__c)         
+    ),
+    IMAGE(&quot;/resource/AtraiterGS&quot;, &quot;Paiement&quot; , 32, 32),
+    &apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>A traiter GS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

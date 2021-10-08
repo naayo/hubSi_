@@ -1,0 +1,39 @@
+<apex:page standardController="Colis__c" showHeader="false" standardStylesheets="true" >
+    <style type="text/css" media="print">
+        @page {
+            size: 2.12598in 0.669291in ;
+            margin: 0mm;
+        }
+        html, body {
+            display: block;
+        }
+        p {
+            margin-top : -5px;
+            text-align: center;
+            font-weight: bold;
+            display: inline-block;
+            width: 100%;
+            font-size: 10px;
+        }
+        img  {
+            display: inline-block;
+            margin-top: -5px;
+            width: 100%;
+            height: 0.47in; 
+        }
+        table {
+            display: none;
+        }
+
+
+      </style>
+    <body style="margin:0px auto;">
+        <p>Ref garantie: {!Colis__c.Sinistre__r.TECH_AssetName__c}</p>
+        <table width="98%" border="0" cellpadding="0" cellspacing="0">
+            <tr>    
+                <td align="right"><button onclick="javascript:window.print();"><apex:outputText value="{!$Label.Print}"/></button></td>
+            </tr>
+        </table>  
+        <apex:outputText value="{!Colis__c.SinistreBarCode__c}" escape="false"/>       
+    </body>
+</apex:page>

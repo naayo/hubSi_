@@ -1,0 +1,96 @@
+<apex:page controller="Sinistre_BordereauEquipSinController" showHeader="false" renderAs="pdf" standardStylesheets="true">
+    <body style="margin:0px auto;">
+        
+        <p>
+            <img class="cke_widget_element" 
+                 src="{!$Label.Sinistre_BordereauLivraison_LogoSFAM}"
+                 alt="" 
+                 width="134" 
+                 height="34" 
+                 data-widget="image"/>
+        </p>
+        
+        <div>
+            <div style="display: flex; justify-content: center; align-items: center; margin-left : 200px;">
+                <apex:outputPanel rendered="{! If(preValidation ,true,false) }">
+                    <h3> BORDEREAU  EN MODE DRAFT </h3>  
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{! If(!preValidation ,true,false) }">
+                    <h3> BORDEREAU  EN MODE FINAL </h3>  
+                </apex:outputPanel>
+            </div>
+
+            <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                <tbody>
+                    <tr>
+                        <td style="width: 700px;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    BORDEREAU DE LIVRAISON : <br />
+                                    STATUT CIBLE : {!newStatus} <br />
+                                    NOMBRE DE COLIS : {!nbColis}<br />
+                                    <apex:outputPanel rendered="{! If(preValidation ,true,false) }">
+                                    EMISSION DU BON: {!DAY(TODAY())}/{!MONTH(TODAY())}/{!YEAR(TODAY())} - {!LEFT(RIGHT(TEXT(NOW()), 10),6)}  <br />
+                                    </apex:outputPanel>
+
+                                        PERSONNE GENERANT LE Bon : {!$User.FirstName} {!$User.LastName}
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div>
+            <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                <tbody>
+                    <tr>
+                        <td style="width: 700px;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Service emetteur : <br />
+                                    Agent transmetteur : <br />
+                                    Signature : <br /><br /><br />
+                                </span>
+                            </span>
+                        </td>
+                                                
+                        <td style="width: 700px;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Service recepteur :<br />
+                                    Signature : <br /><br /><br />
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px;">
+                        <apex:outputPanel rendered="{! If(preValidation ,true,false) }">
+                            <apex:pageBlock >
+                                <apex:pageBlockTable value="{!equipSinList}" var="c" style="font-size: 11px; font-family: tahoma,geneva,sans-serif;">
+                                    <apex:column value="{!c.Sinistre__r.Numero_sinistre__c} : {!c.Statut_equipement__c} {!c.Sous_statut__c} " headerValue=""/>
+                                </apex:pageBlockTable>
+                            </apex:pageBlock>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{! If(!preValidation ,true,false) }">
+                            <apex:pageBlock >
+                                <apex:pageBlockTable value="{!equipSinList}" var="c" style="font-size: 11px; font-family: tahoma,geneva,sans-serif;">
+                                    <apex:column value="{!c.Sinistre__r.Numero_sinistre__c} - {!c.LastStatus__c} ({!c.LastStatusModification__c})" headerValue=""/>
+                                </apex:pageBlockTable>
+                            </apex:pageBlock>
+                        </apex:outputPanel>    
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</apex:page>

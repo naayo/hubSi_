@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Envoyer au client un email de demande de caution contenant un lien de paiement pour l&apos;autorisation bancaire.</description>
+    <flowDefinition>Caution_SendPaymentLink</flowDefinition>
+    <label>Demander la caution par email</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipement_sinistre_eparation</fullName>
+    <fields>RecordTypeId</fields>
+    <fields>Montant_equipement__c</fields>
+    <fields>Valeur_equipement__c</fields>
+    <fields>RealCost__c</fields>
+    <fields>Category__c</fields>
+    <fields>Statut_equipement__c</fields>
+    <label>Equipement sinistre reparation</label>
+</CompactLayout>

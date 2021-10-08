@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case__c</fullName>
+    <description>Dossier de réclamation associé à cet élément</description>
+    <externalId>false</externalId>
+    <label>Dossier réclamation</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Eléments Réclamation</relationshipLabel>
+    <relationshipName>ElementsReclamation</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

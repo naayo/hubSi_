@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchange</fullName>
+    <columns>Object__c</columns>
+    <columns>ValueLevel__c</columns>
+    <columns>UnitCost__c</columns>
+    <columns>ManpowerCost__c</columns>
+    <columns>ChangeableCost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>EquipmentCostType__c.Exchange</value>
+    </filters>
+    <label>Echange</label>
+</ListView>

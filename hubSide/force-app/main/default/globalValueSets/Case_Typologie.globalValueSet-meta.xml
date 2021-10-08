@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Broken</fullName>
+        <default>false</default>
+        <label>Casse</label>
+    </customValue>
+    <customValue>
+        <fullName>Pickpocketed</fullName>
+        <default>false</default>
+        <label>Vol toute cause</label>
+    </customValue>
+    <customValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <label>Perte</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxidised</fullName>
+        <default>false</default>
+        <label>Oxydation</label>
+    </customValue>
+    <customValue>
+        <fullName>Robbed</fullName>
+        <default>false</default>
+        <label>Vol Caractérisé</label>
+    </customValue>
+    <customValue>
+        <fullName>ReturnedByCarrier</fullName>
+        <default>false</default>
+        <label>Retour transporteur</label>
+    </customValue>
+    <customValue>
+        <fullName>LostByCarrier</fullName>
+        <default>false</default>
+        <label>Perte transporteur</label>
+    </customValue>
+    <customValue>
+        <fullName>DysfonctionsAfterRepair</fullName>
+        <default>false</default>
+        <label>Dysfonctionnement suite à réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>DysfonctionsAfterExchange</fullName>
+        <default>false</default>
+        <label>Dysfonctionnement suite à échange</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Autres</label>
+    </customValue>
+    <customValue>
+        <fullName>ClaimCreation</fullName>
+        <default>false</default>
+        <label>Création Réclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>ClaimFollowUp</fullName>
+        <default>false</default>
+        <label>Suivi Réclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>AccidentCreation</fullName>
+        <default>false</default>
+        <label>Création Sinistre</label>
+    </customValue>
+    <description>Liste de toutes les typologies possibles (Sinistre, SAV, Demande)</description>
+    <masterLabel>Case_Typologie</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

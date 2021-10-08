@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_mouvement__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Coût</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cout_choisi__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prime pour echange</fullName>
+                <default>false</default>
+                <label>Prime pour échange</label>
+            </value>
+            <value>
+                <fullName>Geste commercial</fullName>
+                <default>false</default>
+                <label>Geste commercial</label>
+            </value>
+            <value>
+                <fullName>Indemnite retard suite à expertise</fullName>
+                <default>false</default>
+                <label>Indemnité retard suite à expertise</label>
+            </value>
+            <value>
+                <fullName>Prime pour reparation par le client</fullName>
+                <default>false</default>
+                <label>Prime pour réparation par le client</label>
+            </value>
+            <value>
+                <fullName>Prime pour communication frauduleuse</fullName>
+                <default>false</default>
+                <label>Prime pour communication frauduleuse</label>
+            </value>
+            <value>
+                <fullName>Cout interne reparation</fullName>
+                <default>false</default>
+                <label>Coût interne réparation</label>
+            </value>
+            <value>
+                <fullName>Cout interne d&apos;echange</fullName>
+                <default>false</default>
+                <label>Coût interne d&apos;échange</label>
+            </value>
+            <value>
+                <fullName>Franchise</fullName>
+                <default>false</default>
+                <label>Franchise</label>
+            </value>
+            <value>
+                <fullName>Cout prime magasin</fullName>
+                <default>false</default>
+                <label>Coût prime magasin</label>
+            </value>
+            <value>
+                <fullName>Complément réparation</fullName>
+                <default>false</default>
+                <label>Complément réparation</label>
+            </value>
+            <value>
+                <fullName>Cout forfait de reparation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coût forfait de réparation</label>
+            </value>
+            <value>
+                <fullName>Remboursement client</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remboursement client</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Primes</controllingFieldValue>
+            <valueName>Prime pour echange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primes</controllingFieldValue>
+            <valueName>Geste commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primes</controllingFieldValue>
+            <valueName>Indemnite retard suite à expertise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primes</controllingFieldValue>
+            <valueName>Prime pour reparation par le client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primes</controllingFieldValue>
+            <valueName>Prime pour communication frauduleuse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Echange</controllingFieldValue>
+            <valueName>Cout interne d&apos;echange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Echange</controllingFieldValue>
+            <valueName>Cout prime magasin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réparation</controllingFieldValue>
+            <valueName>Cout interne reparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Règlement par le client</controllingFieldValue>
+            <valueName>Franchise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Règlement par le client</controllingFieldValue>
+            <valueName>Complément réparation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

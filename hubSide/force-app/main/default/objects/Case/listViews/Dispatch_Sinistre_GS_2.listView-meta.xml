@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatch_Sinistre_GS_2</fullName>
+    <booleanFilter>2 AND ((1 AND 3) OR 4)</booleanFilter>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Numero_sinistre__c</columns>
+    <columns>Typologie_Sinistre__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Sinistre</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Dispatch Sinistre</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>A attribuer</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>SAV</value>
+    </filters>
+    <label>Dispatch Sinistre GS</label>
+</ListView>

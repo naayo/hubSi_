@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipements_retour_client</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Sinistre__c</columns>
+    <columns>Numero_sinistre__c</columns>
+    <columns>Statut_equipement__c</columns>
+    <columns>Sous_statut__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Statut_equipement__c</field>
+        <operation>equals</operation>
+        <value>Annulé - A retourner,Irréparable - A retourner,Repare_client_Expedition,Expédition client,Irréparable</value>
+    </filters>
+    <filters>
+        <field>Sous_statut__c</field>
+        <operation>equals</operation>
+        <value>A sortir - Retour client</value>
+    </filters>
+    <label>Equipements / Retour client</label>
+</ListView>

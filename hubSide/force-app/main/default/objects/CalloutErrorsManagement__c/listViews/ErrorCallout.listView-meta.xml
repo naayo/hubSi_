@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ErrorCallout</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CaseRecord__c</columns>
+    <columns>CalloutStatusCode__c</columns>
+    <columns>CalloutErrorMessage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CalloutStatusCode__c</field>
+        <operation>notEqual</operation>
+        <value>200</value>
+    </filters>
+    <filters>
+        <field>CalloutStatusCode__c</field>
+        <operation>notEqual</operation>
+        <value>201</value>
+    </filters>
+    <label>Callout in error</label>
+</ListView>

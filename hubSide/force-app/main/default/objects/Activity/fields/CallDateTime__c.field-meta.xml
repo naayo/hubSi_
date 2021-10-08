@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CallDateTime__c</fullName>
+    <description>Date et Heure à laquelle l&apos;appel a été réalisé, renseigné dans le flow de consignation d&apos;appel</description>
+    <externalId>false</externalId>
+    <label>Date et Heure appel</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

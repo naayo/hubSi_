@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freeze_des_champs_de_retour</fullName>
+    <active>true</active>
+    <description>Tous les champs de la partie retour ne sont plus accessible lorsque le statut est Retour ou Retour avec défaut.</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISPICKVAL(Status__c, &quot;Retourné&quot;), 
+        ISPICKVAL(Status__c, &quot;Retour avec défaut&quot;)
+    ), 
+    NOT(ISCHANGED(Status__c)), 
+    OR(
+        ISCHANGED( Autorisation_depassement__c ), 
+        ISCHANGED( Point_de_vente_retour__c ), 
+        ISCHANGED( Montant_caution_retour__c ),  
+        ISCHANGED( Caution_restituee__c ),
+        ISCHANGED( Date_retour__c ),
+        ISCHANGED( Heure_retour__c ), 
+        ISCHANGED( Etat_retour__c ), 
+        ISCHANGED( Observation_retour__c ), 
+        ISCHANGED( Montant_a_deduire__c ), 
+        ISCHANGED( Default__c )
+    )
+)</errorConditionFormula>
+    <errorMessage>Les champs relatifs au retour de l&apos;emprunt ne sont plus disponibles à l&apos;édition.</errorMessage>
+</ValidationRule>

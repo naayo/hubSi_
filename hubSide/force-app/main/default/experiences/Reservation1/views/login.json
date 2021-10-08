@@ -1,0 +1,46 @@
+{
+  "appPageId" : "0756c832-e48c-4175-9b68-5d83a8240735",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a0a55960-1222-43bc-8922-24c390f2dcbd",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "forgotPasswordLabel" : "Mot de passe oublié |",
+        "forgotPasswordUrl" : "/ForgotPassword",
+        "loginButtonLabel" : "SE CONNECTER",
+        "passwordLabel" : "Mot de passe",
+        "selfRegisterLabel" : "Inscrivez vous",
+        "selfRegisterUrl" : "/SelfRegister",
+        "startUrl" : "",
+        "usernameLabel" : "Nom d'utilisateur"
+      },
+      "componentName" : "salesforceIdentity:loginForm2",
+      "id" : "1f1591da-a8ac-478a-b290-80306e1757ad",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bcf8154e-19f4-4db2-a14a-fa44ea4c4e03",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Connexion"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9f5c1393-9d83-4380-8c25-3a73b36e3445",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "105b4df0-55fa-42a7-bd99-724a329f3fe1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-home"
+}

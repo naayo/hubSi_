@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Degat__c</fullName>
+    <externalId>false</externalId>
+    <label>Degats apparents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Coque cassée</fullName>
+                <default>false</default>
+                <label>Coque cassée</label>
+            </value>
+            <value>
+                <fullName>Ecran cassée</fullName>
+                <default>false</default>
+                <label>Ecran cassée</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

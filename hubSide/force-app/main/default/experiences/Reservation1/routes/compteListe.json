@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "cf6d0a9e-d7ca-434e-b7a4-53b8475115c8",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "7cdef7e0-4eeb-43b2-ad94-6359fd354680",
+  "label" : "Compte Liste",
+  "routeType" : "list-001",
+  "type" : "route",
+  "urlPrefix" : "account"
+}

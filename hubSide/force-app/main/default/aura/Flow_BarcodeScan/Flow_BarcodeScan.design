@@ -1,0 +1,11 @@
+<design:component>
+    <design:attribute name="barcodeString" label="Codes-barres"/>
+    <design:attribute name="colisQuantity" label="Nombre de colis à créer"/>
+    <design:attribute name="receptionDate" label="Date de réception"/>
+    <design:attribute name="senderName" label="Expediteur"/>
+    <design:attribute name="newStatus" label="Nouveau statut"/>
+    <design:attribute name="newSousStatus" label="Nouveau sous statut"/>
+    <design:attribute name="newOwnerId" label="Nouvel owner"/>
+    <design:attribute name="duplicateColisNumber" label="Nombre de colis doublon"/>
+    <design:attribute name="showSpinner" label="Working?"/>
+</design:component>

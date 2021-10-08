@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRClaimAnswerNature</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name =&apos;Réclamation&apos;,
+NOT(OR((ISPICKVAL( Status ,&apos;Attribué&apos;)),(ISPICKVAL( Status ,&apos;Open&apos;)))),
+ISBLANK(TEXT(AnswerNature__c))
+)</errorConditionFormula>
+    <errorDisplayField>AnswerNature__c</errorDisplayField>
+    <errorMessage>Une nature de réponse doit obligatoirement être sélectionnée avant de passer le statut de la réclamation à &apos;En attente rappel TC&apos;.</errorMessage>
+</ValidationRule>

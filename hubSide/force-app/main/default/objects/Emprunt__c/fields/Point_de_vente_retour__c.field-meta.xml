@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Point_de_vente_retour__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Point de vente retour de l&apos;objet emprunté</description>
+    <externalId>false</externalId>
+    <label>Point de vente retour</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Le point de vente de retour doit être du type Business Account.</errorMessage>
+        <filterItems>
+            <field>Account.IsPersonAccount</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Emprunts (retour)</relationshipLabel>
+    <relationshipName>Emprunts_retour</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

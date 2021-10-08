@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatch_Declaration_Web</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>Equipement_client__c</columns>
+    <columns>Typologie_Sinistre__c</columns>
+    <columns>ClientDeclarationValidationDate__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>DeclarationCreatedDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Declaration</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Validated</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>antrassian</value>
+    </filters>
+    <label>Dispatch Declaration Web</label>
+</ListView>

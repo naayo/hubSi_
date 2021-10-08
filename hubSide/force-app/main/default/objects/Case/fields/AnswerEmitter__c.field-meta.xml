@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnswerEmitter__c</fullName>
+    <description>Service ayant traité le dossier de réclamation</description>
+    <externalId>false</externalId>
+    <formula>IF( Record_Type_Name__c = &apos;Réclamation&apos; , IF( ISPICKVAL(Classification__c, &apos;&apos;), &apos;&apos; , IF( OR( ISPICKVAL( Classification__c, &apos;Demande client&apos; ) , ISPICKVAL( Classification__c, &apos;R1&apos; ) ) , &apos;Service Qualité&apos; , &apos;Service Juridique&apos; ) ) , &apos;&apos;)</formula>
+    <label>Emetteur de la réponse</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

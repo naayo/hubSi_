@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colis_expedition</fullName>
+    <active>true</active>
+    <description>Dédié au colis pour l&apos;expédition</description>
+    <label>Colis expédition</label>
+    <picklistValues>
+        <picklist>Nom_transporteur__c</picklist>
+        <values>
+            <fullName>BulkParcelsReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BulkParcelsSav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ChronopostReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ChronopostSav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaPosteReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaPosteSav</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Statut__c</picklist>
+        <values>
+            <fullName>Affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rattaché</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reçu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transféré%2FEmis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transféré%2FReçu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Réception SFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réparation SFAMRecycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

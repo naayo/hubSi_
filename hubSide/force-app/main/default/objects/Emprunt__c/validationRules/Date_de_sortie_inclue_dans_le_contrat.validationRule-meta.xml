@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_sortie_inclue_dans_le_contrat</fullName>
+    <active>true</active>
+    <description>La date de sortie de l&apos;objet doit être inclue dans la période du contrat, cad qu&apos;elle doit être supérieure à la StartDate et inférieure à l&apos;EndDate.</description>
+    <errorConditionFormula>IF(
+    Contrat__r.Date_fin_contrat__c != NULL, 
+    OR( 
+        Contrat__r.Date_debut_contrat__c &gt; Date_sortie__c,
+        Date_sortie__c &gt; Contrat__r.Date_fin_contrat__c  
+    ), 
+    Contrat__r.Date_debut_contrat__c &gt; Date_sortie__c
+)</errorConditionFormula>
+    <errorDisplayField>Date_sortie__c</errorDisplayField>
+    <errorMessage>La date saisie n&apos;est pas couverte par le contrat actuel.</errorMessage>
+</ValidationRule>

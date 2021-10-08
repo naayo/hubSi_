@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champs_non_editables</fullName>
+    <active>true</active>
+    <description>Le contrat, le client et le produit ne peuvent être modifiés une fois l&apos;emprunt créé.</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    OR(
+        ISCHANGED( Contrat__c ),
+        ISCHANGED( Client__c ),
+        ISCHANGED( Produit_emprunte__c )
+    )
+)</errorConditionFormula>
+    <errorMessage>Une fois l&apos;emprunt créé, les champs client, contrat et produit sélectionné ne sont plus modifiables.</errorMessage>
+</ValidationRule>

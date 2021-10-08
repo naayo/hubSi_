@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retours_prevu_ce_jour</fullName>
+    <columns>NAME</columns>
+    <columns>Client__c</columns>
+    <columns>Contrat__c</columns>
+    <columns>Nom_produit_emprunte__c</columns>
+    <columns>Heure_retour_prevue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_retour_prevu__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>En magasin,Retour avec défaut</value>
+    </filters>
+    <label>Retours prévu ce jour</label>
+</ListView>

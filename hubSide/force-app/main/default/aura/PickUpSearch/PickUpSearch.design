@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="damagedEquipmentId" label="Equipement Sinistre Id"/>
+    <design:attribute name="caseId" label="Sinistre Id"/>
+</design:component>

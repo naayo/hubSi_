@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classification__c</fullName>
+    <description>Indique si la demande est une demande client / R1 / R2</description>
+    <externalId>false</externalId>
+    <label>Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demande client</fullName>
+                <default>false</default>
+                <label>Demande client</label>
+            </value>
+            <value>
+                <fullName>R1</fullName>
+                <default>false</default>
+                <label>R1</label>
+            </value>
+            <value>
+                <fullName>R2</fullName>
+                <default>false</default>
+                <label>R2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

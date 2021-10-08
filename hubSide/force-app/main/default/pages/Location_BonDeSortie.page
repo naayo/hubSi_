@@ -1,0 +1,294 @@
+<apex:page standardController="Emprunt__c" showHeader="false" renderAs="pdf" standardStylesheets="true">
+    <head>
+        
+    </head>
+    <body style="font-family: sans-serif; line-height: 1.5;">
+        
+        
+        <div class="container" style="display: grid; gap: 30px 15px; max-width: 1480px; margin: 0px auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;">
+            <div class="header-contract-location" style="grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;">
+                <div class="logo" style="grid-column: span 4;">                    
+                    <img class="logo-foriou" 
+                         src="{!$Label.Location_BonDeSortie_PASS5}"
+                         width="167" 
+                         height="40" 
+                         data-widget="image" />
+                    
+                    <div>
+                        <p>en partenariat avec</p>
+                        <div class="container-logo-hubside-baseline" style="margin-top: -33px; margin-left: 150px;">
+                            <img class="logo-hubside" 
+                                 src="{!$Label.Location_BonDeSortie_PASS_LOCATION}"
+                                 width="224" 
+                                 height="40" 
+                                 data-widget="image"/> et 
+                            <img class="logo-hubside" 
+                                 src="{!$Label.Location_BonDeSortie_illipass}"
+                                 width="160" 
+                                 height="40" 
+                                 data-widget="image"/>
+                            <!--<p style="font-size: 9px; margin-top: -5px; margin-left: 77px;">Téléphone - Multimedia - Création site web</p>-->
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <p class="title" style="grid-column: span 2; font-size: 24px; font-weight: bold; place-self: center; text-transform: uppercase;">Bon de location</p>
+            </div>
+            
+            <div class="mentions-legal-location" style="grid-column: span 6;">
+                <p>Bon de location fournie dans le cadre du contrat de location mobile conclu entre la société PASS 5 - 
+                    Société par Actions Simplifiée au Capital social de 1 000 € - 1 rue Camille Claudel - 26100 Romans-sur-Isère, 
+                    immatriculée au RCS de Romans sous le n° 880 048 111 – N° de TVA intracommunautaire : FR91880048111. ; 
+                    et le Client, donc les coordonnées sont mentionnées sur le présent document.</p>
+            </div>
+            
+            <div class="encart-infos encart-coordonnees" 
+                 style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); border-radius: 15px; 
+                        padding: 15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" 
+                   style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; 
+                          text-transform: uppercase; text-align: center; margin-top: 0px; grid-column: span 6;">
+                    Coordonnées du locataire</p>
+                <div class="items-form long-item" 
+                     style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Nom / Prénom :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Client__r.lastname} {!Emprunt__c.Client__r.firstname}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Adresse :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Client__r.personmailingstreet}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Code postal :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Client__r.personmailingpostalcode}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Ville :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Client__r.personmailingcity}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        N° de contact :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Client__r.Phone}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        E-mail :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Email_client__c}</label>
+                </div>
+            </div>
+            
+            <div class="encart-infos contract-infos" 
+                 style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); border-radius: 15px; padding: 
+                        15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" 
+                   style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; text-transform: uppercase; text-align: 
+                          center; margin-top: 0px; grid-column: span 6;">
+                    Références contrat</p>
+                
+                <div class="items-form long-item" 
+                     style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Date de souscription :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!DAY(Emprunt__c.Contrat__r.Date_debut_contrat__c)}/ {!MONTH(Emprunt__c.Contrat__r.Date_debut_contrat__c)}/{!YEAR(Emprunt__c.Contrat__r.Date_debut_contrat__c)}</label>
+                </div>
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Référence location :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.name}</label>
+                </div>
+            </div>
+            
+            <div class="encart-infos" 
+                 style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); border-radius: 15px; padding: 
+                        15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; text-transform: uppercase; 
+                                               text-align: center; margin-top: 0px; grid-column: span 6;">
+                    Produit loué</p>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Marque :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Produit_emprunte__r.Produit__r.marque__c}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Valeur d'achat de l'appareil au jour de la souscription :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Produit_emprunte__r.Produit__r.prix_indicatif__c} €</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Modèle :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.Produit_emprunte__r.Name}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        N° de série :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                    {!Emprunt__c.Produit_emprunte__r.Numero_serie__c}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Montant du dépôt de garantie a verser :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.montant_caution_sortie__c} € </label>
+                </div>
+            </div>
+            <div class="encart-infos" style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); 
+                                             border-radius: 15px; padding: 15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; text-transform: uppercase; 
+                                               text-align: center; margin-top: 0px; grid-column: span 6;">
+                    Etat des lieux du produit loué</p>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Etat des lieux du produit loué :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!Emprunt__c.etat_sortie__c}</label>
+                </div>
+            </div>
+            <div class="encart-infos" style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); 
+                                             border-radius: 15px; padding: 15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; text-transform: uppercase; 
+                                               text-align: center; margin-top: 0px; grid-column: span 6;">
+                    Durée de la location</p>
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Date de début de location :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!DAY(Emprunt__c.date_sortie__c)}/ {!MONTH(Emprunt__c.date_sortie__c)}/ {!YEAR(Emprunt__c.date_sortie__c)} 
+                        à {!HOUR(Emprunt__c.heure_sortie__c)}:{!MINUTE(Emprunt__c.heure_sortie__c)}</label>
+                </div>
+                
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Date de restitution du produit loué :</label>
+                    <label style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;">
+                        {!DAY(Emprunt__c.date_retour_prevu__c)}/{!MONTH(Emprunt__c.date_retour_prevu__c)}/{!YEAR(Emprunt__c.date_retour_prevu__c)} 
+                        à {!HOUR(Emprunt__c.heure_retour_prevue__c)}:{!MINUTE(Emprunt__c.heure_retour_prevue__c)}</label>
+                </div>
+            </div>
+            <div class="mentions" style="grid-column: span 6;">
+                <p style="font-size: 12px; margin-top: 6px; margin-bottom: 6px;">
+                    Je reconnais avoir pris connaissance des conditions générales applicables préalablement à ma souscription au service de 
+                    location  et les accepter dans toute leur teneur.
+                </p>
+                <p style="font-size: 12px; margin-top: 6px; margin-bottom: 6px;">Je suis informé(e) qu’en cas de défaut de restitution du produit 
+                    loué, une pénalité de non-restitution sera exigée par PASS5 conformément aux conditions générales applicables. En cas de restitution 
+                    du produit loué à une date ultérieure à la date convenue, je pourrais être redevable, conformément aux conditions générales applicables, 
+                    d’une indemnité dont le montant ne pourrait excéder la valeur d’achat du produit loué.
+                </p>
+                <div class="date-location-contract">
+                    <p style="font-size: 12px; margin-top: 6px; margin-bottom: 6px;">Fait à : {!Emprunt__c.Point_de_vente_sortie__r.ShippingCity}</p>
+                    <p style="font-size: 12px; margin-top: 6px; margin-bottom: 6px;">Le {!DAY(TODAY())}/{!MONTH(TODAY())}/{!YEAR(TODAY())}</p>
+                </div>
+            </div>
+            
+            <div class="encart-signing location-signing" style="grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px;">
+                <div class="signature-client" style="grid-column: span 3; display: grid; padding: 15px; border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67);">
+                    <p>Signature du client</p>
+                    <textarea type="text" style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;"></textarea>
+                </div>
+                <div class="signature-compagny" style="grid-column: span 3; display: grid; padding: 15px; border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67);">
+                    <p>Cachet de l'entreprise</p>
+                    <textarea type="text" style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;"></textarea>
+                </div>
+            </div>
+            
+            
+            <div class="section-cut">
+                
+            </div>
+            
+            
+            
+            <div class="encart-infos" style="border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67); border-radius: 15px; 
+                                             padding: 15px; grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 5px;">
+                <p class="title-encart" style="color: rgb(40, 49, 67); font-size: 18px; font-weight: bold; text-transform: uppercase; 
+                                               text-align: center; margin-top: 0px; grid-column: span 6;">
+                    Restitution du produit loué
+                </p>
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Date et heure de restitution :</label>
+                </div>
+                <div class="items-form long-item" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px; grid-column: span 6;">
+                    <label style="grid-column: span 1; text-transform: uppercase; place-self: center start;">
+                        Etat du produit loué :</label>
+                </div>
+            </div>
+            <div class="encart-signing restitution-signing" style="grid-column: span 6; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; gap: 0px 5px;">
+                <div class="signature-client" style="grid-column: span 3; display: grid; padding: 15px; border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67);">
+                    <p>Signature du client</p>
+                    <textarea type="text" style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;"></textarea>
+                </div>
+                <div class="signature-compagny" style="grid-column: span 3; display: grid; padding: 15px; border-style: solid; border-width: 1px; border-color: rgb(40, 49, 67);">
+                    <p>Cachet de l'entreprise</p>
+                    <textarea type="text" style="grid-column: span 5; font-size: 16px; line-height: 1.5; border: medium none;"></textarea>
+                </div>
+            </div>
+            
+            <div class="mentions" style="grid-column: span 6;">
+                <p style="font-size: 12px; margin-top: 6px; margin-bottom: 6px;">Les informations nominatives et personnelles recueillies lors de la souscription de la présente offre de location sont nécessaires et utilisées pour la conclusion, la gestion et l’exécution du Contrat de location /ou pour vous proposer des services complémentaires ou similaires à ceux souscrits. Conformément aux dispositions légales en vigueur sur la protection des données, vous bénéficiez d'un droit d'accès, de modification, de rectification, et d'effacement/suppression des données vous concernant, ainsi qu'un droit de limitation du traitement relatif à vos données, d’un droit de portabilité de vos données et le droit de définir des directives relatives au sort de vos données après votre mort. Vous bénéficiez également d’un droit d'opposition au traitement de vos données notamment à des fins de prospection commerciale. Vous pouvez exercer gratuitement ses droits et/ou obtenir communication des informations vous concernant en adressant un courrier à notre Société accompagné d'une copie de sa carte d'identité, à l'adresse suivante 1 Rue Camille Claudel, 26100 Romans-sur-Isère, ou un e-mail à l’adresse solution@pass5.illipass.com ou solution@passlocation.hubside.com, en mentionnant vos nom, prénom et numéro de contrat. Nous vous rappelons enfin que vous bénéficiez en tout état de cause d’un droit d’introduire une réclamation auprès de l’autorité de contrôle compétente (la CNIL) si vous considérez que le traitement de vos données personnelles n'est pas conforme aux règles européennes/françaises.
+                </p>
+            </div>
+        </div>
+        <!--
+        <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <symbol id="logo-hubside" viewBox="0 0 96 32">
+                    <title>logo-hubside</title>
+                    <path fill="#010043" d="M1.096 9.184c0.24 0 0.464 0.088 0.632 0.256l5.928 5.928c0.168 0.168 0.256 0.4 0.256 0.632s-0.088 0.464-0.256 0.632l-5.928 5.928c-0.336 0.336-0.92 0.336-1.264 0-0.168-0.168-0.256-0.4-0.256-0.632s0.088-0.464 0.256-0.632l5.296-5.288-5.296-5.296c-0.168-0.168-0.256-0.4-0.256-0.632s0.088-0.464 0.256-0.632c0.16-0.176 0.392-0.264 0.632-0.264z"></path>
+                    <path fill="#010043" d="M6 10.416c0.152 0 0.288 0.056 0.384 0.16l3.264 3.264 1.32-1.32c0.208-0.208 0.576-0.208 0.784 0 0.216 0.216 0.216 0.568 0 0.784l-1.72 1.72c-0.072 0.072-0.152 0.112-0.256 0.152l-0.032 0.008c-0.176 0.040-0.368-0.016-0.496-0.152l-3.648-3.656c-0.096-0.096-0.16-0.24-0.16-0.384 0-0.152 0.056-0.288 0.16-0.384 0.12-0.136 0.248-0.192 0.4-0.192z"></path>
+                    <path fill="#010043" d="M6.4 21.376c-0.112 0.112-0.24 0.16-0.384 0.16s-0.288-0.056-0.384-0.16c-0.096-0.096-0.16-0.24-0.16-0.384s0.056-0.288 0.16-0.384l3.656-3.656c0.128-0.128 0.32-0.192 0.496-0.152l0.032 0.008c0.112 0.032 0.192 0.080 0.256 0.152l1.72 1.72c0.216 0.216 0.216 0.568 0 0.784-0.208 0.208-0.576 0.208-0.784 0l-1.32-1.32-3.288 3.232z"></path>
+                    <path fill="#010043" d="M18.944 18.912v-2.368h-2.52v2.368h-1.552v-6.088h1.552v2.504h2.52v-2.504h1.552v6.088h-1.552zM28.664 16.344c0 1.608-1.072 2.624-2.768 2.624-1.72 0-2.808-1.016-2.808-2.624v-3.528h1.552v3.536c0 0.824 0.528 1.328 1.272 1.328 0.736 0 1.224-0.504 1.224-1.328v-3.536h1.536l-0.008 3.528zM32.8 17.72h1.248c0.576 0 0.936-0.248 0.936-0.688 0-0.408-0.36-0.664-0.936-0.664h-1.248v1.352zM32.8 15.256h1.248c0.456 0 0.736-0.248 0.736-0.632s-0.288-0.616-0.736-0.616h-1.248v1.248zM34.136 12.824c1.36 0 2.232 0.592 2.232 1.52 0 0.648-0.4 1.152-1.040 1.344 0.768 0.152 1.248 0.744 1.248 1.536 0 1.032-0.904 1.688-2.344 1.688h-2.976v-6.088h2.88zM43.704 13.424l-0.584 1.216c-0.648-0.376-1.448-0.632-1.944-0.632-0.4 0-0.664 0.152-0.664 0.448 0 1.056 3.216 0.456 3.216 2.656 0 1.224-1.080 1.856-2.432 1.856-1.016 0-2.064-0.384-2.784-0.976l0.592-1.192c0.624 0.544 1.568 0.912 2.208 0.912 0.488 0 0.792-0.176 0.792-0.528 0-1.080-3.216-0.44-3.216-2.592 0-1.12 0.96-1.84 2.424-1.84 0.864 0 1.768 0.264 2.392 0.672zM46.040 18.912v-6.088h1.552v6.088h-1.552zM51.832 17.664h1.112c0.944 0 1.632-0.736 1.632-1.8 0-1.080-0.712-1.816-1.696-1.816h-1.040v3.616h-0.008zM52.904 12.824c1.92 0 3.24 1.232 3.24 3.040 0 1.8-1.344 3.040-3.296 3.040h-2.552v-6.080h2.608zM59.984 14.032v1.208h2.912v1.224h-2.912v1.224h3.32v1.224h-4.856v-6.088h4.768v1.224h-3.232v-0.016z"></path>
+                    <path fill="#00169b" d="M67.232 17.36c0 0.636-0.516 1.152-1.152 1.152s-1.152-0.516-1.152-1.152c0-0.636 0.516-1.152 1.152-1.152s1.152 0.516 1.152 1.152z"></path>
+                    <path fill="#010043" d="M70.376 18.84c-0.464-0.12-0.848-0.288-1.136-0.488l0.568-1.272c0.272 0.176 0.584 0.328 0.944 0.44s0.712 0.168 1.064 0.168c0.664 0 0.992-0.168 0.992-0.496 0-0.168-0.096-0.296-0.28-0.384-0.192-0.080-0.488-0.168-0.912-0.272-0.456-0.096-0.848-0.208-1.152-0.32s-0.576-0.296-0.792-0.544c-0.216-0.248-0.328-0.584-0.328-1.016 0-0.368 0.096-0.704 0.304-1 0.2-0.296 0.504-0.536 0.904-0.704 0.408-0.168 0.896-0.256 1.48-0.256 0.4 0 0.792 0.048 1.184 0.136 0.384 0.088 0.736 0.216 1.024 0.4l-0.528 1.28c-0.576-0.32-1.144-0.464-1.688-0.464-0.336 0-0.592 0.048-0.744 0.152-0.16 0.096-0.24 0.24-0.24 0.4s0.088 0.288 0.28 0.368c0.192 0.080 0.488 0.168 0.896 0.248 0.464 0.096 0.848 0.208 1.152 0.32s0.568 0.288 0.792 0.536c0.216 0.248 0.336 0.584 0.336 1 0 0.368-0.096 0.696-0.304 0.992-0.2 0.296-0.504 0.536-0.912 0.704-0.408 0.176-0.904 0.272-1.48 0.272-0.48-0.024-0.96-0.080-1.424-0.2z"></path>
+                    <path fill="#010043" d="M79.128 18.712c-0.136 0.088-0.304 0.152-0.504 0.2s-0.416 0.072-0.632 0.072c-0.616 0-1.080-0.152-1.424-0.456-0.328-0.296-0.496-0.752-0.496-1.352v-1.576h-0.688v-1.232h0.688v-1.224h1.648v1.224h1.080v1.232h-1.080v1.568c0 0.168 0.048 0.296 0.136 0.4 0.088 0.096 0.208 0.136 0.36 0.136 0.192 0 0.36-0.048 0.504-0.152l0.408 1.16z"></path>
+                    <path fill="#010043" d="M81.28 18.664c-0.408-0.208-0.728-0.496-0.952-0.872-0.232-0.368-0.344-0.792-0.344-1.264 0-0.464 0.12-0.888 0.344-1.248 0.232-0.368 0.544-0.656 0.944-0.864 0.408-0.208 0.864-0.304 1.368-0.304s0.96 0.096 1.368 0.304c0.408 0.208 0.728 0.496 0.944 0.864 0.232 0.368 0.336 0.784 0.336 1.264 0 0.464-0.112 0.896-0.336 1.264s-0.544 0.664-0.944 0.872c-0.408 0.208-0.864 0.32-1.368 0.32-0.504-0.024-0.952-0.128-1.36-0.336zM83.352 17.36c0.192-0.2 0.28-0.48 0.28-0.832 0-0.344-0.088-0.616-0.28-0.816s-0.424-0.296-0.712-0.296c-0.288 0-0.528 0.096-0.712 0.296-0.192 0.2-0.28 0.464-0.28 0.816 0 0.36 0.088 0.624 0.28 0.832 0.192 0.2 0.424 0.296 0.712 0.296s0.528-0.096 0.712-0.296z"></path>
+                    <path fill="#010043" d="M88.944 14.272c0.272-0.112 0.576-0.16 0.92-0.16v1.488c-0.152-0.016-0.28-0.032-0.376-0.032-0.36 0-0.632 0.096-0.832 0.288s-0.296 0.488-0.296 0.872v2.168h-1.648v-4.72h1.576v0.568c0.176-0.208 0.392-0.376 0.656-0.472z"></path>
+                    <path fill="#010043" d="M95.96 16.96h-3.424c0.072 0.248 0.208 0.424 0.408 0.56 0.2 0.128 0.448 0.2 0.752 0.2 0.232 0 0.416-0.032 0.584-0.096 0.168-0.056 0.328-0.168 0.496-0.32l0.872 0.904c-0.456 0.504-1.136 0.768-2.008 0.768-0.544 0-1.032-0.112-1.448-0.32s-0.744-0.496-0.976-0.872c-0.232-0.368-0.344-0.792-0.344-1.264 0-0.464 0.112-0.888 0.336-1.248 0.216-0.368 0.536-0.656 0.92-0.864 0.4-0.208 0.832-0.32 1.328-0.32 0.464 0 0.896 0.096 1.28 0.288 0.384 0.2 0.688 0.48 0.912 0.848 0.216 0.368 0.336 0.808 0.336 1.312 0 0.032 0 0.16-0.024 0.424zM92.832 15.488c-0.168 0.152-0.28 0.336-0.328 0.592h1.928c-0.048-0.248-0.16-0.448-0.328-0.592-0.168-0.152-0.384-0.216-0.632-0.216-0.256 0.008-0.472 0.080-0.64 0.216z"></path>
+                </symbol>
+                <symbol id="logo-foriou" viewBox="0 0 155 32">
+                    <title>logo-foriou</title>
+                    <path fill="#283143" d="M62.713 13.13h-10.035v4.644h9.288v2.737h-9.288v7.505h-2.778v-17.664h12.813z"></path>
+                    <path fill="#283143" d="M82.657 17.194v3.94c0 2.238-0.629 3.953-1.887 5.141s-3.104 1.783-5.535 1.783h-0.207c-2.433 0-4.278-0.594-5.536-1.783-1.259-1.188-1.887-2.903-1.887-5.141v-3.94c0-2.239 0.628-3.953 1.887-5.142 1.257-1.188 3.102-1.784 5.536-1.784h0.207c2.431 0 4.277 0.595 5.535 1.784 1.258 1.19 1.887 2.903 1.887 5.142zM70.384 17.235v3.857c0 0.553 0.069 1.084 0.207 1.595 0.138 0.513 0.374 0.968 0.705 1.369s0.781 0.725 1.348 0.974c0.566 0.248 1.264 0.372 2.094 0.372h0.787c0.829 0 1.528-0.124 2.095-0.372 0.566-0.249 1.016-0.574 1.347-0.974s0.566-0.857 0.705-1.369c0.138-0.511 0.207-1.043 0.207-1.595v-3.857c0-0.525-0.069-1.050-0.207-1.575-0.139-0.525-0.374-0.988-0.705-1.389s-0.782-0.725-1.347-0.975c-0.567-0.249-1.265-0.373-2.095-0.373h-0.787c-0.829 0-1.528 0.124-2.094 0.373-0.567 0.25-1.016 0.574-1.348 0.975s-0.567 0.864-0.705 1.389-0.207 1.050-0.207 1.575z"></path>
+                    <path fill="#283143" d="M90.826 28.016h-2.778v-17.664h9.994c0.47 0 0.995 0.103 1.575 0.311 0.581 0.207 1.12 0.526 1.617 0.953 0.498 0.43 0.919 0.982 1.265 1.659s0.518 1.486 0.518 2.426c0 1.437-0.255 2.488-0.767 3.151s-1.099 1.105-1.762 1.327c0.387 0.277 0.712 0.629 0.975 1.057 0.262 0.43 0.421 0.796 0.476 1.1l1.575 5.68h-2.861l-1.575-4.975c-0.194-0.442-0.436-0.795-0.726-1.058s-0.588-0.462-0.891-0.601c-0.305-0.138-0.588-0.228-0.85-0.27s-0.463-0.061-0.601-0.061h-5.183v6.966zM100.197 15.701c0-0.581-0.249-1.154-0.746-1.721s-1.12-0.849-1.866-0.849h-6.759v5.183h7.008c0.663 0 1.223-0.173 1.68-0.518s0.684-1.043 0.684-2.094v0z"></path>
+                    <path fill="#283143" d="M109.932 25.238v-14.886h2.778v14.886h-0.002v2.779h-2.828z"></path>
+                    <path fill="#283143" d="M134.595 17.194v3.94c0 2.238-0.63 3.953-1.886 5.141-1.259 1.189-3.104 1.783-5.536 1.783h-0.207c-2.433 0-4.278-0.594-5.536-1.783s-1.887-2.903-1.887-5.141v-3.94c0-2.239 0.629-3.953 1.887-5.142 1.257-1.188 3.102-1.784 5.536-1.784h0.207c2.432 0 4.278 0.595 5.536 1.784 1.257 1.19 1.886 2.903 1.886 5.142zM122.321 17.235v3.857c0 0.553 0.069 1.084 0.207 1.595 0.137 0.513 0.374 0.968 0.704 1.369 0.332 0.4 0.781 0.725 1.348 0.974s1.265 0.372 2.095 0.372h0.787c0.829 0 1.528-0.124 2.095-0.372s1.016-0.574 1.348-0.974c0.331-0.401 0.566-0.857 0.704-1.369 0.138-0.511 0.208-1.043 0.208-1.595v-3.857c0-0.525-0.069-1.050-0.208-1.575s-0.373-0.988-0.704-1.389c-0.332-0.401-0.782-0.725-1.348-0.975s-1.265-0.373-2.095-0.373h-0.787c-0.829 0-1.528 0.124-2.095 0.373s-1.016 0.574-1.348 0.975c-0.33 0.401-0.567 0.864-0.704 1.389-0.139 0.525-0.207 1.050-0.207 1.575z"></path>
+                    <path fill="#283143" d="M154.954 10.352v17.664h-7.547c-2.433 0-4.278-0.594-5.536-1.783s-1.886-2.903-1.886-5.141v-10.74h2.779v10.698c0 0.553 0.069 1.084 0.208 1.595 0.138 0.512 0.373 0.968 0.704 1.369 0.332 0.401 0.781 0.726 1.348 0.974s1.265 0.373 2.095 0.373h5.059v-15.010h2.779z"></path>
+                    <path fill="#283143" d="M36.187 31.717h-23.659c-3.624 0-6.572-2.948-6.572-6.572v-11.963c0-3.624 2.948-6.572 6.572-6.572h23.659c3.624 0 6.573 2.948 6.573 6.572v11.963c0 3.624-2.949 6.572-6.573 6.572v0zM12.528 9.314c-2.133 0-3.868 1.735-3.868 3.868v11.963c0 2.133 1.734 3.868 3.868 3.868h23.659c2.133 0 3.868-1.735 3.868-3.868v-11.963c0-2.133-1.735-3.868-3.868-3.868h-23.659z"></path>
+                    <path fill="#4ab2db" d="M22.192 0.646h-10.79c-6.287 0-11.402 5.115-11.402 11.402v1.311c0.123 1.339 0.663 3.163 2.701 3.163 0.002 0 0.003 0.001 0.005 0.001v-2.144c0-0.009-0.002-0.017-0.002-0.027v-2.304c0-4.795 3.902-8.698 8.698-8.698h13.999c0-2.062-1.866-2.59-3.21-2.704z"></path>
+                    <path fill="#283143" d="M21.35 14.982v-1.919h-3.745c0 0.001 0 0.001 0 0.001h-3.15c-1.072 0-1.944 0.868-1.955 1.937v10.261h1.919v-5.184h6.415v-1.89h-6.415v-3.207h6.931z"></path>
+                </symbol>
+            </defs>
+        </svg>
+        -->
+        
+    </body>
+</apex:page>

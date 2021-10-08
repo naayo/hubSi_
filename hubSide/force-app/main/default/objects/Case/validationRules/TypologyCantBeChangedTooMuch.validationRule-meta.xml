@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypologyCantBeChangedTooMuch</fullName>
+    <active>true</active>
+    <description>La typologie du sinistre ne peut être modifiée que par les GS, et seulement dans la même catégorie (échange/réparation)
+The case&apos;s typology can only be edited by GS users, and only within the same category (exchange/reparation)</description>
+    <errorConditionFormula>AND(
+    OR(
+        $Profile.Name == &apos;SFAM GS&apos;,
+        $Profile.Name == &apos;System Administrator&apos;,
+        $Profile.Name == &apos;Administrateur système&apos;
+    ),
+    ISCHANGED(Typologie_Sinistre__c), 
+    Record_Type_Name__c == &apos;Sinistre&apos;,
+    AND(
+        NOT(
+            AND(
+                OR(
+                    ISPICKVAL(Typologie_Sinistre__c, &apos;Broken&apos;), 
+                    ISPICKVAL(Typologie_Sinistre__c, &apos;Oxidised&apos;)
+                ),
+                OR(
+                    ISPICKVAL(PRIORVALUE(Typologie_Sinistre__c), &apos;Broken&apos;), 
+                    ISPICKVAL(PRIORVALUE(Typologie_Sinistre__c), &apos;Oxidised&apos;)
+                )
+            )
+        ),
+        NOT(
+            AND(
+                OR(
+                    ISPICKVAL(Typologie_Sinistre__c, &apos;Robbed&apos;), 
+                    ISPICKVAL(Typologie_Sinistre__c, &apos;Pickpocketed&apos;), 
+                    ISPICKVAL(Typologie_Sinistre__c, &apos;Lost&apos;) 
+                ),
+                OR(
+                    ISPICKVAL(PRIORVALUE(Typologie_Sinistre__c), &apos;Robbed&apos;), 
+                    ISPICKVAL(PRIORVALUE(Typologie_Sinistre__c), &apos;Pickpocketed&apos;), 
+                    ISPICKVAL(PRIORVALUE(Typologie_Sinistre__c), &apos;Lost&apos;)
+                )
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Typologie_Sinistre__c</errorDisplayField>
+    <errorMessage>Cette modification sur la typologie n&apos;est pas autorisée.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_sinistre_B_Appli__c</fullName>
+    <description>Numéro de sinistre qui se suit et auto-généré par B-Appli</description>
+    <externalId>false</externalId>
+    <label>Numéro de sinistre B-Appli</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

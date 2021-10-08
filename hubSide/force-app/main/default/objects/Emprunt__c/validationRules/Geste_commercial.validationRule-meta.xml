@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geste_commercial</fullName>
+    <active>true</active>
+    <description>Si le montant du geste commercial est rensigné, le motif ne peut être laissé vide.</description>
+    <errorConditionFormula>AND(
+    RecordType.Name = &quot;Emprunt&quot;, 
+    ISBLANK( TEXT( Motif_geste_commercial__c  ) ), 
+    Montant_geste_commercial__c &gt; 0
+)</errorConditionFormula>
+    <errorDisplayField>Motif_geste_commercial__c</errorDisplayField>
+    <errorMessage>Le motif du geste commercial doit être renseigné.</errorMessage>
+</ValidationRule>

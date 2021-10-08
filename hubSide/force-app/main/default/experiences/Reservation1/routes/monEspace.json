@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "389d0b65-c033-401a-a05d-952150074e61",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "fe717e03-ce12-4db1-9b0c-eb7b394ab964",
+  "label" : "Mon espace",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mon-espace",
+  "type" : "route",
+  "urlPrefix" : "mon-espace"
+}

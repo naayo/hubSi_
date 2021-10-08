@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_parateur_ADM_Irr_parable_et_Annul</fullName>
+    <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Statut_equipement__c</columns>
+    <columns>Sous_statut__c</columns>
+    <columns>Type_de_materiel__c</columns>
+    <columns>Numero_sinistre__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Statut_equipement__c</field>
+        <operation>equals</operation>
+        <value>Annulé - A retourner,Irréparable - A retourner</value>
+    </filters>
+    <filters>
+        <field>Sous_statut__c</field>
+        <operation>equals</operation>
+        <value>Sortie PSM</value>
+    </filters>
+    <filters>
+        <field>Statut_equipement__c</field>
+        <operation>equals</operation>
+        <value>Expédition client</value>
+    </filters>
+    <filters>
+        <field>Sous_statut__c</field>
+        <operation>equals</operation>
+        <value>Réceptionné - à expédier (Irréparable),Réceptionné - à expédier (Annulé)</value>
+    </filters>
+    <label>Réparateur ADM - Irréparable et Annulé</label>
+</ListView>

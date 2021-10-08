@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRClaimContactChannel</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.Name =&apos;Réclamation&apos;, ISPICKVAL( CanalChannel__c , &apos;&apos; ))</errorConditionFormula>
+    <errorDisplayField>CanalChannel__c</errorDisplayField>
+    <errorMessage>Un canal de contact doit être sélectionné.</errorMessage>
+</ValidationRule>

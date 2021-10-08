@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TechEchange__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Tech Echange</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Matrice_cout_equipement__c.Disponible_Echange__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Matrice_cout_equipement__c</referenceTo>
+    <relationshipLabel>Equipement sinistre (Matrice coût equipement)</relationshipLabel>
+    <relationshipName>TECH_Echange</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserBusinessProfile__c</fullName>
+    <description>Profil métier - User&apos;s business profile</description>
+    <externalId>false</externalId>
+    <label>Utilisateur - Profil métier</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>UserBusinessProfile</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champs_obligatoires_produit_location</fullName>
+    <active>true</active>
+    <description>Le prix indicatif  est un champ obligatoire pour le record type Produit location</description>
+    <errorConditionFormula>AND(
+    OR(
+        $RecordType.Name = &apos;Nouveau produit location&apos;,
+        $RecordType.Name = &apos;Produit location&apos;
+    ),
+    ISBLANK(Prix_indicatif__c)
+    
+)</errorConditionFormula>
+    <errorMessage>Merci de bien vouloir renseigner le prix indicatif du produit.</errorMessage>
+</ValidationRule>

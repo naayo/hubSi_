@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaiementVersementLink__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to the Paiement Versement linked to the callout</description>
+    <externalId>false</externalId>
+    <label>Paiement Versement Link</label>
+    <referenceTo>Paiement_Versement__c</referenceTo>
+    <relationshipLabel>Management of Callout Errors</relationshipLabel>
+    <relationshipName>ManagementCalloutErrors</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

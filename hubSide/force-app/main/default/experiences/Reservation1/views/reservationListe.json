@@ -1,0 +1,45 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "e6b2c940-acff-4760-8e8d-d2839b31b6c3",
+  "label" : "Reservation Liste",
+  "regions" : [ {
+    "id" : "b4804958-a0db-48e4-a991-b8691c1c41ce",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "{!filterId}",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "47e55d7b-106a-4c12-8a96-0f3123bdc923",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "998e63ca-1962-4d51-a4d9-81667164a571",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "22464bdb-8e74-4a73-8cce-ef2e2d2dc6df",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-a6E"
+}

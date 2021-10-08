@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatch_T_l_conseiller_Refus</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <columns>PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Not Started</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Task.Sinistre_Task_Action</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Refus</value>
+    </filters>
+    <label>Dispatch Téléconseiller Refus</label>
+    <queue>Dispatch_teleconseiller</queue>
+</ListView>

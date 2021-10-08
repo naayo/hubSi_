@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produit_emprunte__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Produit emprunté</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 OR 2 OR 3 OR 4)</booleanFilter>
+        <errorMessage>Le produit emprunté doit être disponible pour être sélectionné.</errorMessage>
+        <filterItems>
+            <field>Stock_produit__c.Statut__c</field>
+            <operation>equals</operation>
+            <value>En stock, Réservé, Sortie client</value>
+        </filterItems>
+        <filterItems>
+            <field>Stock_produit__c.Emprunt_actuel__r.Id</field>
+            <operation>equals</operation>
+            <valueField>$Source.Id</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Reservation_origine__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Status__c</field>
+            <operation>equals</operation>
+            <value>Retour sans défaut, Retour avec défaut</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Stock_produit__c</referenceTo>
+    <relationshipLabel>Emprunts</relationshipLabel>
+    <relationshipName>Emprunts</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

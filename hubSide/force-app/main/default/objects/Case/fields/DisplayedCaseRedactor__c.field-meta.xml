@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisplayedCaseRedactor__c</fullName>
+    <description>Personne ayant réalisé la saisie initiale du dossier de réclamation. Affichage du contenu du champ CreatedBy ou TechCaseRedactor.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(TechCaseRedactor__c),HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;/lightning/r/&apos; &amp; CreatedBy.Id &amp; &apos;/view&apos;, CreatedBy.FirstName &amp; &apos; &apos; &amp;  CreatedBy.LastName),TechCaseRedactor__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>IF(ISBLANK(TechCaseRedactor__c),HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;/lightning/r/&apos; &amp; CreatedBy.Id &amp; &apos;/view&apos;, CreatedBy.FirstName &amp; &apos; &apos; &amp;  CreatedBy.LastName, &apos;_self&apos;),TechCaseRedactor__c)</inlineHelpText>
+    <label>Dossier saisi par</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

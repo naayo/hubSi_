@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Envoi_papier_a_realiser_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Envoi papier à réaliser</label>
+    <queue>Envoi_papier_a_realiser</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

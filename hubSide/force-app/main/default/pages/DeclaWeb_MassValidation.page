@@ -1,0 +1,14 @@
+<apex:page standardController="Case" extensions="DeclaWeb_MassValidationController" recordSetVar="cases" action="{!getCases}">
+   <apex:form >
+       <apex:pageBlock title="Validation des declarations suivantes :">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!updateCases}" value="Validation"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!selected}" var="case">
+                <apex:column value="{!case.Numero_sinistre__c}"/>
+                <apex:column value="{!case.Status}"/>
+                <apex:column value="{!case.Priority}"/> 
+            </apex:pageBlockTable> 
+        </apex:pageBlock>
+    </apex:form>    
+</apex:page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>contactLanguage__c</fullName>
+    <description>RFC 5646</description>
+    <externalId>false</externalId>
+    <label>Contact Language</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>fr-FR</fullName>
+                <default>false</default>
+                <label>fr-FR</label>
+            </value>
+            <value>
+                <fullName>fr-BE</fullName>
+                <default>false</default>
+                <label>fr-BE</label>
+            </value>
+            <value>
+                <fullName>nl-BE</fullName>
+                <default>false</default>
+                <label>nl-BE</label>
+            </value>
+            <value>
+                <fullName>nl-NL</fullName>
+                <default>false</default>
+                <label>nl-NL</label>
+            </value>
+            <value>
+                <fullName>es-ES</fullName>
+                <default>false</default>
+                <label>es-ES</label>
+            </value>
+            <value>
+                <fullName>pt-PT</fullName>
+                <default>false</default>
+                <label>pt-PT</label>
+            </value>
+            <value>
+                <fullName>it-IT</fullName>
+                <default>false</default>
+                <label>it-IT</label>
+            </value>
+            <value>
+                <fullName>unknown</fullName>
+                <default>false</default>
+                <label>unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

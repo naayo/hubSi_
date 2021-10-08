@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchange</fullName>
+    <active>true</active>
+    <label>Echange</label>
+    <picklistValues>
+        <picklist>Object__c</picklist>
+        <values>
+            <fullName>Accessoire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ajustement Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ajustement Autres marques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coût équipement initial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipement Echangé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indemnité transporteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mode Livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réparation agrée Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAV - Complément fournisseur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ValueLevel__c</picklist>
+        <values>
+            <fullName>Basse Valeur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haute Valeur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAV DEBIT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

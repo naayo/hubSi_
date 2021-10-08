@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Product</fullName>
+        <default>true</default>
+        <label>Product</label>
+    </customValue>
+    <customValue>
+        <fullName>Context</fullName>
+        <default>false</default>
+        <label>Context</label>
+    </customValue>
+    <customValue>
+        <fullName>AttachFiles</fullName>
+        <default>false</default>
+        <label>AttachFiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Confirmed</fullName>
+        <default>false</default>
+        <label>Confirmed</label>
+    </customValue>
+    <description>Track the progress of the user on the web site in order to know in which screen the user finished the claim process
+
+Product = valider l&apos;étape matériel
+
+Context = valider l&apos;étape circonstances
+
+AttachFiles = Valide l&apos;étape PJ
+
+Cancelled = Annuler la déclaration
+
+Confirmed = validation de déclaration</description>
+    <masterLabel>Web screen progress</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

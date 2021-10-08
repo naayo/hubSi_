@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sortie_emprunt</fullName>
+    <active>false</active>
+    <description>L&apos;emprunt ne peut pas être autorisé à avoir un statut = Sortie si TOUS les champs de sortie ne sont pas tous remplis.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status__c, &apos;Sortie&apos;), 
+    OR(
+        ISBLANK(Date_sortie__c), 
+        ISBLANK(Heure_sortie__c), 
+        ISBLANK(Etat_sortie__c), 
+        ISBLANK(Montant_caution_sortie__c),
+        ISBLANK(Date_retour_prevu__c), 
+        ISBLANK(Heure_retour_prevue__c),
+        NOT( Caution_recue__c )
+        )
+)</errorConditionFormula>
+    <errorMessage>Il manque certaines informations dans la section Sortie.</errorMessage>
+</ValidationRule>

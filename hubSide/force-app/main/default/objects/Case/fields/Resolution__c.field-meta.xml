@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution__c</fullName>
+    <description>Indique la typologie de la prise en charge (réparation/échange/prime/prime pour réparation). Découle d’une décision GS accepté 
+A remplir pour réparation / échange / prime
+Prime pour réparation (également pour compensation d’un clos réparé)
+Prime (compensation d’un clos échangé)</description>
+    <externalId>false</externalId>
+    <label>Résolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vide</fullName>
+                <default>false</default>
+                <label>Vide</label>
+            </value>
+            <value>
+                <fullName>Prime</fullName>
+                <default>false</default>
+                <label>Prime</label>
+            </value>
+            <value>
+                <fullName>Prime magasin</fullName>
+                <default>false</default>
+                <label>Prime magasin</label>
+            </value>
+            <value>
+                <fullName>Prime pour réparation</fullName>
+                <default>false</default>
+                <label>Prime pour réparation</label>
+            </value>
+            <value>
+                <fullName>Réparation</fullName>
+                <default>false</default>
+                <label>Réparation</label>
+            </value>
+            <value>
+                <fullName>Échange</fullName>
+                <default>false</default>
+                <label>Échange</label>
+            </value>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Résiliation</label>
+            </value>
+            <value>
+                <fullName>TerminationAndRefund</fullName>
+                <default>false</default>
+                <label>Résiliation et remboursement</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Remboursement</label>
+            </value>
+            <value>
+                <fullName>ClaimCare</fullName>
+                <default>false</default>
+                <label>Prise en charge sinistre</label>
+            </value>
+            <value>
+                <fullName>Explanations</fullName>
+                <default>false</default>
+                <label>Explications</label>
+            </value>
+            <value>
+                <fullName>Une mauvaise interprétation du contrat par un gestionnaire sinistre / erreur humaine</fullName>
+                <default>false</default>
+                <label>Une mauvaise interprétation du contrat par un gestionnaire sinistre / erreur humaine</label>
+            </value>
+            <value>
+                <fullName>A la demande des assureurs</fullName>
+                <default>false</default>
+                <label>A la demande des assureurs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_Objet__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif Objet</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Défaut de gamme</fullName>
+                <default>false</default>
+                <label>Défaut de gamme</label>
+            </value>
+            <value>
+                <fullName>Hors stock</fullName>
+                <default>false</default>
+                <label>Hors stock</label>
+            </value>
+            <value>
+                <fullName>Prospect à qualifier</fullName>
+                <default>false</default>
+                <label>Prospect à qualifier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

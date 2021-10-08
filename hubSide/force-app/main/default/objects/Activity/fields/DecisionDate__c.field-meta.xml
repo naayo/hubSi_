@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DecisionDate__c</fullName>
+    <description>Date à laquelle la décision sur la tâche a été prise, définie dans le flow d&apos;action SAV</description>
+    <externalId>false</externalId>
+    <label>Date décision</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colis_reception</fullName>
+    <active>true</active>
+    <description>Dédié à la réception des colis</description>
+    <label>Colis réception</label>
+    <picklistValues>
+        <picklist>Nom_transporteur__c</picklist>
+        <values>
+            <fullName>BulkParcelsReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BulkParcelsSav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ChronopostReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ChronopostSav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaPosteReparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LaPosteSav</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Statut__c</picklist>
+        <values>
+            <fullName>Affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colis Retourné</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non identifiable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rattaché</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retourner colis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reçu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transféré%2FEmis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transféré%2FReçu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Expertise SAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réception SFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réparation SFAMRecycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

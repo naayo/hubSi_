@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRNewClaimStatus</fullName>
+    <active>true</active>
+    <description>Le statut d&apos;une nouvelle réclamation ne peut être que &apos;Ouvert&apos;</description>
+    <errorConditionFormula>AND(
+RecordType.Name =&apos;Réclamation&apos;,
+ISNEW(),
+NOT(ISPICKVAL( Status ,&apos;Open&apos;))
+)</errorConditionFormula>
+    <errorMessage>Le statut d&apos;une nouvelle réclamation ne peut être que &apos;Ouvert&apos;</errorMessage>
+</ValidationRule>

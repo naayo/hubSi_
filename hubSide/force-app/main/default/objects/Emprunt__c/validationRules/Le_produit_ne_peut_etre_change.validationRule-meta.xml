@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Le_produit_ne_peut_etre_change</fullName>
+    <active>true</active>
+    <description>Le produit ne peut être modifié une fois l&apos;emprunt créé.</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    ISCHANGED( Produit_emprunte__c )
+)</errorConditionFormula>
+    <errorDisplayField>Produit_emprunte__c</errorDisplayField>
+    <errorMessage>Une fois l&apos;emprunt créé, le produit sélectionné n&apos;est plus modifiable.</errorMessage>
+</ValidationRule>

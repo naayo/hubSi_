@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubTheme2__c</fullName>
+    <description>Sous thème secondaire de la réclamation</description>
+    <externalId>false</externalId>
+    <label>Sous Thème 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SubTheme1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Contestation de signature SI</fullName>
+                <default>false</default>
+                <label>Contestation de signature SI</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information SI</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information SI</label>
+            </value>
+            <value>
+                <fullName>Explications floues SI</fullName>
+                <default>false</default>
+                <label>Explications floues SI</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements SI</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements SI</label>
+            </value>
+            <value>
+                <fullName>Litige ODR SI</fullName>
+                <default>false</default>
+                <label>Litige ODR SI</label>
+            </value>
+            <value>
+                <fullName>Contestation de signature SE</fullName>
+                <default>false</default>
+                <label>Contestation de signature SE</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information SE</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information SE</label>
+            </value>
+            <value>
+                <fullName>Explications floues SE</fullName>
+                <default>false</default>
+                <label>Explications floues SE</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements SE</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements SE</label>
+            </value>
+            <value>
+                <fullName>Litige ODR SE</fullName>
+                <default>false</default>
+                <label>Litige ODR SE</label>
+            </value>
+            <value>
+                <fullName>Difficultés pour résilier</fullName>
+                <default>false</default>
+                <label>Difficultés pour résilier</label>
+            </value>
+            <value>
+                <fullName>Prélévements après résiliation</fullName>
+                <default>false</default>
+                <label>Prélévements après résiliation</label>
+            </value>
+            <value>
+                <fullName>Blocage sinistre suite impayé</fullName>
+                <default>false</default>
+                <label>Blocage sinistre suite impayé</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursement</fullName>
+                <default>false</default>
+                <label>Délais de remboursement</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction réparation/échange</fullName>
+                <default>false</default>
+                <label>Insatisfaction réparation/échange</label>
+            </value>
+            <value>
+                <fullName>Litige pièces justificatives complémentaires</fullName>
+                <default>false</default>
+                <label>Litige pièces justificatives complémentaires</label>
+            </value>
+            <value>
+                <fullName>Litige suite problème transporteur</fullName>
+                <default>false</default>
+                <label>Litige suite problème transporteur</label>
+            </value>
+            <value>
+                <fullName>Retard gestion sinistre</fullName>
+                <default>false</default>
+                <label>Retard gestion sinistre</label>
+            </value>
+            <value>
+                <fullName>Refus lié au délai de déclaration/pièces</fullName>
+                <default>false</default>
+                <label>Refus lié au délai de déclaration/pièces</label>
+            </value>
+            <value>
+                <fullName>Refus produit non assuré</fullName>
+                <default>false</default>
+                <label>Refus produit non assuré</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursement PDS</fullName>
+                <default>false</default>
+                <label>Délais de remboursement PDS</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements PDS</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements PDS</label>
+            </value>
+            <value>
+                <fullName>Litige ODR PDS</fullName>
+                <default>false</default>
+                <label>Litige ODR PDS</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction du service PDS</fullName>
+                <default>false</default>
+                <label>Insatisfaction du service PDS</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction du service Buy Back</fullName>
+                <default>false</default>
+                <label>Insatisfaction du service Buy Back</label>
+            </value>
+            <value>
+                <fullName>Insatisfaction des services PDS et Buy Back</fullName>
+                <default>false</default>
+                <label>Insatisfaction des services PDS et Buy Back</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information PDS</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information PDS</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information DR</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information DR</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire formule DR</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire formule DR</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS et formule DR</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS et formule DR</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements DR</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements DR</label>
+            </value>
+            <value>
+                <fullName>Litige ODR DR</fullName>
+                <default>false</default>
+                <label>Litige ODR DR</label>
+            </value>
+            <value>
+                <fullName>Non réception offre commerciale DR</fullName>
+                <default>false</default>
+                <label>Non réception offre commerciale DR</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire formule HT</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire formule HT</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS et formule HT</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS et formule HT</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursements DCI</fullName>
+                <default>false</default>
+                <label>Délais de remboursements DCI</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire formule DCI</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire formule DCI</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS et formule DCI</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS et formule DCI</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements DCI</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements DCI</label>
+            </value>
+            <value>
+                <fullName>Litige ODR DCI</fullName>
+                <default>false</default>
+                <label>Litige ODR DCI</label>
+            </value>
+            <value>
+                <fullName>Non réception offre commerciale DCI</fullName>
+                <default>false</default>
+                <label>Non réception offre commerciale DCI</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursements LO</fullName>
+                <default>false</default>
+                <label>Délais de remboursements LO</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire formule LO</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire formule LO</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS et formule LO</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS et formule LO</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements LO</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements LO</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information LO</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information LO</label>
+            </value>
+            <value>
+                <fullName>Non réception offre commerciale LO</fullName>
+                <default>false</default>
+                <label>Non réception offre commerciale LO</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursements NR</fullName>
+                <default>false</default>
+                <label>Délais de remboursements NR</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire formule NR</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire formule NR</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire PDS et formule NR</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire PDS et formule NR</label>
+            </value>
+            <value>
+                <fullName>Incompréhension montants prélévements NR</fullName>
+                <default>false</default>
+                <label>Incompréhension montants prélévements NR</label>
+            </value>
+            <value>
+                <fullName>Litige ODR NR</fullName>
+                <default>false</default>
+                <label>Litige ODR NR</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information NR</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information NR</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Demande copie contrat ou information DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Hausse tarifaire formule DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS et formule DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Litige ODR DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Délais de remboursement</controllingFieldValue>
+            <valueName>Non réception offre commerciale DR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hausse tarifaire</controllingFieldValue>
+            <valueName>Hausse tarifaire formule HT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hausse tarifaire</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS et formule HT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Délais de remboursements DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Hausse tarifaire formule DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS et formule DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Litige ODR DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande copie contrat ou information</controllingFieldValue>
+            <valueName>Non réception offre commerciale DCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Délais de remboursements LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Hausse tarifaire formule LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS et formule LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Demande copie contrat ou information LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Litige ODR</controllingFieldValue>
+            <valueName>Non réception offre commerciale LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Délais de remboursements NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Hausse tarifaire formule NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS et formule NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Litige ODR NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non réception offre commerciale</controllingFieldValue>
+            <valueName>Demande copie contrat ou information NR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SI</controllingFieldValue>
+            <valueName>Contestation de signature SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SI</controllingFieldValue>
+            <valueName>Demande copie contrat ou information SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SI</controllingFieldValue>
+            <valueName>Explications floues SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SI</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SI</controllingFieldValue>
+            <valueName>Litige ODR SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SE</controllingFieldValue>
+            <valueName>Contestation de signature SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SE</controllingFieldValue>
+            <valueName>Demande copie contrat ou information SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SE</controllingFieldValue>
+            <valueName>Explications floues SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SE</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestation de souscription SE</controllingFieldValue>
+            <valueName>Litige ODR SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Absence prise en compte résiliation</controllingFieldValue>
+            <controllingFieldValue>Prélèvements après résiliation</controllingFieldValue>
+            <valueName>Difficultés pour résilier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Absence prise en compte résiliation</controllingFieldValue>
+            <controllingFieldValue>Difficultés pour résilier</controllingFieldValue>
+            <controllingFieldValue>Résiliation abusive</controllingFieldValue>
+            <valueName>Prélévements après résiliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <controllingFieldValue>ClaimManagementDelay</controllingFieldValue>
+            <controllingFieldValue>ClaimRefusal</controllingFieldValue>
+            <valueName>Blocage sinistre suite impayé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <controllingFieldValue>ClaimManagementDelay</controllingFieldValue>
+            <valueName>Délais de remboursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <valueName>Insatisfaction réparation/échange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <valueName>Litige pièces justificatives complémentaires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <valueName>Litige suite problème transporteur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimManagementLitigation</controllingFieldValue>
+            <valueName>Retard gestion sinistre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimRefusal</controllingFieldValue>
+            <valueName>Refus lié au délai de déclaration/pièces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ClaimRefusal</controllingFieldValue>
+            <valueName>Refus produit non assuré</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Délais de remboursement PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Hausse tarifaire PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Incompréhension montants prélévements PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Litige ODR PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Insatisfaction du service PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Insatisfaction du service Buy Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Insatisfaction des services PDS et Buy Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDS</controllingFieldValue>
+            <valueName>Demande copie contrat ou information PDS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

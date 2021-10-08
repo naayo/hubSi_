@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tech_numsin__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Champ technique servant à la numérotation des dossiers qui doit garantir sinistre doit garantir :
+- l&apos;unicité (aucun doublon)
+- la chronologie des numéros (format du numéro de sinistre: SINXXXXXX, &quot;SIN&quot; préfixe invariable et &quot;XXXXXX&quot; séquence incrémentale et choronologique sur 6 chiffres
+- la séquentialité (pas de numéro manquant)</description>
+    <externalId>false</externalId>
+    <label>tech_numsin</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Bouton_Nouvel_emprunt</fullName>
+        <categories>Location</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Bouton Nouvel Emprunt</shortDescription>
+        <value>Nouvel emprunt</value>
+    </labels>
+    <labels>
+        <fullName>Bouton_Nouvelle_Reservation</fullName>
+        <categories>Location</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Bouton Nouvelle Réservation</shortDescription>
+        <value>Nouvelle réservation</value>
+    </labels>
+    <labels>
+        <fullName>Fiche_Client_Reservation</fullName>
+        <categories>Location</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Fiche Client Réservation</shortDescription>
+        <value>Client</value>
+    </labels>
+    <labels>
+        <fullName>GroupSFAMOrangeId</fullName>
+        <categories>Sinistre</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupSFAMOrangeId</shortDescription>
+        <value>4a570c35-f740-479d-9f5f-dcf1fe0ec330</value>
+    </labels>
+    <labels>
+        <fullName>Location_BonDeSortie_Foriou</fullName>
+        <categories>Location, Bon de sortie</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - BonDeSortie - Foriou</shortDescription>
+        <value>/resource/Foriou</value>
+    </labels>
+    <labels>
+        <fullName>Location_BonDeSortie_Hubside</fullName>
+        <categories>Location, Bon de sortie</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - BonDeSortie - Hubside</shortDescription>
+        <value>/resource/HubsideStore</value>
+    </labels>
+    <labels>
+        <fullName>Location_BonDeSortie_PASS5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location_BonDeSortie_PASS5</shortDescription>
+        <value>/resource/PASS5_logo</value>
+    </labels>
+    <labels>
+        <fullName>Location_BonDeSortie_PASS_LOCATION</fullName>
+        <categories>Location, Bon de sortie</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location_BonDeSortie_PASS_LOCATION</shortDescription>
+        <value>/resource/PASS_LOCATION_logo</value>
+    </labels>
+    <labels>
+        <fullName>Location_BonDeSortie_illipass</fullName>
+        <categories>Location, Bon de sortie</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location_BonDeSortie_illipass</shortDescription>
+        <value>/resource/illipass_logo</value>
+    </labels>
+    <labels>
+        <fullName>Location_DateBuffer</fullName>
+        <categories>Location, Buffer</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - Date buffer</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>Location_EmailTemplate_BonRetour</fullName>
+        <categories>Location, Email template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - Email template - bon de retour</shortDescription>
+        <value>Envoi_du_bon_de_retour</value>
+    </labels>
+    <labels>
+        <fullName>Location_EmailTemplate_BonSortie</fullName>
+        <categories>Location, Email template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - Email template - bon de sortie</shortDescription>
+        <value>Envoi_du_bon_de_sortie</value>
+    </labels>
+    <labels>
+        <fullName>Location_EmailTemplate_CommunityURL</fullName>
+        <categories>Location, Email template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location - Email template - Community URL</shortDescription>
+        <value>https://uat-reservation.cs128.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>Print</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used in the Visualforce Page (Apex Page) to display the print button</shortDescription>
+        <value>Print</value>
+    </labels>
+    <labels>
+        <fullName>SinistreEmailTemplatePremiumExchange</fullName>
+        <categories>Sinistre</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SinistreEmailTemplatePremiumExchange</shortDescription>
+        <value>SIN_998</value>
+    </labels>
+    <labels>
+        <fullName>SinistreEmailTemplatePremiumExchangeDealer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SinistreEmailTemplatePremiumExchangeDealer</shortDescription>
+        <value>SIN_999</value>
+    </labels>
+    <labels>
+        <fullName>Sinistre_BordereauLivraison_LogoSFAM</fullName>
+        <categories>Sinistre, Logo SFAM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sinistre BordereauLivraison LogoSFAM</shortDescription>
+        <value>/resource/LogoSFAM</value>
+    </labels>
+    <labels>
+        <fullName>Sinistre_ErrorMessageDeletionCalculIndem</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sinistre_ErrorMessageDeletionCalculIndem</shortDescription>
+        <value>Vous ne pouvez pas supprimer ce calcul indemnisation car le processus de validation a déjà été déclenché.</value>
+    </labels>
+    <labels>
+        <fullName>Sinistre_ErrorMessageEditionNameCalculIndem</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sinistre_ErrorMessageEditionNameCalculIndem</shortDescription>
+        <value>Vous ne pouvez pas renommer un calcul indemnisation.</value>
+    </labels>
+    <labels>
+        <fullName>TextSMS_ColisRattacheSendSMS</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>TextSMS_ColisRattacheSendSMS</shortDescription>
+        <value>Bonne nouvelle, votre appareil à été réceptionné. Toutes les équipes Celside Insurance sont mobilisées pour vous accompagner dans les meilleures conditions. Suivez l&apos;avancement de de votre dossier sur myCelside</value>
+    </labels>
+    <labels>
+        <fullName>profileBypass_validationRule</fullName>
+        <categories>Location</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>profileBypass_validationRule</shortDescription>
+        <value>System Administrator</value>
+    </labels>
+</CustomLabels>

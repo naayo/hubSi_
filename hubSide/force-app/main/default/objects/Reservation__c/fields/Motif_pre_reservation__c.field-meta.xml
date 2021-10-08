@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_pre_reservation__c</fullName>
+    <description>Contient la justification du statut pré-réservé.</description>
+    <externalId>false</externalId>
+    <label>Motif pré-réservation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Défaut de gamme</fullName>
+                <default>false</default>
+                <label>Défaut de gamme</label>
+            </value>
+            <value>
+                <fullName>Hors stock</fullName>
+                <default>false</default>
+                <label>Hors stock</label>
+            </value>
+            <value>
+                <fullName>Prospect à qualifier</fullName>
+                <default>false</default>
+                <label>Prospect à qualifier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

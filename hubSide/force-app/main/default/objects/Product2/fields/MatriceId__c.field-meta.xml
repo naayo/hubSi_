@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MatriceId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>1 ItemCatalog is link to only 1 Matrice cout equipement record</description>
+    <externalId>false</externalId>
+    <label>Matrice coût equipement</label>
+    <referenceTo>Matrice_cout_equipement__c</referenceTo>
+    <relationshipLabel>Catalogue équipement</relationshipLabel>
+    <relationshipName>Products</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

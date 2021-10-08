@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_edit_status</fullName>
+    <active>true</active>
+    <description>Only manager GS can edit alert status</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+TEXT($User.BusinessProfile__c) &lt;&gt; &quot;ManagerGS&quot;,
+TEXT($User.BusinessProfile__c) &lt;&gt; &quot;AdministrateurGlobal&quot;,
+$Profile.Name  &lt;&gt; &quot;System Administrator&quot;,
+$Profile.Name &lt;&gt; &quot;Administrateur système&quot;
+)</errorConditionFormula>
+    <errorMessage>Vous n&apos;avez pas le droit de modifier le statut d&apos;une alerte.</errorMessage>
+</ValidationRule>

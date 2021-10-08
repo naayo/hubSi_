@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Le_stock_non_pas_disponible</fullName>
+    <active>true</active>
+    <description>Le stock n&apos;est pas disponible sur la période demandée.</description>
+    <errorConditionFormula>Stock_disponible__c == FALSE</errorConditionFormula>
+    <errorMessage>Le stock n&apos;est pas disponible sur la période demandée.</errorMessage>
+</ValidationRule>

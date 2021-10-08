@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdjustAuthorizationFlg__c</fullName>
+    <description>calculation of the date at which the pre authorization (Adyen) might be updated to be valid on 28 more days</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISPICKVAL(LastAdyenAdjustStatus__c,&apos;Failure&apos;)),LastAuthorizationDate__c + 26 &lt;=  NOW(), Caution_restituee__c &lt;&gt; true,  OR(NOT(ISPICKVAL(Status__c, &apos;Retourné&apos;)), NOT(ISPICKVAL(Status__c,&apos;Retour avec défaut&apos;)))) , true, false)</formula>
+    <label>AdjustAuthorizationFlg</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

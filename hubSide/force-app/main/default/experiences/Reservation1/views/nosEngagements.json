@@ -1,0 +1,123 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "0677af1d-937a-455c-b988-60e581cfb89e",
+  "label" : "Nos engagements",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "292ebf8d-243c-45e4-9907-c02dd77f64cb",
+          "columns" : [ {
+            "UUID" : "0d417599-1108-4b3e-812c-b4266d54b040",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "292ebf8d-243c-45e4-9907-c02dd77f64cb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "a96cb70c-1034-47dd-89af-20b60ebc2c92",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "38321357-7999-40e6-97e4-a474d4b7e9fc",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Engagement 1"
+              }, {
+                "UUID" : "e16d926e-bb18-4fad-aed0-de24261d44d9",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Engagement 2"
+              }, {
+                "UUID" : "8e80b4b7-db4e-455d-90d6-46dea2672e82",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Engagement 3"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "a96cb70c-1034-47dd-89af-20b60ebc2c92",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "richTextValue" : "<h1>Engagement #1</h1><p><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p><p><br></p><ul><li><span style=\"color: rgb(102, 163, 224);\">Cras elementum ultrices diam</span>. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</li><li>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</li><li>Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</li></ul><p><br></p><p>&nbsp;</p>"
+              },
+              "componentName" : "forceCommunity:richTextInline",
+              "id" : "d966b5c4-7aca-4826-ad35-f53bde680c6c",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "38321357-7999-40e6-97e4-a474d4b7e9fc",
+            "regionLabel" : "Engagement 1",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "e16d926e-bb18-4fad-aed0-de24261d44d9",
+            "regionLabel" : "Engagement 2",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "8e80b4b7-db4e-455d-90d6-46dea2672e82",
+            "regionLabel" : "Engagement 3",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0d417599-1108-4b3e-812c-b4266d54b040",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4b64e0c-68e7-4b65-8111-4280cd0dba0b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nos engagements"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "773b41d3-bbfc-450e-8d10-4b6a97d4813a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d076afcc-4b40-4ddb-898e-8cc397626a86",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nos-engagements"
+}

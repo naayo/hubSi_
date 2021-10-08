@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En magasin</fullName>
+                <default>true</default>
+                <label>En magasin</label>
+            </value>
+            <value>
+                <fullName>Sortie</fullName>
+                <default>false</default>
+                <label>Sortie</label>
+            </value>
+            <value>
+                <fullName>Retourné</fullName>
+                <default>false</default>
+                <label>Retour sans défaut</label>
+            </value>
+            <value>
+                <fullName>Retour avec défaut</fullName>
+                <default>false</default>
+                <label>Retour avec défaut</label>
+            </value>
+            <value>
+                <fullName>Annulé</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Annulé</label>
+            </value>
+            <value>
+                <fullName>Label.Location_StatusEmprunt1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Label.Location_StatusEmprunt1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

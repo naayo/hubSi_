@@ -1,0 +1,57 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" controller = "Flow_HandleDependantPicklist">
+    
+    <!-- ************************************************************* -->
+    <!-- **************** AUTHOR  : Ariane TANGUY    ***************** -->
+    <!-- **************** VERSION : 1.0              ***************** -->
+    <!-- **************** SINCE   : 12/04/2021       ***************** -->
+    <!-- ************************************************************* -->
+    
+    <!-- inbound variables -->
+    <aura:attribute name="objectName" type="String"/>
+    <aura:attribute name="controllingPkName" type="String"/>
+    <aura:attribute name="controllingPkLabel" type="String"/>
+    <aura:attribute name="dependantPkName" type="String"/>
+    <aura:attribute name="dependantPkLabel" type="String"/>
+    <aura:attribute name="RTName" type="String"/>
+    
+    <!-- outbound variables -->
+    <aura:attribute name="controllingPkValue" type="String"/>
+    <aura:attribute name="dependantPkValue" type="String"/>
+        
+    <!-- internal variables -->
+    <aura:attribute name="businessProfile" type="String"/>
+    <aura:attribute name="controllingPk" type="Map"/>
+    <aura:attribute name="dependantPk" type="Map"/>
+    <aura:attribute name="displayDependantPk" type="Boolean" default="false"/>
+    
+    <!-- ************************************************************* -->
+    <!-- ****************      HANDLERS DEFINITION   ***************** -->
+    <!-- ************************************************************* -->
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <lightning:select aura:id="controllingPk" 
+                      label="{!v.controllingPkLabel}" 
+                      onchange="{!c.handleOnChange}" 
+                      value="{!v.controllingPkValue}"
+                      required="true">
+        <option value="">--None--</option>
+        <aura:iteration items="{!v.controllingPk}" var="i" indexVar="key">
+            <option text="{!i.key}" value="{!i.value}" selected="{!i.key==v.controllingPkValue}"/>
+        </aura:iteration>
+    </lightning:select>
+    
+    <aura:renderIf isTrue="{!v.displayDependantPk}">
+        
+        <lightning:select aura:id="dependantPk" 
+                          label="{!v.dependantPkLabel}" 
+                          value="{!v.dependantPkValue}">
+        <option value="">--None--</option>
+            <aura:iteration items="{!v.dependantPk}" var="i" indexVar="key">
+                <option text="{!i.key}" value="{!i.value}" selected="{!i.key==v.dependantPkValue}"/>
+            </aura:iteration>
+        </lightning:select>
+        
+    </aura:renderIf>
+    
+</aura:component>

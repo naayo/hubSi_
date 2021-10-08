@@ -1,0 +1,273 @@
+<apex:page standardController="Emprunt__c" showHeader="false" renderAs="pdf" standardStylesheets="true">
+    
+    <body style="margin:0px auto;">
+        
+        <div class="logo" style="grid-column: span 4;">                    
+            <img class="logo-foriou" 
+                 src="{!$Label.Location_BonDeSortie_PASS5}"
+                 width="167" 
+                 height="40" 
+                 data-widget="image" />
+            
+            <div>
+                <p>en partenariat avec</p>
+                <div class="container-logo-hubside-baseline" style="margin-top: -33px; margin-left: 150px;">
+                    <img class="logo-hubside" 
+                         src="{!$Label.Location_BonDeSortie_PASS_LOCATION}"
+                         width="224" 
+                         height="40" 
+                         data-widget="image"/> et 
+                    <img class="logo-hubside" 
+                         src="{!$Label.Location_BonDeSortie_illipass}"
+                         width="160" 
+                         height="40" 
+                         data-widget="image"/>
+                    <!--<p style="font-size: 9px; margin-top: -5px; margin-left: 77px;">Téléphone - Multimedia - Création site web</p>-->
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: right;">
+            <span style="font-family: tahoma,geneva,sans-serif;">
+                <span style="color: #0000ff;">
+                    <big>BON DE LOCATION</big>
+                </span>
+            </span>
+        </h2>
+        
+        <div style="text-align: justify;">
+            <span style="line-height: 1;">
+                <span style="font-size: 9px;">
+                    <span style="font-family: tahoma,geneva,sans-serif;">
+                        Bon de location fournie dans le cadre du contrat de location mobile conclu entre la société PASS 5 - 
+                        Société par Actions Simplifiée au Capital social de 1 000 € - 1 rue Camille Claudel - 26100 Romans-sur-Isère, 
+                        immatriculée au RCS de Romans sous le n° 880 048 111 – N° de TVA intracommunautaire : FR91880048111. ; 
+                        et le Client, donc les coordonnées sont mentionnées sur le présent document. <br/>
+                    </span>
+                </span>
+            </span>
+        </div>
+        <br/><br/>
+        
+        <div>
+            <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                <tbody>
+                    <tr>
+                        <td style="width: 700px;">
+                            <div style="text-align: center;">
+                                <span style="font-size: 12px;">
+                                    <span style="font-family: tahoma,geneva,sans-serif;">
+                                        <span style="color: #0000ff;"><strong>COORDONNEES DU LOCATAIRE</strong></span>
+                                    </span>
+                                </span>
+                            </div>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Nom / Pr&eacute;nom : {!Emprunt__c.Client__r.lastname} {!Emprunt__c.Client__r.firstname}<br />
+                                    Adresse : {!Emprunt__c.Client__r.personmailingstreet} - 
+                                    {!Emprunt__c.Client__r.personmailingpostalcode} {!Emprunt__c.Client__r.personmailingcity}<br />
+                                    Num&eacute;ro de t&eacute;l&eacute;phone : {!Emprunt__c.Client__r.Phone}<br />
+                                    Email : {!Emprunt__c.Email_client__c}
+                                </span>
+                            </span>
+                        </td>
+                                                
+                        <td style="width: 700px;">
+                            <div style="text-align: center;">
+                                <span style="font-size: 12px;">
+                                    <span style="font-family: tahoma,geneva,sans-serif;">
+                                        <span style="color: #0000ff;"><strong>REFERENCES CONTRAT</strong></span>
+                                    </span>
+                                </span>
+                            </div>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Date de souscription : {!DAY(Emprunt__c.Contrat__r.Date_debut_contrat__c)}/
+                                    {!MONTH(Emprunt__c.Contrat__r.Date_debut_contrat__c)}/{!YEAR(Emprunt__c.Contrat__r.Date_debut_contrat__c)}<br />
+                                    Reference location : {!Emprunt__c.name}<br /><br /><br />
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px;">
+                        <div style="text-align: center;">
+                            <span style="font-size: 12px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    <span style="color: #0000ff;"><strong>PRODUIT LOUE</strong></span>
+                                </span>
+                            </span>
+                        </div>
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                Marque : {!Emprunt__c.Produit_emprunte__r.Produit__r.marque__c}<br />
+                                Modele : {!Emprunt__c.Produit_emprunte__r.Name}<br />
+                                Valeur d'achat de l'appareil au jour de la souscription : {!Emprunt__c.Produit_emprunte__r.Produit__r.prix_indicatif__c} &euro;<br />
+                                Montant du dépôt de garantie à verser : {!Emprunt__c.montant_caution_sortie__c} &euro;
+                            </span>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px; text-align: center;">
+                        <span style="font-size: 12px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                <span style="color: #0000ff;"><strong>ETAT DES LIEUX DU PRODUIT LOUE</strong></span>
+                            </span>
+                        </span>
+                        <div style="text-align: left;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Etat : {!Emprunt__c.etat_sortie__c} (observations compl&eacute;mentaires : {!Emprunt__c.observation_sortie__c})
+                                </span>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px;">
+                        <div style="text-align: center;">
+                            <span style="font-size: 12px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    <span style="color: #0000ff;"><strong>DUREE DE LA LOCATION</strong></span>
+                                </span>
+                            </span>
+                        </div>
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                Date et heure de d&eacute;but de la location : {!DAY(Emprunt__c.date_sortie__c)}/
+                                {!MONTH(Emprunt__c.date_sortie__c)}/
+                                {!YEAR(Emprunt__c.date_sortie__c)}
+                                &agrave; {!HOUR(Emprunt__c.heure_sortie__c)}:{!MINUTE(Emprunt__c.heure_sortie__c)}<br />
+                                Date de restitution pr&eacute;vue : {!DAY(Emprunt__c.date_retour_prevu__c)}/{!MONTH(Emprunt__c.date_retour_prevu__c)}/{!YEAR(Emprunt__c.date_retour_prevu__c)}
+                                &agrave; {!HOUR(Emprunt__c.heure_retour_prevue__c)}:{!MINUTE(Emprunt__c.heure_retour_prevue__c)}
+                            </span>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="text-align: justify;">
+            <span style="line-height: 1;">
+                <span style="font-size: 9px;">
+                    <span style="font-family: tahoma,geneva,sans-serif;">
+                        Je reconnais avoir pris connaissance des conditions g&eacute;n&eacute;rales applicables 
+                        pr&eacute;alablement &agrave; ma soucription au service de location et les accepter dans toute leur teneur. 
+                        Je suis inform&eacute;(e) qu'en cas de de défaut de restitution du produit loué, une pénalité de non-restitution 
+                        sera exigée par PASS5 conformément aux conditions générales applicables. En cas de restitution du produit loué 
+                        à une date ultérieure à la date convenue, je pourrais être redevable, conformément aux conditions générales 
+                        applicables, d’une indemnité dont le montant ne pourrait excéder la valeur d’achat du produit loué.
+                    </span>
+                </span>
+            </span>
+        </div>
+        <p>
+            <span style="font-size: 11px;">
+                <span style="font-family: tahoma,geneva,sans-serif;">
+                    Fait &agrave; {!Emprunt__c.Point_de_vente_sortie__r.ShippingCity} le 
+                    {!DAY(TODAY())}/{!MONTH(TODAY())}/{!YEAR(TODAY())}</span>
+            </span>
+        </p>
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 350px; text-align: center;">
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">SIGNATURE CLIENT<br /><br /><br /></span>
+                        </span>
+                    </td>
+                    <td style="width: 350px; text-align: center;">
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">CACHET DE L'ENTREPRISE<br /><br /><br /></span>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="text-align: justify;">
+            <span style="line-height: 1;">
+                <span style="font-size: 10px;">
+                    <span style="font-family: tahoma,geneva,sans-serif;">
+                        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    </span>
+                </span>
+            </span>
+        </div>
+        
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px; text-align: center;">
+                        <span style="font-size: 12px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                <span style="color: #0000ff;"><strong>RESTITUTION DU PRODUIT LOUE</strong></span>
+                            </span>
+                        </span>
+                        <div style="text-align: left;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Date et heure de restitution : <br />
+                                    Etat : 
+                                </span>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 350px; text-align: center;">
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">SIGNATURE CLIENT<br /><br /><br /></span>
+                        </span>
+                    </td>
+                    <td style="width: 350px; text-align: center;">
+                        <span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">CACHET DE L'ENTREPRISE<br /><br /><br /></span>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="text-align: justify;">
+            <span style="line-height: 1;">
+                <span style="font-size: 7px;">
+                    <span style="font-family: tahoma,geneva,sans-serif;">
+                        Les informations nominatives  et personnelles recueillies lors de la souscription de la présente offre de location 
+                        sont nécessaires et utilisées pour la conclusion, la gestion et l’exécution du Contrat de location /ou pour vous 
+                        proposer des services complémentaires  ou similaires  à ceux souscrits. Conformément aux dispositions légales en 
+                        vigueur sur la protection des données, vous bénéficiez d'un droit d'accès, de modification, de rectification,  
+                        et d'effacement/suppression des données vous concernant, ainsi qu'un droit de limitation du traitement relatif à 
+                        vos données, d’un droit de portabilité de vos données et le droit de définir des directives relatives au sort de 
+                        vos données après votre mort. Vous bénéficiez également d’un droit d'opposition au traitement de vos données 
+                        notamment à des fins de prospection commerciale. Vous pouvez exercer gratuitement ses droits et/ou obtenir 
+                        communication des informations vous concernant en adressant un courrier à notre Société accompagné d'une copie 
+                        de sa carte d'identité, à l'adresse suivante 1 Rue Camille Claudel, 26100 Romans-sur-Isère, ou un e-mail à 
+                        l’adresse solution@pass5.illipass.com ou solution@passlocation.hubside.com, en mentionnant vos nom, prénom et numéro de contrat. Nous vous rappelons enfin 
+                        que vous bénéficiez en tout état de cause d’un droit d’introduire une réclamation auprès de l’autorité de contrôle 
+                        compétente (la CNIL) si vous considérez que le traitement de vos données personnelles n'est pas conforme aux 
+                        règles européennes/françaises.
+                    </span>
+                </span>
+            </span>
+        </div>
+    </body>
+</apex:page>

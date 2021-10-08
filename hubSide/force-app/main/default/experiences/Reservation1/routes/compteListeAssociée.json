@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "4efb989c-d825-4770-accd-cefe8478792b",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "97b61ee0-3e63-4624-82e7-5f72c7143889",
+  "label" : "Compte Liste associée",
+  "routeType" : "relatedlist-001",
+  "type" : "route",
+  "urlPrefix" : "account"
+}

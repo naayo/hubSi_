@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InitialAuthorizationDate__c</fullName>
+    <description>Correspond à la date où le client a effectué son dépôt de garantie sur la plateforme de paiement Ayden</description>
+    <externalId>false</externalId>
+    <label>Date de transaction</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRSetAmount</fullName>
+    <active>true</active>
+    <description>Vérifie si la valeur du champ Résolution au niveau de la réclamation autorise la saisie d&apos;un montant</description>
+    <errorConditionFormula>AND( NOT(ISPICKVAL( Case__r.Resolution__c , &apos;Refund&apos; )),
+NOT(ISPICKVAL( Case__r.Resolution__c , &apos;TerminationAndRefund&apos; )),
+NOT(ISPICKVAL( Case__r.Resolution__c , &apos;ClaimCare&apos;)),
+NOT(ISBLANK( Amount__c )) )</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>La saisie d&apos;un montant n&apos;est possible que lorsque le champ Résolution au niveau de la réclamation contient l&apos;une des valeurs suivantes: Résiliation et remboursement, Remboursement, Prise en charge sinistre.</errorMessage>
+</ValidationRule>

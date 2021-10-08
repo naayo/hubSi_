@@ -1,0 +1,4 @@
+{
+    "pspReference": "863621241703154G",
+    "response": "[adjustAuthorisation-received]"
+}

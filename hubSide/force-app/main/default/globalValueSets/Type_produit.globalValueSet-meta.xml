@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Telephony</fullName>
+        <default>false</default>
+        <label>Téléphonie</label>
+    </customValue>
+    <customValue>
+        <fullName>Multimedia</fullName>
+        <default>false</default>
+        <label>Multimédia</label>
+    </customValue>
+    <customValue>
+        <fullName>HomeAppliance</fullName>
+        <default>false</default>
+        <label>Electroménager</label>
+    </customValue>
+    <customValue>
+        <fullName>TelMultiHomeApp</fullName>
+        <default>false</default>
+        <label>Téléphonie/multimédia/électroménager</label>
+    </customValue>
+    <customValue>
+        <fullName>Location</fullName>
+        <default>false</default>
+        <label>Location</label>
+    </customValue>
+    <customValue>
+        <fullName>ServiceProvision</fullName>
+        <default>false</default>
+        <label>Prestation de service</label>
+    </customValue>
+    <customValue>
+        <fullName>Various</fullName>
+        <default>false</default>
+        <label>Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>Téléphone &amp; Multimédia</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Téléphone &amp; Multimédia</label>
+    </customValue>
+    <masterLabel>Type de produit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

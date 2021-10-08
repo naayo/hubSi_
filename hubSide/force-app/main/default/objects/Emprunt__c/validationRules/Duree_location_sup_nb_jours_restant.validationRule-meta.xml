@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duree_location_sup_nb_jours_restant</fullName>
+    <active>true</active>
+    <description>Si la durée de location est trop grande par rapport au nombre de jours restant dans la facture, et que le dépassement n&apos;est pas autorisé -&gt; error message</description>
+    <errorConditionFormula>AND(
+    Nombre_jours_restants__c - Nombre_jours_depassement__c &lt; 0, 
+    NOT( Autorisation_depassement__c )  
+)</errorConditionFormula>
+    <errorMessage>La durée de location est trop grande par rapport au nombre de jours restant dans la facture ! Pour y remédier, proposer une date plus proche ou autoriser le dépassement.</errorMessage>
+</ValidationRule>

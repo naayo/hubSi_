@@ -1,0 +1,65 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b12aa227-e8c5-494e-82e6-94f560f12290",
+  "label" : "Contact Us",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Nous contacter</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "7fed4f26-e2a4-4588-b97e-7d439ea2abbc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "700a9e57-500c-4a68-b77a-efc21e88fc48",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Besoin de précisions, une question ?</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Nos équipes sont à votre disposition du lundi au vendredi de 9h à 21h </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">et le samedi de 9h à 19h au</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><b style=\"color: rgb(0, 102, 204); font-size: 24px;\">04 75 05 91 72</b></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c8fc8e7b-a81b-4dbf-8525-c468ca6c5a92",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e2e4d177-3ac5-4856-a1ed-be55bd1d5e54",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "938df279-ff12-40fd-a9ab-36f11f08025d",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "b0bb5a1d-1ffc-443a-9ead-07570facc1a1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e3abbf43-3cfd-42ab-b513-072d9300527b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fcee96bb-a6c1-4bc8-86fa-4f55cd281fdf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "7bdc4077-ddc5-4976-863a-16f9f37efdf1",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

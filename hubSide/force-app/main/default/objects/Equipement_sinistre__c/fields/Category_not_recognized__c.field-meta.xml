@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_not_recognized__c</fullName>
+    <description>Stores the category if Product2Id__c is blank</description>
+    <externalId>false</externalId>
+    <label>Catégorie du modèle non reconnu</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>itemCategory</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_produit</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Stock_Compact_Layout</compactLayoutAssignment>
+    <description>Record type pour l&apos;objet Stock produit une fois créé</description>
+    <label>Stock produit</label>
+    <picklistValues>
+        <picklist>Etat__c</picklist>
+        <values>
+            <fullName>Bon état</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuf</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rayé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motif__c</picklist>
+        <values>
+            <fullName>Stock SFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock magasin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proprietaire_Stock__c</picklist>
+        <values>
+            <fullName>Mixte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non propriétaire du stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propriétaire du stock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Statut__c</picklist>
+        <values>
+            <fullName>A transférer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Destocke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En stock</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Recyclé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réservé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sortie client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

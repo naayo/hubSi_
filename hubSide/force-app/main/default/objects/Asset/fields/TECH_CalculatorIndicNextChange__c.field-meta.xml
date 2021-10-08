@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_CalculatorIndicNextChange__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(    YEAR(ADDMONTHS(TECH_CalculatorIndicLastChange__c,Formule__r.Formule_options__r.NbMounthKPIContract__c)),
+         MONTH(ADDMONTHS(TECH_CalculatorIndicLastChange__c,Formule__r.Formule_options__r.NbMounthKPIContract__c)),
+		 DAY(ADDMONTHS(TECH_CalculatorIndicLastChange__c,Formule__r.Formule_options__r.NbMounthKPIContract__c)))-1</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH_CalculatorIndicNextChange</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

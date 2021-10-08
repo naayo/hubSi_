@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b97b15d8-2246-44bb-acf3-4ae522879855",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "f0481310-96e5-4b74-bcba-aff79f20637e",
+  "label" : "Téléphones",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-telephones",
+  "type" : "route",
+  "urlPrefix" : "telephones"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Name</field>
+        <formula>Asset.Name &amp;&quot;--&quot; &amp; text(today())</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>vlocity_ins__PolicyAssetId__c</field>
+        <formula>Asset.Id</formula>
+    </fieldOverrides>
+    <label>Nouvelle Formule</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Formule_options__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>vlocity_ins__PolicyAssetId__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <targetObject>vlocity_ins__AssetCoverage__c</targetObject>
+    <targetParentField>vlocity_ins__PolicyAssetId__c</targetParentField>
+    <targetRecordType>vlocity_ins__AssetCoverage__c.Assurance</targetRecordType>
+    <type>Create</type>
+</QuickAction>

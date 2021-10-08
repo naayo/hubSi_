@@ -1,0 +1,17 @@
+<template>
+    <template if:true={data}>
+        <c-custom-datatable
+            key-field="Id" 
+            data={data} 
+            columns={columns} 
+            onvalueselect={handleSelection}
+            draft-values={draftValues} 
+            onsave={handleSave} 
+            oncancel={handleCancel}
+            hide-checkbox-column = "true"
+            onpicklistchanged={picklistChanged} 
+            oncellchange={handleCellChange}
+            >
+        </c-custom-datatable>
+    </template>
+</template>

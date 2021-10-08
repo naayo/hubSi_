@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_debut_de_contrat_non_modifiable</fullName>
+    <active>true</active>
+    <description>La date de début de contrat n&apos;est pas modifiable une fois le contrat créé.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(Date_debut_contrat__c),
+    RecordType.Name = &apos;Contrat location&apos;
+)</errorConditionFormula>
+    <errorMessage>La date de début de contrat n&apos;est pas modifiable une fois le contrat créé.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produits_louer</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Famille_produit__c</columns>
+    <columns>Marque__c</columns>
+    <columns>Gamme_produit__c</columns>
+    <columns>Prix_indicatif__c</columns>
+    <columns>Caution__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Produit_location</value>
+    </filters>
+    <label>Produits à louer</label>
+</ListView>

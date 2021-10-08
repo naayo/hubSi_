@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_jours_restants__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ( Nombre_jours_disponibles__c - Nombre_jours_consommes__c) &gt; 0,
+    Nombre_jours_disponibles__c - Nombre_jours_consommes__c,
+    0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nombre de jours restants</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b981dd1b-19b4-48da-be3f-fc4d65a631d3",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "3e28c3fe-1696-4f11-a8bb-73fa727aa2cc",
+  "label" : "Appareils photo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-appareils-photo",
+  "type" : "route",
+  "urlPrefix" : "appareils-photo"
+}

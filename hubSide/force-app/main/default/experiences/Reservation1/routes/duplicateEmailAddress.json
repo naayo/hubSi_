@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a2801c0f-1621-4bbb-8b08-85930c03fb78",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "31b5d8ee-e01c-4822-8034-743b2258dc4d",
+  "label" : "duplicateEmailAddress",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-duplicateemailaddress",
+  "type" : "route",
+  "urlPrefix" : "duplicateemailaddress"
+}

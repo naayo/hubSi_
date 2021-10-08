@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renseigner_le_numero_de_serie</fullName>
+    <active>true</active>
+    <description>Si la checkbox Produit avec numéro de série = TRUE, forcer l&apos;utilisateur à remplir le numéro de série.</description>
+    <errorConditionFormula>AND(
+    Produit__r.Produit_avec_numero_de_serie__c == TRUE, 
+    ISBLANK(Numero_serie__c)
+)</errorConditionFormula>
+    <errorMessage>Merci de renseigner le numéro de série du stock.</errorMessage>
+</ValidationRule>

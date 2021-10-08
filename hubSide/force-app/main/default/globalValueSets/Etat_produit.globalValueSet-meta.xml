@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Neuf</fullName>
+        <default>false</default>
+        <label>Neuf</label>
+    </customValue>
+    <customValue>
+        <fullName>Bon état</fullName>
+        <default>false</default>
+        <label>Bon état</label>
+    </customValue>
+    <customValue>
+        <fullName>Rayé</fullName>
+        <default>false</default>
+        <label>Rayé</label>
+    </customValue>
+    <description>Etat du produit emprunté lors de sa sortie ou de son retour en boutique</description>
+    <masterLabel>Etat produit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

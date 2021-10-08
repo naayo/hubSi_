@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affectation__c</fullName>
+    <externalId>false</externalId>
+    <label>Affectation</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TC Paiement urgence</fullName>
+                <default>false</default>
+                <label>TC Paiement urgence</label>
+            </value>
+            <value>
+                <fullName>TC Paiement Classique​</fullName>
+                <default>false</default>
+                <label>TC Paiement Classique​</label>
+            </value>
+            <value>
+                <fullName>TC demande document</fullName>
+                <default>false</default>
+                <label>TC demande document</label>
+            </value>
+            <value>
+                <fullName>TC Classique</fullName>
+                <default>false</default>
+                <label>TC Classique</label>
+            </value>
+            <value>
+                <fullName>ADM Impression</fullName>
+                <default>false</default>
+                <label>ADM Impression</label>
+            </value>
+            <value>
+                <fullName>2nde prise en charge sur offre de rétention PF/PM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2nde prise en charge sur offre de rétention PF/PM</label>
+            </value>
+            <value>
+                <fullName>Absence d’un document obligatoire</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Absence d’un document obligatoire</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Carte SIM absente de l’appareil garanti</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Carte SIM absente de l’appareil garanti</label>
+            </value>
+            <value>
+                <fullName>Dommages esthétiques</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dommages esthétiques</label>
+            </value>
+            <value>
+                <fullName>Dossier KO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dossier KO</label>
+            </value>
+            <value>
+                <fullName>Délais de déclaration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Délais de déclaration</label>
+            </value>
+            <value>
+                <fullName>Hors délai SIM / DP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hors délai SIM / DP</label>
+            </value>
+            <value>
+                <fullName>Produit acheté hors 12 mois / 36 mois</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Produit acheté hors 12 mois / 36 mois</label>
+            </value>
+            <value>
+                <fullName>Sans suite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sans suite</label>
+            </value>
+            <value>
+                <fullName>Typologie de sinistre non couvert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typologie de sinistre non couvert</label>
+            </value>
+            <value>
+                <fullName>Typologie produit non couvert par CG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typologie produit non couvert par CG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

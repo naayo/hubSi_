@@ -1,0 +1,80 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" controller="PickUpSearchController">
+    
+
+    <aura:attribute name="searchAddress" type="String" default=""/>
+    <aura:attribute name="searchZipCode" type="String" default=""/>
+    <aura:attribute name="searchCity" type="String" default=""/>
+    <aura:attribute name="caseId" type="String" description="The Id of the case"/>
+    <aura:attribute name="messageError" type="String" default="false"/>
+    <aura:attribute name="isError" type="boolean" default="false"/>
+    <aura:attribute name="mapMarkers" type="Map[]"/>
+    <aura:attribute name="markersTitle" type="String" default="Point Relais"/>
+    <aura:attribute name="damagedEquipmentId" type="String"/>
+     <aura:attribute name="selectedMarkerValue" type="String" default="" />
+    
+    <lightning:layoutItem size="12"
+                          mediumDeviceSize="12"
+                          padding="around-small">
+        <lightning:card title="Recherche Point Relais" iconName="standard:search">
+            <div class="slds-form slds-p-around_x-small">
+                <aura:if isTrue="{!v.isError}">
+                    <div class="modal__container">
+                        <p style="color: red">
+                            <center>
+                                <b>{!v.messageError}</b>
+                            </center>
+                        </p>
+                    </div>
+                    <br/>
+                </aura:if>
+                <lightning:input
+                                 label="Adresse"
+                                 variant="label-inline"
+                                 value="{!v.searchAddress}"
+                                 placeholder="Numéro et nom de rue"/>
+                <lightning:input
+                                 label="Code Postal"
+                                 variant="label-inline"
+                                 value="{!v.searchZipCode}"
+                                 placeholder="Code postal"/>
+                <lightning:input
+                                 label="Ville"
+                                 variant="label-inline"
+                                 value="{!v.searchCity}"
+                                 placeholder="Ville"/>
+                <br/>
+                <div class="slds-clearfix">
+                    <div class="slds-float_right">
+                        <lightning:button iconName="utility:search" variant="brand" onclick="{!c.handleClick}" title="Rechercher Point Relais" class="slds-m-left_x-small" >Rechercher</lightning:button>
+                    </div>
+                </div>
+            </div>  
+        </lightning:card>
+    </lightning:layoutItem>
+    <lightning:layoutItem size="12"
+                          mediumDeviceSize="12"
+                          padding="around-small"
+                          alignmentBump="top">
+        <lightning:map mapMarkers="{!v.mapMarkers}"
+                       markersTitle="{!v.markersTitle}"
+                       onmarkerselect="{!c.handleMarkerSelect}"
+                       selectedMarkerValue="{!v.selectedMarkerValue}"/>
+        <br/>
+        <aura:if isTrue="{!v.isError}">
+            <div class="modal__container">
+                <p style="color: red">
+                    <center>
+                        <b>{!v.messageError}</b>
+                    </center>
+                </p>
+            </div>
+            <br/>
+        </aura:if>
+        <div class="slds-clearfix">
+            <div class="slds-float_right">
+                <lightning:button  variant="brand" onclick="{!c.save}" title="Sauvegarder Point Relais" >Sauvegarder Point Relais</lightning:button>
+            </div>
+        </div>
+    </lightning:layoutItem>
+    
+</aura:component>

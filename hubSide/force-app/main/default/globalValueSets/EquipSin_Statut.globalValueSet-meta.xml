@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>En Analyse</fullName>
+        <default>true</default>
+        <label>En Analyse</label>
+    </customValue>
+    <customValue>
+        <fullName>En Attente Réception</fullName>
+        <default>false</default>
+        <label>En Attente Réception</label>
+    </customValue>
+    <customValue>
+        <fullName>En Attente Réparation</fullName>
+        <default>false</default>
+        <label>En Attente Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Livraison PSM</fullName>
+        <default>false</default>
+        <label>Livraison PSM</label>
+    </customValue>
+    <customValue>
+        <fullName>En Cours de Réparation</fullName>
+        <default>false</default>
+        <label>En Cours de Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>En commande pièces</fullName>
+        <default>false</default>
+        <label>En commande pièces</label>
+    </customValue>
+    <customValue>
+        <fullName>Choix client en cours</fullName>
+        <default>false</default>
+        <label>Choix client en cours</label>
+    </customValue>
+    <customValue>
+        <fullName>Choix client échange</fullName>
+        <default>false</default>
+        <label>Choix client échange</label>
+    </customValue>
+    <customValue>
+        <fullName>En commmande</fullName>
+        <default>false</default>
+        <label>En commande</label>
+    </customValue>
+    <customValue>
+        <fullName>En destockage</fullName>
+        <default>false</default>
+        <label>En destockage</label>
+    </customValue>
+    <customValue>
+        <fullName>Annulé - A retourner</fullName>
+        <default>false</default>
+        <label>Annulé - A retourner</label>
+    </customValue>
+    <customValue>
+        <fullName>Irréparable - A retourner</fullName>
+        <default>false</default>
+        <label>Irréparable - A retourner</label>
+    </customValue>
+    <customValue>
+        <fullName>Repare_client_Expedition</fullName>
+        <default>false</default>
+        <label>Réparé client ( Expédition )</label>
+    </customValue>
+    <customValue>
+        <fullName>Expédition client</fullName>
+        <default>false</default>
+        <label>Expédition client</label>
+    </customValue>
+    <customValue>
+        <fullName>CustomerReception</fullName>
+        <default>false</default>
+        <label>Réception client</label>
+    </customValue>
+    <customValue>
+        <fullName>Réparé Réception client</fullName>
+        <default>false</default>
+        <label>Réparé Réception client</label>
+    </customValue>
+    <customValue>
+        <fullName>Irréparable</fullName>
+        <default>false</default>
+        <label>Irréparable</label>
+    </customValue>
+    <customValue>
+        <fullName>Echangé</fullName>
+        <default>false</default>
+        <label>Echangé</label>
+    </customValue>
+    <customValue>
+        <fullName>Annulé</fullName>
+        <default>false</default>
+        <label>Annulé</label>
+    </customValue>
+    <customValue>
+        <fullName>ToDestockReturnToClient</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ToDestockReturnToClient</label>
+    </customValue>
+    <customValue>
+        <fullName>ToDestockReturnToSFAM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ToDestockReturnToSFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Réception</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réception</label>
+    </customValue>
+    <customValue>
+        <fullName>A sortir - Retour client</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>A sortir - Retour client</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactif</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Inactif</label>
+    </customValue>
+    <customValue>
+        <fullName>Echangé via prime</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Echangé via prime</label>
+    </customValue>
+    <customValue>
+        <fullName>Attente</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente</label>
+    </customValue>
+    <customValue>
+        <fullName>Actif</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Actif</label>
+    </customValue>
+    <customValue>
+        <fullName>Réparé En attente envoi client</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réparé En attente envoi client</label>
+    </customValue>
+    <customValue>
+        <fullName>En Attente Pièce</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>En Attente Pièce</label>
+    </customValue>
+    <customValue>
+        <fullName>Echangé / Réparé</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Echangé / Réparé</label>
+    </customValue>
+    <description>Liste des statuts de l&apos;équipement sinistré.</description>
+    <masterLabel>EquipSin_Statut</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_debut_contrat_obligatoire_location</fullName>
+    <active>true</active>
+    <description>La date de début de contrat est obligatoire lors de la création d&apos;un contrat de location.</description>
+    <errorConditionFormula>AND(
+    ISBLANK( Date_debut_contrat__c ),
+    RecordType.Name = &apos;Contrat location&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Date_debut_contrat__c</errorDisplayField>
+    <errorMessage>Merci de bien vouloir renseigner la date de début du contrat.</errorMessage>
+</ValidationRule>

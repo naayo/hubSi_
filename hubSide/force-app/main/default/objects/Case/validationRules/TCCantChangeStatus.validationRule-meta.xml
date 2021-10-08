@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCCantChangeStatus</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED( Status ), 
+Record_Type_Name__c = &apos;Affectation document&apos;,
+ISPICKVAL($User.BusinessProfile__c,&apos;AgentTC&apos;))</errorConditionFormula>
+    <errorMessage>Vous n&apos;avez pas le droit d&apos;éditer le statut .</errorMessage>
+</ValidationRule>

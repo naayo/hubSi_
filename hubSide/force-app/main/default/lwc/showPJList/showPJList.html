@@ -1,0 +1,41 @@
+<template>
+    <div class="slds-var-m-around_medium">
+        <template if:true={canUserEdit.data}>
+            <template if:true={pjObjectList.data}>
+                <template for:each={pjObjectList.data} for:item="pj">
+                    <lightning-combobox
+                        key={pj.Id}
+                        id={pj.Id}
+                        name="progress"
+                        label={pj.Name}
+                        value={pj.Validite_document__c}
+                        placeholder="Select validity"
+                        options={options}
+                        onchange={handleChange}>
+                    </lightning-combobox>
+                </template>
+            </template>
+        </template>
+        <template if:false={canUserEdit.data}>
+            <template if:true={pjObjectList.data}>
+                <template for:each={pjObjectList.data} for:item="pj">
+                    <lightning-combobox
+                        key={pj.Id}
+                        id={pj.Id}
+                        name="progress"
+                        label={pj.Name}
+                        value={pj.Validite_document__c}
+                        placeholder="Select validity"
+                        options={options}
+                        onchange={handleChange}
+                        disabled>
+                    </lightning-combobox>
+                </template>
+            </template>
+        </template>
+        <template if:true={pjObjectList.error}>
+            <c-error-panel errors={pjObjectList.error}></c-error-panel>
+        </template>
+    </div>
+    <button class="slds-button slds-button_brand" onclick={refreshPage} title="Valider">Valider</button>
+</template>

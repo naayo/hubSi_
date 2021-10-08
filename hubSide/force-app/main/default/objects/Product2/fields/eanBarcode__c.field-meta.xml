@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eanBarcode__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>EAN barcode of the item catalog which includes some items (P27452576K) not following the EAN 13 standard</description>
+    <externalId>false</externalId>
+    <label>Code-barres EAN (gencode)</label>
+    <length>25</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

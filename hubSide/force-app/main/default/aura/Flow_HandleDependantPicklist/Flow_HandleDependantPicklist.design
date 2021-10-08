@@ -1,0 +1,10 @@
+<design:component >
+    <design:attribute name="objectName" label="IN Object name"/>
+    <design:attribute name="RTName" label="IN Object record type name"/>
+    <design:attribute name="controllingPkName" label="IN Controlling picklist field name"/>
+    <design:attribute name="controllingPkLabel" label="IN Controlling picklist label"/>
+    <design:attribute name="dependantPkName" label="IN Dependant picklist field name"/>
+    <design:attribute name="dependantPkLabel" label="IN Dependant picklist label"/>
+    <design:attribute name="controllingPkValue" label="OUT Chosen controlling picklist value"/>
+    <design:attribute name="dependantPkValue" label="OUT Chosen dependant picklist value"/>
+</design:component>

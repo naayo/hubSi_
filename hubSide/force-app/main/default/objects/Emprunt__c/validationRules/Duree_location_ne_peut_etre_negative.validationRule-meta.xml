@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duree_location_ne_peut_etre_negative</fullName>
+    <active>true</active>
+    <description>La durée de location ne peut être négative.</description>
+    <errorConditionFormula>Duree_location__c &lt; 0</errorConditionFormula>
+    <errorMessage>Veuillez vérifier les date de sortie et de retour -&gt; la durée de location ne peut être négative.</errorMessage>
+</ValidationRule>

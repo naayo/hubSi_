@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8643794d-e673-4462-b4b3-afb7eac82e26",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "004f8221-8805-49b3-98c3-fda2319b033c",
+  "label" : "Casques VR",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-casques-vr",
+  "type" : "route",
+  "urlPrefix" : "casques-vr"
+}

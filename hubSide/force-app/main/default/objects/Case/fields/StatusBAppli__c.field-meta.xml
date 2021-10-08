@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusBAppli__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut B-Appli</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>opened</fullName>
+                <default>false</default>
+                <label>Ouvert</label>
+            </value>
+            <value>
+                <fullName>being_examined</fullName>
+                <default>false</default>
+                <label>En cours d&apos;examen</label>
+            </value>
+            <value>
+                <fullName>file_reception_incomplete</fullName>
+                <default>false</default>
+                <label>Réception dossier incomplet</label>
+            </value>
+            <value>
+                <fullName>being_repaired</fullName>
+                <default>false</default>
+                <label>En cours de réparation</label>
+            </value>
+            <value>
+                <fullName>being_re_examined</fullName>
+                <default>false</default>
+                <label>En cours de réexamen</label>
+            </value>
+            <value>
+                <fullName>being_exchanged</fullName>
+                <default>false</default>
+                <label>En cours d&apos;échange</label>
+            </value>
+            <value>
+                <fullName>closed_exchange</fullName>
+                <default>false</default>
+                <label>Clos échangé</label>
+            </value>
+            <value>
+                <fullName>closed_cancelled</fullName>
+                <default>false</default>
+                <label>Clos annulé</label>
+            </value>
+            <value>
+                <fullName>closed_rejected</fullName>
+                <default>false</default>
+                <label>Clos rejeté</label>
+            </value>
+            <value>
+                <fullName>closed_repaired</fullName>
+                <default>false</default>
+                <label>Clos réparé</label>
+            </value>
+            <value>
+                <fullName>closed_without_further_action</fullName>
+                <default>false</default>
+                <label>Clos classé sans suite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

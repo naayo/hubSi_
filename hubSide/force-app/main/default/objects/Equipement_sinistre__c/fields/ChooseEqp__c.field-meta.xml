@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChooseEqp__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Modèle-choisi</label>
+    <referenceTo>Matrice_cout_equipement__c</referenceTo>
+    <relationshipLabel>Equipement sinistre (Equipement C)</relationshipLabel>
+    <relationshipName>Equipement_sinistre1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_CheckChoixClientValidate__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(TECH_NumberIndemEch__c==0,
+					AND(TECH_NumberIndemEch__c&gt;0,
+     NOT(ISBLANK(TECH_ExchangeDateChoosed__c)),
+	    NOT(ISBLANK(TECH_MatriceCoutChoiceExchange__c)))
+						),true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH_CheckChoixClientValidate</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

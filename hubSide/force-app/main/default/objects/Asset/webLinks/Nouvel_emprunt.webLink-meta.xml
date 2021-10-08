@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nouvel_emprunt</fullName>
+    <availability>online</availability>
+    <description>Permet la création rapide d&apos;un emprunt depuis un contrat</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Nouvel emprunt</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Emprunt_depuis_un_contrat?contractId={!Asset.Id}&amp;AccountId={!Asset.AccountId}&amp;retURL=/{!Asset.Id}</url>
+</WebLink>

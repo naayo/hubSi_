@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_NumberIndemDemande__c</fullName>
+    <externalId>false</externalId>
+    <label>TECH_NumberIndemDemande</label>
+    <summaryFilterItems>
+        <field>Mouvements_financiers__c.Statut__c</field>
+        <operation>equals</operation>
+        <value>Demande en cours</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Mouvements_financiers__c.Cout_choisi__c</field>
+        <operation>notEqual</operation>
+        <value>Règlement par le client</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Mouvements_financiers__c.Case__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enseigne__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Nom de l’enseigne de rattachement</inlineHelpText>
+    <label>Enseigne</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFAM</fullName>
+                <default>false</default>
+                <label>SFAM</label>
+            </value>
+            <value>
+                <fullName>INDEP</fullName>
+                <default>false</default>
+                <label>INDEP</label>
+            </value>
+            <value>
+                <fullName>FNAC</fullName>
+                <default>false</default>
+                <label>FNAC</label>
+            </value>
+            <value>
+                <fullName>Darty</fullName>
+                <default>false</default>
+                <label>Darty</label>
+            </value>
+            <value>
+                <fullName>MEDIA ONE</fullName>
+                <default>false</default>
+                <label>MEDIA ONE</label>
+            </value>
+            <value>
+                <fullName>DARTY FRANCHISE</fullName>
+                <default>false</default>
+                <label>DARTY FRANCHISE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

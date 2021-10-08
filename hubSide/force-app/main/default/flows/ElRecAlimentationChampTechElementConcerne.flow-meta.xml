@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Set_TechElementConcerne</name>
+        <label>Set TechElementConcerne</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.TechConcernedElement__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TechElementConcerne</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Lors de la création ou de la mise à jour d&apos;un enregistrement Elément Réclamation, alimente le champ TechElementConcerné</description>
+    <formulas>
+        <name>TechElementConcerne</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Case__r.Id} + TEXT({!$Record.ConcernedElement__c})</expression>
+    </formulas>
+    <interviewLabel>Elément Réclamation : Alimentation champ TechElementConcerne {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Elément Réclamation : Alimentation champ TechElementConcerne</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_TechElementConcerne</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ConcernedElement__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </filters>
+        <object>ClaimElement__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

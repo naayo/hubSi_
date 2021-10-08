@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "35661282-0a60-4c55-be58-a2708975f6ad",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "9d4be165-4b57-4194-8e3e-0b4b1d23421d",
+  "label" : "Drones",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-drones",
+  "type" : "route",
+  "urlPrefix" : "drones"
+}

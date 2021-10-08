@@ -1,0 +1,151 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "e6b9aa4b-2796-4002-aa2d-22d1683268a3",
+  "label" : "Caméras sportives",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "bebf83a0-5e2d-4ea8-8063-6660a450ab08",
+          "columns" : [ {
+            "UUID" : "61cf8ead-e578-4af2-925d-579f3a1e54eb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "91eb753a-a6b8-4379-a1d2-bdfe25d6e90b",
+            "columnKey" : "23607",
+            "columnName" : "Column 2",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "bebf83a0-5e2d-4ea8-8063-6660a450ab08",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">T</a><a href=\"https://sit-reservation.cs100.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">é</a><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">léphones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">D</a><a href=\"https://sit-reservation.cs100.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">r</a><a href=\"https://uat-reservation.cs128.force.com/s/drones\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">ones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">A</a><a href=\"https://sit-reservation.cs100.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">p</a><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">pareils photo</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/objets-connectes\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">O</a><a href=\"https://sit-reservation.cs100.force.com/s/objets-connectes\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">b</a><a href=\"https://uat-reservation.cs128.force.com/s/objets-connectes\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">jets connectés</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">G</a><a href=\"https://sit-reservation.cs100.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">a</a><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">ming</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/cameras-sportives\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://uat-reservation.cs128.force.com/s/cameras-sportives\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">améras sportives</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://sit-reservation.cs100.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">a</a><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">sques VR</a></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ba8898a8-3fe9-4561-81e9-c84152ab5761",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "61cf8ead-e578-4af2-925d-579f3a1e54eb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "00B3N000002OT6EUAW",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "Product2",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "3d76b737-31aa-4110-adb1-342863f1d102",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "91eb753a-a6b8-4379-a1d2-bdfe25d6e90b",
+        "regionLabel" : "Column 2",
+        "regionName" : "23607",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 25,
+        "sectionConfig" : {
+          "UUID" : "5c353146-e6bd-477f-bd72-bff417f08453",
+          "columns" : [ {
+            "UUID" : "387a73b4-5176-4406-a312-19af209a3ec7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5c353146-e6bd-477f-bd72-bff417f08453",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "rgb(255, 255, 255)",
+            "buttonBgHoverColor" : "rgb(160, 27, 103)",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 100,
+            "buttonRadius" : 50,
+            "buttonTextColor" : "rgb(160, 27, 103)",
+            "buttonTextHoverColor" : "",
+            "label" : "NOUS CONTACTER"
+          },
+          "componentName" : "forceCommunity:contactSupportButton",
+          "id" : "810e7c6d-419a-4442-86a9-1f3771ecddbd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "387a73b4-5176-4406-a312-19af209a3ec7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3270646f-273b-425f-bff3-a0c67949ef12",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Caméras sportives"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a9b594c-3c1f-4ec8-93fa-4404e143bd17",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff0a1ca2-e6c7-4798-894a-abecedd05faf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cameras-sportives"
+}

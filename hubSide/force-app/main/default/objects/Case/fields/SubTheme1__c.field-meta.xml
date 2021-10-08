@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubTheme1__c</fullName>
+    <description>Sous thème principal de la réclamation</description>
+    <externalId>false</externalId>
+    <label>Sous Thème 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Theme__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contestation de souscription SI</fullName>
+                <default>false</default>
+                <label>Contestation de souscription SI</label>
+            </value>
+            <value>
+                <fullName>Contestation de souscription SE</fullName>
+                <default>false</default>
+                <label>Contestation de souscription SE</label>
+            </value>
+            <value>
+                <fullName>Absence prise en compte résiliation</fullName>
+                <default>false</default>
+                <label>Absence prise en compte résiliation</label>
+            </value>
+            <value>
+                <fullName>Difficultés pour résilier</fullName>
+                <default>false</default>
+                <label>Difficultés pour résilier</label>
+            </value>
+            <value>
+                <fullName>Prélèvements après résiliation</fullName>
+                <default>false</default>
+                <label>Prélèvements après résiliation</label>
+            </value>
+            <value>
+                <fullName>Résiliation abusive</fullName>
+                <default>false</default>
+                <label>Résiliation abusive</label>
+            </value>
+            <value>
+                <fullName>ClaimManagementLitigation</fullName>
+                <default>false</default>
+                <label>Litige gestion sinistre</label>
+            </value>
+            <value>
+                <fullName>ClaimManagementDelay</fullName>
+                <default>false</default>
+                <label>Retard gestion sinistre</label>
+            </value>
+            <value>
+                <fullName>ClaimRefusal</fullName>
+                <default>false</default>
+                <label>Refus de sinistre</label>
+            </value>
+            <value>
+                <fullName>PDS</fullName>
+                <default>false</default>
+                <label>PDS</label>
+            </value>
+            <value>
+                <fullName>Délais de remboursement</fullName>
+                <default>false</default>
+                <label>Délais de remboursement</label>
+            </value>
+            <value>
+                <fullName>Hausse tarifaire</fullName>
+                <default>false</default>
+                <label>Hausse tarifaire</label>
+            </value>
+            <value>
+                <fullName>Demande copie contrat ou information</fullName>
+                <default>false</default>
+                <label>Demande copie contrat ou information</label>
+            </value>
+            <value>
+                <fullName>Litige ODR</fullName>
+                <default>false</default>
+                <label>Litige ODR</label>
+            </value>
+            <value>
+                <fullName>Non réception offre commerciale</fullName>
+                <default>false</default>
+                <label>Non réception offre commerciale</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>InternalSubscription</controllingFieldValue>
+            <valueName>Contestation de souscription SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ExternalSubscription</controllingFieldValue>
+            <valueName>Contestation de souscription SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <valueName>Absence prise en compte résiliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <valueName>Difficultés pour résilier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <valueName>Prélèvements après résiliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination</controllingFieldValue>
+            <valueName>Résiliation abusive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sinister</controllingFieldValue>
+            <valueName>ClaimManagementLitigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sinister</controllingFieldValue>
+            <valueName>ClaimManagementDelay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sinister</controllingFieldValue>
+            <valueName>ClaimRefusal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>PDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>Délais de remboursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>Hausse tarifaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>Demande copie contrat ou information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>Litige ODR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion du Contrat</controllingFieldValue>
+            <valueName>Non réception offre commerciale</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

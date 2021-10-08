@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdyenCaptureStatus__c</fullName>
+    <description>Specify the status of the adyen reponse after having sent a capture request</description>
+    <externalId>false</externalId>
+    <label>Statut de restitution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wait</fullName>
+                <default>true</default>
+                <label>En attente</label>
+            </value>
+            <value>
+                <fullName>Success</fullName>
+                <default>false</default>
+                <label>Réussie</label>
+            </value>
+            <value>
+                <fullName>Failure</fullName>
+                <default>false</default>
+                <label>Echouée</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>En cours</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

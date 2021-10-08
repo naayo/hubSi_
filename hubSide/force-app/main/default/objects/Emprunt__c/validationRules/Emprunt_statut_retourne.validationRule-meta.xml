@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emprunt_statut_retourne</fullName>
+    <active>true</active>
+    <description>Le statut de l&apos;emprunt ne peut être Retourné si l&apos;emprunt présente un défaut.</description>
+    <errorConditionFormula>AND(
+    RecordType.Name = &quot;Emprunt&quot;, 
+    ISPICKVAL(Status__c, &quot;Retourné&quot;), 
+    OR(
+        ISPICKVAL(Etat_retour__c, &quot;Rayé&quot;),
+        ISPICKVAL(Etat_retour__c, &quot;Cassé&quot;)
+    ), 
+    OR(
+        Etat_sortie__c = &quot;Neuf&quot;,
+        Etat_sortie__c = &quot;Bon état&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>Si le produit présente un nouveau défaut, le seul statut possible est &quot;Retourné avec défaut.&quot;</errorMessage>
+</ValidationRule>

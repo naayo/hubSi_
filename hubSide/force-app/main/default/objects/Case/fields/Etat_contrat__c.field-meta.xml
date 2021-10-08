@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat_contrat__c</fullName>
+    <externalId>false</externalId>
+    <formula>&apos; &apos; 
+&amp;
+IMAGE(
+CASE(  Asset.Status  ,
+&quot;valid&quot;, &quot;/logos/Custom/Flag_Green/logo.png&quot;,
+&quot;pendingApproval&quot;, &quot;/logos/Custom/Flag_Yellow/logo.png&quot;,
+&quot;closing&quot;, &quot;/logos/Custom/Flag_Red/logo.png&quot;,
+&quot;incomplete&quot;, &quot;/logos/Custom/Flag_Red/logo.png&quot;,
+&quot;closed&quot; , &quot;/logos/Custom/Flag_Red/logo.png&quot;,
+&quot;/s.gif&quot;),
+&quot;Priority Flag&quot;,32,32)
+&amp;
+&apos; &apos;
+&amp;
+IMAGE(
+				IF( Asset.Indemnisation_contrat_restante__c - Montant_sinistre__c &lt; 0,
+									&quot;/logos/Custom/Money_Yellow/logo.png&quot;,&quot;/logos/Custom/Money_Green/logo.png&quot;),
+				&quot;flag&quot;,32,32)
+&amp;
+&apos; &apos;
+&amp;
+IF(
+				OR(TECH_NumberAlertWaiting__c != 0,
+							TECH_NumberAlertRejected__c != 0,
+							TECH_NumberAlertApprouved__c != 0),
+        IMAGE(
+				        IF(TECH_NumberAlertWaiting__c &gt; 0,&quot;/logos/Custom/Bell_Grey/logo.png&quot;,
+				        IF(TECH_NumberAlertRejected__c &gt; 0,&quot;/logos/Custom/Bell_Yellow/logo.png&quot;,
+				        IF(TECH_NumberAlertApprouved__c &gt; 0,&quot;/logos/Custom/Bell_Green/logo.png&quot;,&apos;&apos;))),  
+				        &quot;flag&quot;,32,32),
+				&apos;&apos;)
+&amp;
+&apos; &apos;
+&amp;
+IF(
+				OR(TECH_NumberIndemApprob__c != 0,
+							TECH_NumberIndemDemande__c != 0,
+						 TECH_NumberIndemRejected__c != 0),
+        IMAGE(
+				        IF(TECH_NumberIndemApprob__c &gt; 0,&quot;/logos/Custom/Pencil_Grey/logo.png&quot;,
+												IF(TECH_NumberIndemRejected__c &gt; 0,&quot;/logos/Custom/Pencil_Yellow/logo.png&quot;,
+				        IF(TECH_NumberIndemDemande__c &gt; 0,&quot;/logos/Custom/Pencil_Green/logo.png&quot;,&apos;&apos;))),  
+				        &quot;flag&quot;,32,32),
+				&apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Etat contrat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

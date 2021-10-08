@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nom_vendeur_non_reconnu__c</fullName>
+    <description>Issu du Flux API
+A affiché si et seulement si Id_vendeur_non_reconnu__c est non null</description>
+    <externalId>false</externalId>
+    <label>Nom du vendeur non reconnu</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

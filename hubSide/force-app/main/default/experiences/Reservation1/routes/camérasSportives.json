@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e6b9aa4b-2796-4002-aa2d-22d1683268a3",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "036abbcd-6528-4ef5-936e-6f43b39a5578",
+  "label" : "Caméras sportives",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cameras-sportives",
+  "type" : "route",
+  "urlPrefix" : "cameras-sportives"
+}

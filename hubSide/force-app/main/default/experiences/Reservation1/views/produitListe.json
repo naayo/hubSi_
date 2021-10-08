@@ -1,0 +1,68 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "id" : "0326b725-68bb-498e-ba23-e19eb70075cd",
+  "label" : "Produit Liste",
+  "regions" : [ {
+    "id" : "a697cc04-9d8c-4ae5-a1c2-04a79306a2be",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "00B3X00000Dmpn7UAB",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Product2",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : false,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "8fa4b489-7de7-4e38-b6fa-6e0c5848e7dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a1a5272-b645-405a-87fa-e6c099c5a4aa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4d7107d3-bd96-4d64-8da5-415e80a5a82e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Téléphones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/drones\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102);\">Drones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Appareils photo</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/objets-connectes\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Objets connectés</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Gaming</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/cameras-sportives\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Caméras sportives</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" target=\"_self\" style=\"font-size: 16px; color: rgb(0, 41, 102); background-color: rgb(255, 255, 255);\">Casques VR</a></h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "01ab690a-ef47-4d49-9a39-cbe53b7baf9e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "small" : "ac3e716b-199c-4a46-85cc-6fd99f799303"
+      },
+      "renditions" : [ {
+        "id" : "ac3e716b-199c-4a46-85cc-6fd99f799303",
+        "renditionValue" : {
+          "isVisible" : false
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "f82b55ca-769f-4e3b-afb1-fa674139d28f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-01t"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_comission__c</fullName>
+    <description>Date à laquelle le gestionnaire met le sinistre en cours de Commission (Validation Prime + 1000€).
+Date du jour à laquelle le dossier est mis en attente.</description>
+    <externalId>false</externalId>
+    <label>Date de la comission</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

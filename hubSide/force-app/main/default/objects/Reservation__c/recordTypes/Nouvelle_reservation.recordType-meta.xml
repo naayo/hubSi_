@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nouvelle_reservation</fullName>
+    <active>true</active>
+    <description>Record type pour la création de l&apos;objet Reservation</description>
+    <label>Nouvelle reservation</label>
+    <picklistValues>
+        <picklist>Mode_de_livraison__c</picklist>
+        <values>
+            <fullName>Livraison à domicile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrait en magasin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motif_pre_reservation__c</picklist>
+        <values>
+            <fullName>Défaut de gamme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hors stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect à qualifier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Réservation_convertie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réservé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,68 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" controller = "Flow_OnlineReservation">
+    
+    <!-- ************************************************************* -->
+    <!-- **************** AUTHOR  : Ariane TANGUY    ***************** -->
+    <!-- **************** VERSION : 1.0              ***************** -->
+    <!-- **************** SINCE   : 29/05/2020       ***************** -->
+    <!-- ************************************************************* -->
+    
+    <!-- inbound variables -->
+    <aura:attribute name="productId" type="String"/>
+    <aura:attribute name="dateRetrait" type="Date"/>
+    <aura:attribute name="dureeLocation" type="Integer"/>
+    <aura:attribute name="enseigne" type="String"/>
+    <aura:attribute name="livraisonDomicile" type="Boolean"/>
+    
+    <!-- outbound variables -->
+    <aura:attribute name="selectedId" type="String"/>
+    <aura:attribute name="resultOk" type="Boolean" default="true"/>
+        
+    <!-- internal variables -->
+    <aura:attribute name="availableStockIdList" type="String[]"/>
+    <aura:attribute name="distributeurList" type="Object[]"/>
+    <aura:attribute name="distributeurId" type="String"/>
+    <aura:attribute name="stockMsg" type="String"/>
+    <aura:attribute name="showSpinner" type="Boolean" default="true"/>
+    <aura:attribute name="openFlow" type="Boolean" default="false"/>
+    <aura:attribute name="openDistribChoice" type="Boolean" default="false"/>
+    
+    <!-- ************************************************************* -->
+    <!-- ****************      HANDLERS DEFINITION   ***************** -->
+    <!-- ************************************************************* -->
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:renderIf isTrue="{!v.showSpinner}">
+        <div class="slds-container">
+            <center>
+                <div class="spinnerHolder">
+                    <lightning:spinner alternativeText="Loading" size="medium" />
+                </div>
+            </center>
+        </div>
+    </aura:renderIf>
+    
+    <aura:renderIf isTrue="{!!v.showSpinner}">
+        {!v.stockMsg}
+    </aura:renderIf>
+    
+    <!-- Distributeur selection -->
+    <aura:if isTrue="{!v.openDistribChoice}">
+        <div class="slds-col slds-size_1-of-1 ">
+            <div class="slds-grid slds-wrap slds-gutters slds-grid_vertical-align-start" style="align-items:stretch">
+                <aura:iteration items="{!v.distributeurList}" var="d">
+                    <div class="slds-m-vertical_small slds-col slds-size_1-of-3 slds-medium-size_1-of-3 slds-large-size_1-of-3">
+                        <div class="thumbnail" id="{!d.id}" data-index="{!d.id}" onclick="{!c.selectThis}" aura:id="imagebox">
+                            <div class="image-label">
+                                <center>
+                                    <p>{!d.name}</p>
+                                    <p>({!d.city})</p>
+                                </center>
+                            </div> 
+                        </div>
+                    </div>	
+                </aura:iteration>
+            </div>
+        </div>
+    </aura:if>
+</aura:component>

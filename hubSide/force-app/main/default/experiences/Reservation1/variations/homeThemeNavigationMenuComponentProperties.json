@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "3a04630a-5d6a-45e2-b625-dd8c5b44e090",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Authenticated_menu"
+      }
+    },
+    "targetId" : "e59476b8-dc9b-4154-89e2-ee40020afc71",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Theme_Navigation_Menu_Component_Properties",
+  "id" : "91b86bfa-70ba-4d1d-95ec-799f262b900b",
+  "type" : "experienceVariation"
+}

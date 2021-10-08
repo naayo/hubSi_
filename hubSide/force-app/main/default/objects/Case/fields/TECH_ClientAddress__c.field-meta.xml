@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_ClientAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>Asset.Account.PersonContact.MailingStreet &amp; BR() &amp; Asset.Account.PersonContact.MailingPostalCode &amp; &quot; &quot; &amp; Asset.Account.PersonContact.MailingCity &amp; BR() &amp; Asset.Account.PersonContact.MailingCountry</formula>
+    <label>Adresse client</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

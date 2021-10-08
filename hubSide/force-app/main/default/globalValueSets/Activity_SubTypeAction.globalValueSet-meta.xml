@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Réparation</fullName>
+        <default>false</default>
+        <label>Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Sans suite</fullName>
+        <default>false</default>
+        <label>Sans suite</label>
+    </customValue>
+    <customValue>
+        <fullName>Dossier KO</fullName>
+        <default>false</default>
+        <label>Dossier KO</label>
+    </customValue>
+    <customValue>
+        <fullName>Délais de déclaration</fullName>
+        <default>false</default>
+        <label>Délais de déclaration</label>
+    </customValue>
+    <customValue>
+        <fullName>Hors délai SIM / DP</fullName>
+        <default>false</default>
+        <label>Hors délai SIM / DP</label>
+    </customValue>
+    <customValue>
+        <fullName>Absence d’un document obligatoire</fullName>
+        <default>false</default>
+        <label>Absence d’un document obligatoire</label>
+    </customValue>
+    <customValue>
+        <fullName>Typologie de sinistre non couvert</fullName>
+        <default>false</default>
+        <label>Typologie de sinistre non couvert</label>
+    </customValue>
+    <customValue>
+        <fullName>Produit acheté hors 12 mois / 36 mois</fullName>
+        <default>false</default>
+        <label>Produit acheté hors 12 mois / 36 mois</label>
+    </customValue>
+    <customValue>
+        <fullName>2nde prise en charge sur offre de rétention PF/PM</fullName>
+        <default>false</default>
+        <label>2nde prise en charge sur offre de rétention PF/PM</label>
+    </customValue>
+    <customValue>
+        <fullName>Typologie produit non couvert par CG</fullName>
+        <default>false</default>
+        <label>Typologie produit non couvert par CG</label>
+    </customValue>
+    <customValue>
+        <fullName>Carte SIM absente de l’appareil garanti</fullName>
+        <default>false</default>
+        <label>Carte SIM absente de l’appareil garanti</label>
+    </customValue>
+    <customValue>
+        <fullName>Dommages esthétiques</fullName>
+        <default>false</default>
+        <label>Dommages esthétiques</label>
+    </customValue>
+    <customValue>
+        <fullName>Perte liée au client</fullName>
+        <default>false</default>
+        <label>Perte liée au client</label>
+    </customValue>
+    <customValue>
+        <fullName>Autre</fullName>
+        <default>false</default>
+        <label>Autre</label>
+    </customValue>
+    <customValue>
+        <fullName>Refus dossier</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Refus dossier</label>
+    </customValue>
+    <customValue>
+        <fullName>Indemnisation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Indemnisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Échange</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Échange</label>
+    </customValue>
+    <customValue>
+        <fullName>Sortant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sortant</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Entrant</label>
+    </customValue>
+    <masterLabel>Activity_SubTypeAction</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_de_mon_magasin</fullName>
+    <columns>NAME</columns>
+    <columns>Produit__c</columns>
+    <columns>Statut__c</columns>
+    <columns>Code_distributeur_stock__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Responsable_stock__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Stock de mon magasin</label>
+</ListView>

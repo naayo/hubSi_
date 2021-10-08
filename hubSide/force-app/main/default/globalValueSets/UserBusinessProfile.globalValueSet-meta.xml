@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DirectionQualiteSinistre</fullName>
+        <default>false</default>
+        <label>Direction Qualité et Sinistre</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerGS</fullName>
+        <default>false</default>
+        <label>Manager GS</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentGS</fullName>
+        <default>false</default>
+        <label>Agent GS</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerTC</fullName>
+        <default>false</default>
+        <label>Manager TC</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentTC</fullName>
+        <default>false</default>
+        <label>Agent TC</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerTCQualite</fullName>
+        <default>false</default>
+        <label>Manager TC Qualité</label>
+    </customValue>
+    <customValue>
+        <fullName>TCQualite</fullName>
+        <default>false</default>
+        <label>TC Qualité</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerGestionnaireQualite</fullName>
+        <default>false</default>
+        <label>Manager Gestionnaire Qualité</label>
+    </customValue>
+    <customValue>
+        <fullName>GestionnaireQualite</fullName>
+        <default>false</default>
+        <label>Gestionnaire Qualité</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerBackup</fullName>
+        <default>false</default>
+        <label>Manager Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentBackup</fullName>
+        <default>false</default>
+        <label>Agent Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerADM</fullName>
+        <default>false</default>
+        <label>Manager ADM</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentADM</fullName>
+        <default>false</default>
+        <label>Agent ADM</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerDirectionLogistique</fullName>
+        <default>false</default>
+        <label>Manager Direction Logistique</label>
+    </customValue>
+    <customValue>
+        <fullName>LogistiqueReception</fullName>
+        <default>false</default>
+        <label>Logistique Réception</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerExpertise</fullName>
+        <default>false</default>
+        <label>Manager Expertise</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerCoach</fullName>
+        <default>false</default>
+        <label>Manager Coach</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentExpertiseCoachExpertise</fullName>
+        <default>false</default>
+        <label>Agent Expertise / Coach Expertise</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerLogistique</fullName>
+        <default>false</default>
+        <label>Manager Logistique</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentLogistique</fullName>
+        <default>false</default>
+        <label>Agent Logistique</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerExpedition</fullName>
+        <default>false</default>
+        <label>Manager Expédition</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentExpedition</fullName>
+        <default>false</default>
+        <label>Agent Expédition</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerReparationADM</fullName>
+        <default>false</default>
+        <label>Manager Réparation ADM</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentReparationADM</fullName>
+        <default>false</default>
+        <label>Agent Réparation ADM</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerReparation</fullName>
+        <default>false</default>
+        <label>Manager Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentReparation</fullName>
+        <default>false</default>
+        <label>Agent Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>AdministrateurGlobal</fullName>
+        <default>false</default>
+        <label>Administrateur Global</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentReception</fullName>
+        <default>false</default>
+        <label>Agent Réception</label>
+    </customValue>
+    <customValue>
+        <fullName>GSQualite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GSQualite</label>
+    </customValue>
+    <customValue>
+        <fullName>ManagerGSQualite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ManagerGSQualite</label>
+    </customValue>
+    <description>Profil métier de l&apos;utilisateur</description>
+    <masterLabel>Profil métier utilisateur</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

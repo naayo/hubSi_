@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2679b2d8-ae68-481c-a543-32423c0124f1",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "ab8b015f-5830-4d27-9f90-ba9454c8c5af",
+  "label" : "Reservation Liste associée",
+  "objectApiName" : "Reservation__c",
+  "routeType" : "relatedlist-a6E",
+  "type" : "route",
+  "urlPrefix" : "reservation"
+}

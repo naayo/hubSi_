@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_Client_SFAM</fullName>
+    <fields>Name</fields>
+    <fields>vlocity_ins__Email__c</fields>
+    <fields>PersonBirthdate</fields>
+    <fields>Phone</fields>
+    <fields>PersonMailingAddress</fields>
+    <fields>Sinistre_en_cours__c</fields>
+    <fields>Contrat_en_cours__c</fields>
+    <label>CL_Client_SFAM</label>
+</CompactLayout>

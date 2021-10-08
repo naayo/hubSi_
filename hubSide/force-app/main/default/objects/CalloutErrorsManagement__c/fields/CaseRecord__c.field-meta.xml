@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseRecord__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Link to the case</description>
+    <externalId>false</externalId>
+    <label>Case Record</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Management of Callout Errors</relationshipLabel>
+    <relationshipName>ManagementCalloutErrors</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sens_mouvement__c</fullName>
+    <externalId>false</externalId>
+    <label>Sens du mouvement</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paiement vers le client</fullName>
+                <default>false</default>
+                <label>Paiement vers le client</label>
+            </value>
+            <value>
+                <fullName>Règlement par le client</fullName>
+                <default>false</default>
+                <label>Règlement par le client</label>
+            </value>
+            <value>
+                <fullName>Interne reparation</fullName>
+                <default>false</default>
+                <label>Interne réparation</label>
+            </value>
+            <value>
+                <fullName>Interne échange</fullName>
+                <default>false</default>
+                <label>Interne échange</label>
+            </value>
+            <value>
+                <fullName>Interne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interne</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

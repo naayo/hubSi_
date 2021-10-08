@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Piece_justificative__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lie le document à la pièce justificative qu&apos;il représente</description>
+    <externalId>false</externalId>
+    <label>Pièce justificative</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Piece_justificative_Sinistre__c.Case__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Related_sinistre__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Piece_justificative_Sinistre__c</referenceTo>
+    <relationshipLabel>Documents</relationshipLabel>
+    <relationshipName>Documents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

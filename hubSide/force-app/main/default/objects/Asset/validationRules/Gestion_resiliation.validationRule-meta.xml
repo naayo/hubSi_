@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gestion_resiliation</fullName>
+    <active>false</active>
+    <description>Remplir le motif de résiliation ET la date de résiliation</description>
+    <errorConditionFormula>OR(
+    AND(
+        ISCHANGED(Motif_cloture__c), 
+        NOT(ISPICKVAL(Motif_cloture__c, &apos;&apos;)), 
+        ISBLANK(Date_cloture__c)
+    ),
+    AND(
+        ISCHANGED(Date_cloture__c), 
+        NOT(ISBLANK(Date_cloture__c)), 
+        ISPICKVAL(Motif_cloture__c, &apos;&apos;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Merci de remplir la date ainsi que le motif de clôture.</errorMessage>
+</ValidationRule>

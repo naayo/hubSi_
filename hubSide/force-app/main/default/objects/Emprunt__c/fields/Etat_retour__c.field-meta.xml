@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat_retour__c</fullName>
+    <description>Etat du produit emprunté lors de son retour</description>
+    <externalId>false</externalId>
+    <label>Etat retour</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Etat_produit</valueSetName>
+    </valueSet>
+</CustomField>

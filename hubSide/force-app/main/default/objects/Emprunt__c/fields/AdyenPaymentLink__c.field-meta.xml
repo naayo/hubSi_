@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdyenPaymentLink__c</fullName>
+    <description>Payment Link on the Adyen PayByLink Platform</description>
+    <externalId>false</externalId>
+    <label>URL Caution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

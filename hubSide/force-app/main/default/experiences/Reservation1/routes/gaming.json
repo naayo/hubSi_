@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "49a93678-b10c-4484-af10-99264b3807bb",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "ba4b103f-7c45-4c62-b750-ce17c4ac74c5",
+  "label" : "Gaming",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-gaming",
+  "type" : "route",
+  "urlPrefix" : "gaming"
+}

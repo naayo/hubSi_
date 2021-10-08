@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_retour_prevu__c</fullName>
+    <description>Date prévisionnelle de retour pour vérifier le nombre de jours possible et gérer les stocks glissants par la suite</description>
+    <externalId>false</externalId>
+    <label>Date du retour prévu</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

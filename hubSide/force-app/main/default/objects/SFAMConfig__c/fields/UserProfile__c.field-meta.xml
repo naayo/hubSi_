@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserProfile__c</fullName>
+    <description>Profil tel que défini dans salesforce - Profile as defined in Salesforce</description>
+    <externalId>false</externalId>
+    <label>Utilisateur - Profil</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFAM Expertise</fullName>
+                <default>false</default>
+                <label>SFAM Expertise</label>
+            </value>
+            <value>
+                <fullName>SFAM Stock</fullName>
+                <default>false</default>
+                <label>SFAM Stock</label>
+            </value>
+            <value>
+                <fullName>SFAM Reparation</fullName>
+                <default>false</default>
+                <label>SFAM Reparation</label>
+            </value>
+            <value>
+                <fullName>SFAM Logistique</fullName>
+                <default>false</default>
+                <label>SFAM Logistique</label>
+            </value>
+            <value>
+                <fullName>SFAM API</fullName>
+                <default>false</default>
+                <label>SFAM API</label>
+            </value>
+            <value>
+                <fullName>SFAM GS</fullName>
+                <default>false</default>
+                <label>SFAM GS</label>
+            </value>
+            <value>
+                <fullName>SFAM Qualite</fullName>
+                <default>false</default>
+                <label>SFAM Qualite</label>
+            </value>
+            <value>
+                <fullName>SFAM TC</fullName>
+                <default>false</default>
+                <label>SFAM TC</label>
+            </value>
+            <value>
+                <fullName>SFAM Vendeur TC</fullName>
+                <default>false</default>
+                <label>SFAM Vendeur TC</label>
+            </value>
+            <value>
+                <fullName>Profil TC</fullName>
+                <default>false</default>
+                <label>Profil TC</label>
+            </value>
+            <value>
+                <fullName>Profil GS</fullName>
+                <default>false</default>
+                <label>Profil GS</label>
+            </value>
+            <value>
+                <fullName>SFAM ADM</fullName>
+                <default>false</default>
+                <label>SFAM ADM</label>
+            </value>
+            <value>
+                <fullName>SFAM Vendeur</fullName>
+                <default>false</default>
+                <label>SFAM Vendeur</label>
+            </value>
+            <value>
+                <fullName>SFAM Manager</fullName>
+                <default>false</default>
+                <label>SFAM Manager</label>
+            </value>
+            <value>
+                <fullName>SFAM Admin Produit</fullName>
+                <default>false</default>
+                <label>SFAM Admin Produit</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+            <value>
+                <fullName>Standard User</fullName>
+                <default>false</default>
+                <label>Standard User</label>
+            </value>
+            <value>
+                <fullName>Read Only</fullName>
+                <default>false</default>
+                <label>Read Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Autre</masterLabel>
+        <translation>Otro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Client</masterLabel>
+        <translation>Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prospect</masterLabel>
+        <translation>Cliente potencial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suspect</masterLabel>
+        <translation>Sospechoso</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

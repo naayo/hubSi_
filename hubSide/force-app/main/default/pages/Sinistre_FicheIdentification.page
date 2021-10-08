@@ -1,0 +1,267 @@
+<apex:page standardController="Equipement_sinistre__c" showHeader="false" renderAs="pdf" standardStylesheets="true">
+    
+    <body style="margin:0px auto;">
+
+        <p style="text-align: center;">
+            <span style="color: #0000ff; font-family: tahoma, geneva, sans-serif;">
+                <span style="font-size: 25.2px;">
+                    FICHE 
+                </span>
+            </span>
+            <span style="color: #0000ff; font-family: tahoma, geneva, sans-serif;">
+                <span style="font-size: 25.2px;">
+                    D'IDENTIFICATION
+                </span>
+            </span>
+        </p>
+        <p style="text-align: center;"><span style="color: #0000ff;">Détails</span></p>
+        <table style="width: 682px;">
+            <tbody>
+                <tr>
+                    <td style="width: 363.667px;">
+                        <p><span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                Equipement sinistr&eacute;: {!Equipement_sinistre__c.Equipement_client__r.name}
+                            </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Sinistre: {!Equipement_sinistre__c.Sinistre__r.Numero_sinistre__c} 
+                                </span><br />
+                            </span>
+                           <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         IMEI non identifiable: {!Equipement_sinistre__c.IMEI_non_identifiable__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.IMEI_non_identifiable__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.IMEI_non_identifiable__c ==FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span>
+                                </span><br />
+                        </p>
+                    </td>
+                    <td style="width: 313.333px;">
+                        <p>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Montant franchise: {!Equipement_sinistre__c.Montant_franchise__c}&euro; 
+                                </span><br />
+                            </span>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Montant equipement: {!Equipement_sinistre__c.Montant_equipement__c}&euro; 
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Valeur r&eacute;paration: {!Equipement_sinistre__c.Valeur_reparation__c}&euro;&nbsp; 
+                                </span>
+                            </span>
+                        </p>
+                    </td> 
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center;"><span style="color: #0000ff;">Information d&eacute;claration</span></p>
+        <table style="width: 682px;">
+            <tbody>
+                <tr>
+                    <td style="width: 363.667px;">
+                        <p>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Code verouillage demand&eacute;: {!Equipement_sinistre__c.Code_verrouillage_demande__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Code_verrouillage_demande__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Code_verrouillage_demande__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Code verrouillage: {!Equipement_sinistre__c.Code_verrouillage__c} 
+                                </span><br />
+                            </span>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Code verrouillage fournisseur: {!Equipement_sinistre__c.Code_verrouillage_fournisseur__c } 
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Geolocalisation: {!Equipement_sinistre__c.Geolocalisation__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Geolocalisation__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Geolocalisation__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Capacit&eacute;: {!Equipement_sinistre__c.Capacite__c} 
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Couleur: {!Equipement_sinistre__c.Couleur__c}&nbsp; 
+                                </span>
+                            </span>
+                        </p>
+                    </td>
+                    <td style="width: 313.333px;">
+                        <p><span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                Etat produit: {!Equipement_sinistre__c.Etat_produit__c}
+                            </span>
+                            </span> <br />
+                           <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Batterie out: {!Equipement_sinistre__c.Batterie_out__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Batterie_out__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Batterie_out__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Ecran cassé: {!Equipement_sinistre__c.Ecran_casse__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Ecran_casse__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Ecran_casse__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span><br />
+                            </span>
+                           <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Vitre arrière cassé: {!Equipement_sinistre__c.Vitre_arriere_cassee__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Vitre_arriere_cassee__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Vitre_arriere_cassee__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span><br />
+                            </span>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Chassis cassé / voilé: {!Equipement_sinistre__c.Chassis_cass_voil__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Chassis_cass_voil__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Chassis_cass_voil__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span>
+                            </span><br />
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    Si autres pr&eacute;cisez:{!Equipement_sinistre__c.Si_autres_pr_cisez__c}
+                                </span><br />
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <p style="text-align: center;"><span style="color: #0000ff;">Fiche d'identification</span></p>
+        <table style="width: 682px;">
+            <tbody>
+                <tr>
+                    <td style="width: 363.667px;">
+                        <p><span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                El&eacute;ments pr&eacute;sent dans le colis: {!Equipement_sinistre__c.ElEments_dans_le_colis__c}
+                            </span><br />
+                            </span>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    D&eacute;gats visuels: {!Equipement_sinistre__c.Degats_visuels__c} 
+                                </span>
+                            </span>
+                        </p>
+                    </td>
+                    <td style="width: 313.333px;">
+                        <p><span style="font-size: 11px;">
+                            <span style="font-family: tahoma,geneva,sans-serif;">
+                                El&eacute;ments manquants: {!Equipement_sinistre__c.El_ments_manquants__c} 
+                            </span><br />
+                            </span>
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                         Retour SAV: {!Equipement_sinistre__c.Retour_SAV__c}
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Retour_SAV__c}">
+                                        <img id="Logo" 
+                                             src="/resource/OK_Icon" 
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                    <apex:outputpanel rendered="{!Equipement_sinistre__c.Retour_SAV__c == FALSE}">
+                                        <img id="Logo" 
+                                             src="/resource/KO_Icon"
+                                             width="10" 
+                                             height="10"  />
+                                    </apex:outputpanel>
+                                </span><br />
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: justify;">&nbsp;</div>
+    </body>
+</apex:page>

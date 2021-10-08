@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_retour_est_aujourdhui</fullName>
+    <active>false</active>
+    <description>Lorsque le statut de l&apos;emprunt devient Retour, la date de retour ne peut être que celle d&apos;aujourd&apos;hui.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(Status__c), &apos;Sortie&apos;), 
+    OR(
+        ISPICKVAL(Status__c, &apos;Retourné&apos;),
+        ISPICKVAL(Status__c, &apos;Retour avec défaut&apos;)
+    ),
+    Date_retour__c &lt;&gt; TODAY()     
+)</errorConditionFormula>
+    <errorMessage>La date de retour doit être la même que la date d&apos;aujourd&apos;hui.</errorMessage>
+</ValidationRule>

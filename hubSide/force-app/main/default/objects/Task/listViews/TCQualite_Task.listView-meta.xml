@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TCQualite_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>TC Qualité</label>
+    <queue>TCQualite</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

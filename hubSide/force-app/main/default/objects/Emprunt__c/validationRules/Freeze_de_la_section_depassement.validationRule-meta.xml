@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freeze_de_la_section_depassement</fullName>
+    <active>true</active>
+    <description>L&apos;ensemble des champs dans la section dépassement ne seront plus modifiable une fois le statut en retour ou retour avec défaut</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Status__c, &apos;Retourné&apos;),
+ISPICKVAL(Status__c, &apos;Retour avec défaut&apos;)
+),
+NOT(ISCHANGED(Status__c)),
+OR(
+ISCHANGED(  Montant_geste_commercial__c ),
+ISCHANGED(  Motif_geste_commercial__c  ),
+ISCHANGED(  Commentaire__c  ),
+ISCHANGED(  Employe_responsable_geste_commercial__c )
+
+))</errorConditionFormula>
+    <errorMessage>Les champs relatifs à la section dépassement de l&apos;emprunt ne sont plus disponibles à l&apos;édition une fois le statut est en Retour sans défaut ou Retour avec défaut</errorMessage>
+</ValidationRule>

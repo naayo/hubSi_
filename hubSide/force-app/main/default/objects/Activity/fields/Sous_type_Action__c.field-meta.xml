@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sous_type_Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Detail Action</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_Action__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Activity_SubTypeAction</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Perte liée au client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Déclencher réparation</controllingFieldValue>
+            <valueName>Réparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Délais de déclaration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Hors délai SIM / DP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Absence d’un document obligatoire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Typologie de sinistre non couvert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Produit acheté hors 12 mois / 36 mois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>2nde prise en charge sur offre de rétention PF/PM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Typologie produit non couvert par CG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Carte SIM absente de l’appareil garanti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Dommages esthétiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_utilisateur_Location</fullName>
+    <active>true</active>
+    <description>Empêche toute création + modification des clients location pour le profil Admin Utilisateur</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISNEW(),
+        ISCHANGED(Salutation), 
+        ISCHANGED(FirstName), 
+        ISCHANGED(LastName), 
+        ISCHANGED(PersonEmail), 
+        ISCHANGED(PersonMobilePhone),
+        ISCHANGED(Date_naissance__c), 
+        ISCHANGED(Type), 
+        ISCHANGED(PersonMailingAddress),
+        ISCHANGED(PersonMailingCity),
+        ISCHANGED(PersonMailingCountry),
+        ISCHANGED(PersonMailingStreet),
+        ISCHANGED(PersonMailingPostalCode)
+    ), 
+    Record_Type_Name__c = &quot;Client_location&quot;, 
+    $Profile.Name = &quot;SFAM Admin Utilisateur&quot;
+)</errorConditionFormula>
+    <errorMessage>Votre profil n&apos;a pas les droits nécessaires pour cette action</errorMessage>
+</ValidationRule>

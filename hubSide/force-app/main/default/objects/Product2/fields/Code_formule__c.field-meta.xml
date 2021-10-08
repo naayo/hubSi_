@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code_formule__c</fullName>
+    <description>Code offre Salesforce</description>
+    <displayFormat>SFID-FS{000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Code formule</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

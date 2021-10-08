@@ -1,0 +1,151 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "49a93678-b10c-4484-af10-99264b3807bb",
+  "label" : "Gaming",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "a7e50919-4722-4fb8-9e00-4c9e3005b5f9",
+          "columns" : [ {
+            "UUID" : "decf9588-04c1-43ce-8b8a-9fa68421a3e8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "6854a519-267d-40ce-b226-bd91936bc347",
+            "columnKey" : "a6daa",
+            "columnName" : "Column 2",
+            "columnWidth" : "10",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a7e50919-4722-4fb8-9e00-4c9e3005b5f9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><a href=\"https://sit-reservation.cs100.force.com/s/telephones\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">T</a><a href=\"https://uat-reservation.cs128.force.com/s/telephones\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">éléphones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/drones\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">D</a><a href=\"https://sit-reservation.cs100.force.com/s/drones\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">r</a><a href=\"https://uat-reservation.cs128.force.com/s/drones\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 41, 102); font-size: 16px;\">ones</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">A</a><a href=\"https://sit-reservation.cs100.force.com/s/appareils-photo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">p</a><a href=\"https://uat-reservation.cs128.force.com/s/appareils-photo\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">pareils photo</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/objets-connectes\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">O</a><a href=\"https://uat-reservation.cs128.force.com/s/objets-connectes\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">bjets connectés</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/gaming\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">G</a><a href=\"https://uat-reservation.cs128.force.com/s/gaming\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">aming</a></h1><h1><a href=\"https://sit-reservation.cs100.force.com/s/cameras-sportives\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://uat-reservation.cs128.force.com/s/cameras-sportives\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">améras sportives</a></h1><h1><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">C</a><a href=\"https://sit-reservation.cs100.force.com/s/casques-vr\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">a</a><a href=\"https://uat-reservation.cs128.force.com/s/casques-vr\" rel=\"noopener noreferrer\" target=\"_self\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 41, 102); font-size: 16px;\">sques VR</a></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d347f8c9-3df2-44fd-9c8f-ca7147c32d68",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "decf9588-04c1-43ce-8b8a-9fa68421a3e8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "00B3N000002OT6JUAW",
+            "layout" : "STANDARD",
+            "pageSize" : 25,
+            "scope" : "Product2",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "4d539863-6a56-4987-b4ba-21e21172899c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6854a519-267d-40ce-b226-bd91936bc347",
+        "regionLabel" : "Column 2",
+        "regionName" : "a6daa",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 25,
+        "sectionConfig" : {
+          "UUID" : "05429701-5de1-43f4-91e1-8def65c7aba5",
+          "columns" : [ {
+            "UUID" : "c1090023-9c11-458c-86ad-913bbdeeedc1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "05429701-5de1-43f4-91e1-8def65c7aba5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "buttonAlignment" : "center",
+            "buttonBgColor" : "rgb(255, 255, 255)",
+            "buttonBgHoverColor" : "rgb(160, 27, 103)",
+            "buttonBorderColor" : "",
+            "buttonMaxWidth" : 100,
+            "buttonRadius" : 50,
+            "buttonTextColor" : "rgb(160, 27, 103)",
+            "buttonTextHoverColor" : "",
+            "label" : "NOUS CONTACTER"
+          },
+          "componentName" : "forceCommunity:contactSupportButton",
+          "id" : "5302a576-6e67-4004-ae73-df74ce951f6e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1090023-9c11-458c-86ad-913bbdeeedc1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5f42753c-b055-43ef-9b12-3a0297854010",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gaming"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "04627d37-6079-4b93-b9ca-eb2f9569f96a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84aeb25a-c713-402e-a999-e9e252a4733f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-gaming"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GED_en_cours_R_paration_ADM</fullName>
+    <columns>Date_reception__c</columns>
+    <columns>Transmitter__c</columns>
+    <columns>Email_Subject__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Affectation_document</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>En attente d&apos;affectation</value>
+    </filters>
+    <label>Mes GED en cours Réparation ADM</label>
+</ListView>

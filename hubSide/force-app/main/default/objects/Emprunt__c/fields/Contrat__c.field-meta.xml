@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contrat__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Contrat lié à l&apos;emprunt</description>
+    <externalId>false</externalId>
+    <label>Contrat</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3 OR 5) AND 4</booleanFilter>
+        <errorMessage>Il n&apos;y a pas de contrat pour ce client, ou alors le contrat en question a déjà un emprunt actif.</errorMessage>
+        <filterItems>
+            <field>Asset.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Contrat location</value>
+        </filterItems>
+        <filterItems>
+            <field>Asset.Emprunt_en_cours__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Id</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Asset.Emprunt_en_cours__c</field>
+            <operation>equals</operation>
+            <value></value>
+        </filterItems>
+        <filterItems>
+            <field>Asset.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.Client__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Status__c</field>
+            <operation>equals</operation>
+            <value>Retour sans défaut, Retour avec défaut</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Emprunts</relationshipLabel>
+    <relationshipName>Emprunts</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

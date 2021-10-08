@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmer_rappel</fullName>
+    <availability>online</availability>
+    <description>Créer une tâche de relance en la clonant depuis la tâche parente</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Rappel client</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/lightning/o/Task/new?defaultFieldValues=
+Subject={!Task.Subject},
+Type_Action__c={!Task.Type_Action__c},
+Affectation__c={!Task.Affectation__c},
+TC_ParentTaskId__c={!Task.Id},
+Motif_Objet__c={!Task.Motif_Objet__c},
+Description={!Task.Description},
+WhatId={!Case.Id},
+Priority={!Task.Priority},
+Status=En cours,
+OwnerId={!Task.OwnerId },
+RecordTypeId={!Task.RecordTypeId},
+Nombre_de_rappel_client__c={!Task.Nombre_de_rappel_client__c + 1}</url>
+</WebLink>

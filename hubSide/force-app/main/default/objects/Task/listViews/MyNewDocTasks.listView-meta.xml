@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyNewDocTasks</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>notEqual</operation>
+        <value>Fermé KO</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Nouvelle demande</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Suivi de dossier</value>
+    </filters>
+    <label>Mes tâches nouveaux documents</label>
+</ListView>

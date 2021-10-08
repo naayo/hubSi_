@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "5761661d-9af7-411e-bdab-4f358ddcb1a7",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "ca2ae2cb-e5a5-4a83-89a9-0ec01ecdd924",
+  "label" : "Nos offres",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-nos-offres",
+  "type" : "route",
+  "urlPrefix" : "nos-offres"
+}

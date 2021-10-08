@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Typologie_sinistre__c</fullName>
+    <description>Typologie des requêtes</description>
+    <externalId>false</externalId>
+    <label>Case_Typologie_sinistre</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Case_Typologie</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

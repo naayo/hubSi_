@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalCons_EquivDaysNumber__c</fullName>
+    <description>SFAMI-2160 : Nombre de jours de consommation externe équivalant un montant de remise chez un partenaire</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Chaque jour saisi dans ce champs doit correpondre au montant de remise du Voucher partenaire :
+•	1 Jour Pass’Loc = 50 € de réduction sur le Voucher
+•	Limite de 10 J après les 3 premiers mois du contrat
+•	Limite de 20 J par an ( soit 1000€/an )</inlineHelpText>
+    <label>Equivalent Jours du voucher</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

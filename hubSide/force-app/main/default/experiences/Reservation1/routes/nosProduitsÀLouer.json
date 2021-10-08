@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "948295f4-4a38-4ec8-867c-d25b2422cd98",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "d92dcee6-f813-4df4-8586-fdfdd13aea26",
+  "label" : "Nos produits à louer",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-nos-produits-louer",
+  "type" : "route",
+  "urlPrefix" : "nos-produits-louer"
+}

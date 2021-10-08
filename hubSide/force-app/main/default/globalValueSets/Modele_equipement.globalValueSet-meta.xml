@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Iphone 5s</fullName>
+        <default>false</default>
+        <label>Iphone 5s</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 6</fullName>
+        <default>false</default>
+        <label>Iphone 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 6s</fullName>
+        <default>false</default>
+        <label>Iphone 6s</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 7</fullName>
+        <default>false</default>
+        <label>Iphone 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 7 Plus</fullName>
+        <default>false</default>
+        <label>Iphone 7 Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 8</fullName>
+        <default>false</default>
+        <label>Iphone 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 8 Plus</fullName>
+        <default>false</default>
+        <label>Iphone 8 Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone X</fullName>
+        <default>false</default>
+        <label>Iphone X</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone XR</fullName>
+        <default>false</default>
+        <label>Iphone XR</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone XS</fullName>
+        <default>false</default>
+        <label>Iphone XS</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone XS Max</fullName>
+        <default>false</default>
+        <label>Iphone XS Max</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 11</fullName>
+        <default>false</default>
+        <label>Iphone 11</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 11 Pro</fullName>
+        <default>false</default>
+        <label>Iphone 11 Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>Iphone 11 Pro Max</fullName>
+        <default>false</default>
+        <label>Iphone 11 Pro Max</label>
+    </customValue>
+    <customValue>
+        <fullName>Ipad Air</fullName>
+        <default>false</default>
+        <label>Ipad Air</label>
+    </customValue>
+    <customValue>
+        <fullName>Ipad Pro 11&apos;&apos;</fullName>
+        <default>false</default>
+        <label>Ipad Pro 11&apos;&apos;</label>
+    </customValue>
+    <customValue>
+        <fullName>Ipad Pro 12,9&apos;&apos;</fullName>
+        <default>false</default>
+        <label>Ipad Pro 12,9&apos;&apos;</label>
+    </customValue>
+    <customValue>
+        <fullName>AirPod</fullName>
+        <default>false</default>
+        <label>AirPod</label>
+    </customValue>
+    <customValue>
+        <fullName>AirPod 2</fullName>
+        <default>false</default>
+        <label>AirPod 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Airpod Pro</fullName>
+        <default>false</default>
+        <label>Airpod Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy S6</fullName>
+        <default>false</default>
+        <label>Galaxy S6</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy S7</fullName>
+        <default>false</default>
+        <label>Galaxy S7</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy S9</fullName>
+        <default>false</default>
+        <label>Galaxy S9</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy S10</fullName>
+        <default>false</default>
+        <label>Galaxy S10</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy S10 Plus</fullName>
+        <default>false</default>
+        <label>Galaxy S10 Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Huawei P30</fullName>
+        <default>false</default>
+        <label>Huawei P30</label>
+    </customValue>
+    <customValue>
+        <fullName>Huawei P30 Pro</fullName>
+        <default>false</default>
+        <label>Huawei P30 Pro</label>
+    </customValue>
+    <description>Modèle de produit associés à une marque sous garantie de l&apos;assurance SFAM ou distribuée par la SFAM.</description>
+    <masterLabel>Modèle équipement</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marque__c</fullName>
+    <externalId>false</externalId>
+    <label>Marque</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Famille_produit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Marque_produit</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Trottinette</controllingFieldValue>
+            <controllingFieldValue>Casque VR</controllingFieldValue>
+            <valueName>Samsung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Décodeur</controllingFieldValue>
+            <controllingFieldValue>Ordinateur</controllingFieldValue>
+            <controllingFieldValue>Montre connectée</controllingFieldValue>
+            <controllingFieldValue>Tablette</controllingFieldValue>
+            <controllingFieldValue>Téléphone</controllingFieldValue>
+            <controllingFieldValue>Enceinte</controllingFieldValue>
+            <valueName>Apple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vidéoprojecteur</controllingFieldValue>
+            <controllingFieldValue>Caméra sportive</controllingFieldValue>
+            <controllingFieldValue>Téléphone</controllingFieldValue>
+            <controllingFieldValue>Enceinte</controllingFieldValue>
+            <valueName>Xiaomi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Appareil photo</controllingFieldValue>
+            <valueName>Canon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Appareil photo</controllingFieldValue>
+            <valueName>Nikon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Appareil photo</controllingFieldValue>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <valueName>Sony</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caméra sportive</controllingFieldValue>
+            <controllingFieldValue>Drone</controllingFieldValue>
+            <valueName>DJI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Caméra sportive</controllingFieldValue>
+            <valueName>Gopro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casque VR</controllingFieldValue>
+            <valueName>Zeiss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drone</controllingFieldValue>
+            <valueName>Parrot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <valueName>Nintendo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaming</controllingFieldValue>
+            <valueName>Western Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autre</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enceinte</controllingFieldValue>
+            <valueName>JBL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

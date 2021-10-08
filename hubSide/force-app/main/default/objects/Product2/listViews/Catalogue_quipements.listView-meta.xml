@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalogue_quipements</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Famille_produit__c</columns>
+    <columns>Gamme_produit__c</columns>
+    <columns>vlocity_ins__Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.itemCatalog</value>
+    </filters>
+    <label>Catalogue équipements</label>
+</ListView>

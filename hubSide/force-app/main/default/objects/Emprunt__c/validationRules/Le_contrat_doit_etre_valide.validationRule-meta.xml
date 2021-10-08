@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Le_contrat_doit_etre_valide</fullName>
+    <active>true</active>
+    <description>On ne peut emprunter de produit sur un contrat non valide.</description>
+    <errorConditionFormula>OR(
+    NOT(ISPICKVAL(Contrat__r.Status, &apos;valid&apos;)), 
+    Contrat__r.Code_formule__r.Id_externe__c == &apos;ProductNotFound01&apos;, 
+    ISBLANK(Contrat__r.Code_formule__c)
+)</errorConditionFormula>
+    <errorMessage>Le contrat séléctionné n&apos;est pas valide.</errorMessage>
+</ValidationRule>

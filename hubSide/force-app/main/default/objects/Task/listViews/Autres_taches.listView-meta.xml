@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autres_taches</fullName>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PRIORITY</columns>
+    <columns>STATUS</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>Autres</value>
+    </filters>
+    <filters>
+        <field>Type_Action__c</field>
+        <operation>equals</operation>
+        <value>Autres</value>
+    </filters>
+    <label>Autres taches</label>
+</ListView>

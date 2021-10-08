@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nom_distributeur_non_reconnu__c</fullName>
+    <description>Nom du distributeur issu de B-Appli non reconnu dans Salesforce
+A affiché si et seulement si Id_distributeur_non_reconnu__c non null</description>
+    <externalId>false</externalId>
+    <label>Nom du distributeur non reconnu</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

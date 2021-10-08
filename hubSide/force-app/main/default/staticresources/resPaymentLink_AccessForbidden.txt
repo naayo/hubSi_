@@ -1,0 +1,6 @@
+{
+    "status": 401,
+    "errorCode": "000",
+    "message": "HTTP Status Response - Unauthorized",
+    "errorType": "security"
+}

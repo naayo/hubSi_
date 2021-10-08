@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Autres</fullName>
+        <default>false</default>
+        <label>Autres</label>
+    </customValue>
+    <customValue>
+        <fullName>OrderingParts</fullName>
+        <default>false</default>
+        <label>Commande de pièce</label>
+    </customValue>
+    <customValue>
+        <fullName>runPaiementVersement</fullName>
+        <default>false</default>
+        <label>Déclencher paiement</label>
+    </customValue>
+    <customValue>
+        <fullName>Déclencher réparation</fullName>
+        <default>false</default>
+        <label>Déclencher réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande à traiter</fullName>
+        <default>false</default>
+        <label>Demande à traiter</label>
+    </customValue>
+    <customValue>
+        <fullName>TransportVoucherRequest</fullName>
+        <default>false</default>
+        <label>Demande bon de transport</label>
+    </customValue>
+    <customValue>
+        <fullName>SwitchTransportVoucherRequest</fullName>
+        <default>false</default>
+        <label>Demande bon transport switch</label>
+    </customValue>
+    <customValue>
+        <fullName>NonCompensationAttestationRequest</fullName>
+        <default>false</default>
+        <label>Demande d&apos;attestation de non indemnisation</label>
+    </customValue>
+    <customValue>
+        <fullName>AnnualSubscriptionPaymentAttestationRequest</fullName>
+        <default>false</default>
+        <label>Demande d&apos;attestation de paiement - Cotisation annuelle</label>
+    </customValue>
+    <customValue>
+        <fullName>DeductiblePaymentAttestationRequest</fullName>
+        <default>false</default>
+        <label>Demande d&apos;attestation de paiement - Franchise</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande de document</fullName>
+        <default>false</default>
+        <label>Demande de document</label>
+    </customValue>
+    <customValue>
+        <fullName>DocumentListRequest</fullName>
+        <default>false</default>
+        <label>Demande de la liste des documents</label>
+    </customValue>
+    <customValue>
+        <fullName>WaiverFormRequest</fullName>
+        <default>false</default>
+        <label>Demande formulaire de renonciation</label>
+    </customValue>
+    <customValue>
+        <fullName>InterventionRequestGS</fullName>
+        <default>false</default>
+        <label>Demande Intervention GS</label>
+    </customValue>
+    <customValue>
+        <fullName>InterventionRequestTC</fullName>
+        <default>false</default>
+        <label>Demande Intervention TC</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande Règlement Contrat​</fullName>
+        <default>false</default>
+        <label>Demande Règlement Contrat​</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande Règlement Franchise​</fullName>
+        <default>false</default>
+        <label>Demande Règlement Franchise​</label>
+    </customValue>
+    <customValue>
+        <fullName>DemandeReglementReparation</fullName>
+        <default>false</default>
+        <label>Demande Règlement Réparation​</label>
+    </customValue>
+    <customValue>
+        <fullName>GeolocalisationDeactivation</fullName>
+        <default>false</default>
+        <label>Désactivation de la géolocalisation</label>
+    </customValue>
+    <customValue>
+        <fullName>DestockingOnReservedStock</fullName>
+        <default>false</default>
+        <label>Destockage sur Stock Réservé</label>
+    </customValue>
+    <customValue>
+        <fullName>TerminalUnlock</fullName>
+        <default>false</default>
+        <label>Déverrouillage terminal</label>
+    </customValue>
+    <customValue>
+        <fullName>BlockedExchange</fullName>
+        <default>false</default>
+        <label>Expédition Bloquée</label>
+    </customValue>
+    <customValue>
+        <fullName>WaiverFormSent</fullName>
+        <default>false</default>
+        <label>Envoi du formulaire de renonciation</label>
+    </customValue>
+    <customValue>
+        <fullName>IrreparableEquipment</fullName>
+        <default>false</default>
+        <label>Equipement irréparable</label>
+    </customValue>
+    <customValue>
+        <fullName>RepairableEquipment</fullName>
+        <default>false</default>
+        <label>Equipement réparable</label>
+    </customValue>
+    <customValue>
+        <fullName>ConditionallyRepairableEquipment</fullName>
+        <default>false</default>
+        <label>Equipement réparable sous conditions</label>
+    </customValue>
+    <customValue>
+        <fullName>EquipmentRepaired</fullName>
+        <default>false</default>
+        <label>Equipement réparé</label>
+    </customValue>
+    <customValue>
+        <fullName>PrintDeliveryNote</fullName>
+        <default>false</default>
+        <label>Imprimer le bordereau de livraison</label>
+    </customValue>
+    <customValue>
+        <fullName>LaunchExpedition</fullName>
+        <default>false</default>
+        <label>Lancement Expédition</label>
+    </customValue>
+    <customValue>
+        <fullName>Note</fullName>
+        <default>false</default>
+        <label>Note</label>
+    </customValue>
+    <customValue>
+        <fullName>Refus</fullName>
+        <default>false</default>
+        <label>Refus</label>
+    </customValue>
+    <customValue>
+        <fullName>AddressConfirmationRequest</fullName>
+        <default>false</default>
+        <label>SAV - Demander confirmation adresse</label>
+    </customValue>
+    <customValue>
+        <fullName>CarrierLossAccepted</fullName>
+        <default>false</default>
+        <label>SAV - Perte transporteur acceptée</label>
+    </customValue>
+    <customValue>
+        <fullName>RejectedSinistreToCreate</fullName>
+        <default>false</default>
+        <label>SAV - Refus : Sinistre à ouvrir</label>
+    </customValue>
+    <customValue>
+        <fullName>SAVRejected</fullName>
+        <default>false</default>
+        <label>SAV - Refus du SAV</label>
+    </customValue>
+    <customValue>
+        <fullName>ReturnProductToSupplier</fullName>
+        <default>false</default>
+        <label>SAV - Renvoi produit fournisseur</label>
+    </customValue>
+    <customValue>
+        <fullName>ReturnByCarrierKo</fullName>
+        <default>false</default>
+        <label>SAV - Retour fournisseur ko</label>
+    </customValue>
+    <customValue>
+        <fullName>ReturnByCarrierOk</fullName>
+        <default>false</default>
+        <label>SAV - Retour fournisseur ok</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation d’un échange​</fullName>
+        <default>false</default>
+        <label>Validation d’un échange​</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation Prime</fullName>
+        <default>false</default>
+        <label>Validation Prime</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation Réparation​</fullName>
+        <default>false</default>
+        <label>Validation Réparation​</label>
+    </customValue>
+    <customValue>
+        <fullName>CompensationChangeToValidate</fullName>
+        <default>false</default>
+        <label>Valider le changement d&apos;indemnisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Réclamation Client - Réparation KO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réclamation Client - Réparation KO</label>
+    </customValue>
+    <customValue>
+        <fullName>Réclamation Client - Compta</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réclamation Client - Compta</label>
+    </customValue>
+    <customValue>
+        <fullName>Envoi Formulaire de Renonciation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Envoi Formulaire de Renonciation</label>
+    </customValue>
+    <customValue>
+        <fullName>Refus dossier</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Refus dossier</label>
+    </customValue>
+    <customValue>
+        <fullName>Accord indemnisation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accord indemnisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Réclamation Client - Echange KO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réclamation Client - Echange KO</label>
+    </customValue>
+    <customValue>
+        <fullName>Réclamation Client - Refus dossier</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Réclamation Client - Refus dossier</label>
+    </customValue>
+    <customValue>
+        <fullName>Envoi Email Bon Chronopost</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Envoi Email Bon Chronopost</label>
+    </customValue>
+    <description>Actions proposées à l&apos;utilisateur sur une task.</description>
+    <masterLabel>Activity_TypeAction</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

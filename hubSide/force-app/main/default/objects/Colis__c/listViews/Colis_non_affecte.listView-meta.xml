@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colis_non_affecte</fullName>
+    <columns>NAME</columns>
+    <columns>Nom_transporteur__c</columns>
+    <columns>Statut__c</columns>
+    <columns>Nom_expediteur__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Réparation SFAMRecycle</value>
+    </filters>
+    <filters>
+        <field>Statut__c</field>
+        <operation>equals</operation>
+        <value>Transféré/Emis,Transféré/Reçu</value>
+    </filters>
+    <filters>
+        <field>Nom_transporteur__c</field>
+        <operation>equals</operation>
+        <value>ChronopostReparation,LaPosteReparation,BulkParcelsReparation</value>
+    </filters>
+    <label>Colis non affectés</label>
+</ListView>

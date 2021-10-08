@@ -1,0 +1,10 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "5d8756b3-9ad1-4395-9676-457c25acf380",
+  "headMarkup" : "<link rel=\"shortcut icon\" href=\"/resource/hubside_logo\" type=\"image/x-icon\" />",
+  "id" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "CPT Community Template",
+  "type" : "appPage"
+}

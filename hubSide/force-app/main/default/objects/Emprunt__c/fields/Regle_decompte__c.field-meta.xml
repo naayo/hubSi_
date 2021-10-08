@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regle_decompte__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    Coefficient_decompte__c &lt;= 1, 
+    &apos;Aucun avantage lié au combo gamme produit / gamme offre&apos;, 
+    &apos;Le client peut emprunter &apos; +  TEXT(Coefficient_decompte__c) + &apos; fois plus longtemps que sa formule&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Règle de décompte</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

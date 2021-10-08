@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9e5ed0a9-db45-4846-8b15-7f8133602af1",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "4139dcbb-eca3-4e0b-be38-579556f3a08b",
+  "label" : "Objets connectés",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-objets-connectes",
+  "type" : "route",
+  "urlPrefix" : "objets-connectes"
+}

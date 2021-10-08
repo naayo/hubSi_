@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formule_location</fullName>
+    <columns>Formule_location__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Prix_mensuel__c</columns>
+    <columns>Duree_formule_mois__c</columns>
+    <columns>Nombre_jours_carence__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Formule_location</value>
+    </filters>
+    <label>Formule location</label>
+</ListView>

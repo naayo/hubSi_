@@ -1,0 +1,116 @@
+<apex:page controller="Sinistre_BordereauColisController" showHeader="false" renderAs="pdf" standardStylesheets="true">
+    
+    <body style="margin:0px auto;">
+        
+        <p>
+            <img class="cke_widget_element" 
+                 src="{!$Label.Sinistre_BordereauLivraison_LogoSFAM}"
+                 alt="" 
+                 width="134" 
+                 height="34" 
+                 data-widget="image"/>
+        </p>
+        
+        <div>
+            <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                <tbody>
+                    <tr>
+                        <td style="width: 700px;">
+                            <span style="font-size: 11px;">
+                                <span style="font-family: tahoma,geneva,sans-serif;">
+                                    BORDEREAU DE LIVRAISON : {!rc.Name}<br />
+                                    DATE DE LIVRAISON : {!DAY(rc.Date_reception__c)}/{!MONTH(rc.Date_reception__c)}/{!YEAR(rc.Date_reception__c)}<br />
+                                    NOMBRE DE COLIS : {!rc.Nombre_colis_scannes__c}<br />
+                                    EMISSION DU BON: {!DAY(TODAY())}/{!MONTH(TODAY())}/{!YEAR(TODAY())}<br />
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <apex:outputPanel rendered="{! IF ( businessProfileName == 'AgentReception', true, false)}">
+                <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                        <tbody>
+                            <tr>
+                                <td style="width: 700px;">
+                                    <span style="font-size: 11px;">
+                                        <span style="font-family: tahoma,geneva,sans-serif;">
+                                            Emetteur : {!rc.Nom_transporteur__c} <br />
+                                            Agent transmetteur : {!rc.CreatedBy.FirstName} {!rc.CreatedBy.LastName}<br />
+                                            Signature : <br /><br /><br />
+                                        </span>
+                                    </span>
+                                </td>
+                                                        
+                                <td style="width: 700px;">
+                                    <span style="font-size: 11px;">
+                                        <span style="font-family: tahoma,geneva,sans-serif;">
+                                            Recepteur : Agent Réception {!$User.FirstName} {!$User.LastName} <br />
+                                            Signature : <br /><br /><br />
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                </table>
+            </apex:outputPanel>
+        </div>
+        <!-- Table to show if user doesn't have the above buisness profile -->
+        <apex:outputPanel rendered="{! IF ( businessProfileName != 'AgentReception', true, false)}">
+            <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+                    <tbody>
+                        <tr>
+                            <td style="width: 700px;">
+                                <span style="font-size: 11px;">
+                                    <span style="font-family: tahoma,geneva,sans-serif;">
+                                        Service Emetteur : {!rc.Nom_transporteur__c} <br />
+                                        Agent transmetteur : {!rc.CreatedBy.FirstName} {!rc.CreatedBy.LastName} - {!businessProfileName} <br />
+                                        Signature : <br /><br /><br />
+                                    </span>
+                                </span>
+                            </td>
+                                                    
+                            <td style="width: 700px;">
+                                <span style="font-size: 11px;">
+                                    <span style="font-family: tahoma,geneva,sans-serif;">
+                                        Service Recepteur : {!$User.FirstName} {!$User.LastName} <br />
+                                        Signature : <br /><br /><br />
+                                    </span>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+            </table>
+        </apex:outputPanel>
+        
+        <table style="width: 700px;" border="1" cellspacing="1" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td style="width: 700px;">
+                        <apex:pageBlock >
+                            <apex:pageBlockTable value="{!colisColumn1}" var="c" style="font-size: 11px; font-family: tahoma,geneva,sans-serif;">
+                                <apex:column value="{!c.Name}" headerValue=""/>
+                            </apex:pageBlockTable>
+                        </apex:pageBlock>
+                    </td>
+                    <td style="width: 700px;">
+                        <apex:pageBlock >
+                            <apex:pageBlockTable value="{!colisColumn2}" var="c" style="font-size: 11px; font-family: tahoma,geneva,sans-serif;">
+                                <apex:column value="{!c.Name}" headerValue=""/>
+                            </apex:pageBlockTable>
+                        </apex:pageBlock>
+                    </td>
+                    <td style="width: 700px;">
+                        <apex:pageBlock >
+                            <apex:pageBlockTable value="{!colisColumn3}" var="c" style="font-size: 11px; font-family: tahoma,geneva,sans-serif;">
+                                <apex:column value="{!c.Name}" headerValue=""/>
+                            </apex:pageBlockTable>
+                        </apex:pageBlock>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</apex:page>

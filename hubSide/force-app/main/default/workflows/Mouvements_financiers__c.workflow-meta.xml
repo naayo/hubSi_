@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Sinistre_Reparation</fullName>
+        <ccEmails>ariane.tanguy@gfi.fr</ccEmails>
+        <description>[Sinistre] Réparation</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Sinistre_reparation_template</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>App</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Approbation 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approbation</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Approbation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approbation_1000</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Approbation 1000</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approbation_cout</fullName>
+        <field>Statut__c</field>
+        <literalValue>En cours d&apos;approbation</literalValue>
+        <name>Approbation cout</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approuv</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Approuvé</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ApprovalUpdateValidatorUserName</fullName>
+        <description>Updates the ValidationUserName on Calcul_indemnisation object with the value of the user that launched the process.</description>
+        <field>ValidatorUserName__c</field>
+        <formula>$User.FirstName &amp; &apos; &apos; &amp; $User.LastName</formula>
+        <name>ApprovalUpdateValidatorUserName</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RejectionUpdateValidatorUserName</fullName>
+        <description>Updates ValidatorName on Calcul_indemnisation with the name of the user who initiated the process.</description>
+        <field>ValidatorUserName__c</field>
+        <formula>$User.FirstName &amp; &apos; &apos; &amp; $User.LastName</formula>
+        <name>RejectionUpdateValidatorUserName</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Statu</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status2</fullName>
+        <field>Statut__c</field>
+        <literalValue>Demande en cours</literalValue>
+        <name>Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UPF_CLI_UpdateStatusRejected</fullName>
+        <description>update status to rejected</description>
+        <field>Statut__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>UPF_CLI_UpdateStatusRejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateIndemnisationStatus</fullName>
+        <field>Statut__c</field>
+        <literalValue>En cours d&apos;approbation</literalValue>
+        <name>UpdateIndemnisationStatus</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Record_Status</fullName>
+        <field>Statut__c</field>
+        <literalValue>En cours d&apos;approbation</literalValue>
+        <name>Update Record Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <field>Statut__c</field>
+        <literalValue>En cours d&apos;approbation</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_statut</fullName>
+        <field>Statut__c</field>
+        <literalValue>Validé</literalValue>
+        <name>Update statut</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_statut2</fullName>
+        <field>Statut__c</field>
+        <literalValue>Demande en cours</literalValue>
+        <name>Update statut</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>refus</fullName>
+        <field>Statut__c</field>
+        <literalValue>Crée</literalValue>
+        <name>refus</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

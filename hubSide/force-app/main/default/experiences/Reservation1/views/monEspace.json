@@ -1,0 +1,108 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "id" : "389d0b65-c033-401a-a05d-952150074e61",
+  "label" : "Mon espace",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "00B3N000002P7mFUAS",
+        "layout" : "STANDARD",
+        "pageSize" : 3,
+        "scope" : "Asset",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "89ace50d-aa02-4173-9722-7c71876739e0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "00B3N000002OT69UAG",
+        "layout" : "STANDARD",
+        "pageSize" : 3,
+        "scope" : "Emprunt__c",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "9c126689-5fc2-4090-93f3-248e2df9e934",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "00B3N000002Ouh9UAC",
+        "layout" : "STANDARD",
+        "pageSize" : 3,
+        "scope" : "Reservation__c",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "72a0fb92-0e2e-47ed-a090-88755f6d992d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aae8e570-2132-4c90-808e-a291c217420f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "b7a16164-a0bd-4b0c-8cdd-236e23af8806",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "1815de25-0538-4838-a965-f3ae82e76400",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4b64f6fa-ab23-4760-a4ee-f30e95cb8883",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mon espace"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1040421b-4c82-405d-bd6d-2eeba533b98a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b90640b8-5085-4c07-9359-e97b074f9c4e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mon-espace"
+}

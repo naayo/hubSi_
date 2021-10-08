@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emprunt_en_cours</fullName>
+    <columns>Nom_produit_emprunte__c</columns>
+    <columns>Date_retour_prevu__c</columns>
+    <columns>Jours_consommes__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Sortie</value>
+    </filters>
+    <label>Mes emprunts en cours</label>
+</ListView>

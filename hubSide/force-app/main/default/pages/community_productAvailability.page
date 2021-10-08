@@ -1,0 +1,18 @@
+<apex:page standardController="Product2" showHeader="false" standardStylesheets="true">
+    
+    <div style="text-align: center;">
+        <span style="font-size: 12px;">
+            <span style="font-family: montserrat,montserrat,sans-serif;">
+                <span style="white-space: pre-line"><strong>{!Product2.Disponibilite_stock__c}</strong></span>
+            </span>
+        </span>
+    </div>
+    
+    <div style="text-align: center;">
+        <span style="font-size: 12px;">
+            <span style="font-family: montserrat,montserrat,sans-serif;">
+                <span ><br /><br />Si votre produit n'était disponible, contactez-nous au +33 (0)4 75 05 91 72</span>
+            </span>
+        </span>
+    </div>
+</apex:page>

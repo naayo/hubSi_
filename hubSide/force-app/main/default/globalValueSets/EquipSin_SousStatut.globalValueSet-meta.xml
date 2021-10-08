@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A stocker</fullName>
+        <default>false</default>
+        <label>A stocker</label>
+    </customValue>
+    <customValue>
+        <fullName>Stocké</fullName>
+        <default>false</default>
+        <label>Stocké</label>
+    </customValue>
+    <customValue>
+        <fullName>A sortir - Retour client</fullName>
+        <default>false</default>
+        <label>A sortir - Retour client</label>
+    </customValue>
+    <customValue>
+        <fullName>A sortir - Retour SFAM</fullName>
+        <default>false</default>
+        <label>A sortir - Retour SFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>A sortir du stock</fullName>
+        <default>false</default>
+        <label>A sortir du stock</label>
+    </customValue>
+    <customValue>
+        <fullName>Sortie PSM</fullName>
+        <default>false</default>
+        <label>Sortie PSM</label>
+    </customValue>
+    <customValue>
+        <fullName>A sortir PSM</fullName>
+        <default>false</default>
+        <label>A sortir PSM</label>
+    </customValue>
+    <customValue>
+        <fullName>A retourner PSM</fullName>
+        <default>false</default>
+        <label>A retourner PSM</label>
+    </customValue>
+    <customValue>
+        <fullName>A dispatcher</fullName>
+        <default>false</default>
+        <label>A dispatcher</label>
+    </customValue>
+    <customValue>
+        <fullName>En cours d&apos;expertise</fullName>
+        <default>false</default>
+        <label>En cours d&apos;expertise</label>
+    </customValue>
+    <customValue>
+        <fullName>En attente GS</fullName>
+        <default>false</default>
+        <label>En attente GS</label>
+    </customValue>
+    <customValue>
+        <fullName>En cours</fullName>
+        <default>false</default>
+        <label>En cours</label>
+    </customValue>
+    <customValue>
+        <fullName>Réceptionné - A expédier</fullName>
+        <default>false</default>
+        <label>Réceptionné - A expédier</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation</fullName>
+        <default>false</default>
+        <label>Préparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Réceptionné - A conserver</fullName>
+        <default>false</default>
+        <label>Réceptionné - A conserver</label>
+    </customValue>
+    <customValue>
+        <fullName>Retourné client</fullName>
+        <default>false</default>
+        <label>Retourné client</label>
+    </customValue>
+    <customValue>
+        <fullName>Repaired</fullName>
+        <default>false</default>
+        <label>Réparé</label>
+    </customValue>
+    <customValue>
+        <fullName>Unrepairable</fullName>
+        <default>false</default>
+        <label>Irréparable</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Annulé</label>
+    </customValue>
+    <customValue>
+        <fullName>Via prime</fullName>
+        <default>false</default>
+        <label>Via prime</label>
+    </customValue>
+    <customValue>
+        <fullName>Via prime magasin</fullName>
+        <default>false</default>
+        <label>Via prime magasin</label>
+    </customValue>
+    <customValue>
+        <fullName>Réception client</fullName>
+        <default>false</default>
+        <label>Réception client</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservé SFAM</fullName>
+        <default>false</default>
+        <label>Conservé SFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Réceptionné SFAM</fullName>
+        <default>false</default>
+        <label>Réceptionné SFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Réceptionné - à expédier (Irréparable)</fullName>
+        <default>false</default>
+        <label>Réceptionné - à expédier (Irréparable)</label>
+    </customValue>
+    <customValue>
+        <fullName>Réceptionné - à expédier (Annulé)</fullName>
+        <default>false</default>
+        <label>Réceptionné - à expédier (Annulé)</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation - Irréparable/Annulé</fullName>
+        <default>false</default>
+        <label>Préparation - Irréparable/Annulé</label>
+    </customValue>
+    <customValue>
+        <fullName>Retour Client</fullName>
+        <default>false</default>
+        <label>Retour Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Retour SFAM</fullName>
+        <default>false</default>
+        <label>Retour SFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Sorti PSM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sorti PSM</label>
+    </customValue>
+    <customValue>
+        <fullName>Sorti du stock</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sorti du stock</label>
+    </customValue>
+    <customValue>
+        <fullName>Receptionné logistique</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Receptionné logistique</label>
+    </customValue>
+    <customValue>
+        <fullName>Attente SAV</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Attente SAV</label>
+    </customValue>
+    <customValue>
+        <fullName>Expédié</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Expédié</label>
+    </customValue>
+    <customValue>
+        <fullName>Sorti pour retour client</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sorti pour retour client</label>
+    </customValue>
+    <description>Liste des sous-statuts de l&apos;équipement sinistré - Equipement sinistre sub status list</description>
+    <masterLabel>EquipSin_SousStatut</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessRulesNumber__c</fullName>
+    <externalId>false</externalId>
+    <label>Business rules number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SalesDiscountMotif__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RGSIN10</fullName>
+                <default>false</default>
+                <label>RGSIN10</label>
+            </value>
+            <value>
+                <fullName>RGSIN11</fullName>
+                <default>false</default>
+                <label>RGSIN11</label>
+            </value>
+            <value>
+                <fullName>RGSIN12</fullName>
+                <default>false</default>
+                <label>RGSIN12</label>
+            </value>
+            <value>
+                <fullName>RGSIN13</fullName>
+                <default>false</default>
+                <label>RGSIN13</label>
+            </value>
+            <value>
+                <fullName>RGSIN15</fullName>
+                <default>false</default>
+                <label>RGSIN15</label>
+            </value>
+            <value>
+                <fullName>RGSIN14</fullName>
+                <default>false</default>
+                <label>RGSIN14</label>
+            </value>
+            <value>
+                <fullName>RGSIN16</fullName>
+                <default>false</default>
+                <label>RGSIN16</label>
+            </value>
+            <value>
+                <fullName>RGSIN17</fullName>
+                <default>false</default>
+                <label>RGSIN17</label>
+            </value>
+            <value>
+                <fullName>RGSIN18</fullName>
+                <default>false</default>
+                <label>RGSIN18</label>
+            </value>
+            <value>
+                <fullName>RGSIN19</fullName>
+                <default>false</default>
+                <label>RGSIN19</label>
+            </value>
+            <value>
+                <fullName>RGSIN20</fullName>
+                <default>false</default>
+                <label>RGSIN20</label>
+            </value>
+            <value>
+                <fullName>RGSIN21</fullName>
+                <default>false</default>
+                <label>RGSIN21</label>
+            </value>
+            <value>
+                <fullName>RGSIN22</fullName>
+                <default>false</default>
+                <label>RGSIN22</label>
+            </value>
+            <value>
+                <fullName>RGSIN23</fullName>
+                <default>false</default>
+                <label>RGSIN23</label>
+            </value>
+            <value>
+                <fullName>RGSIN24</fullName>
+                <default>false</default>
+                <label>RGSIN24</label>
+            </value>
+            <value>
+                <fullName>RGSIN00</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RGSIN00</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Dépassement d&apos;échange</controllingFieldValue>
+            <valueName>RGSIN18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande contournement Règlement Contrat</controllingFieldValue>
+            <valueName>RGSIN19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A la demande des assureurs</controllingFieldValue>
+            <valueName>RGSIN21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Date de survenance du sinistre supérieure à 10 jours de la date de déclaration</controllingFieldValue>
+            <valueName>RGSIN16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Geste Commercial financier demandé</controllingFieldValue>
+            <valueName>RGSIN22</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dépassement des réparations</controllingFieldValue>
+            <valueName>RGSIN23</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PrimaryDocNotClaim</controllingFieldValue>
+            <valueName>RGSIN24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typologie sinistre différente du contrat</controllingFieldValue>
+            <valueName>RGSIN10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Date du sinistre inférieure au contrat</controllingFieldValue>
+            <valueName>RGSIN11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plafond dépassé</controllingFieldValue>
+            <valueName>RGSIN12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Date de survenance du sinistre de plus de 3 mois</controllingFieldValue>
+            <valueName>RGSIN15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mauvaise interprétation du contrat par un GS/Erreur humaine</controllingFieldValue>
+            <valueName>RGSIN14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annulation de pièces justificatives majeures</controllingFieldValue>
+            <valueName>RGSIN13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Date de sinistre supérieure à la date du contrat</controllingFieldValue>
+            <valueName>RGSIN17</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

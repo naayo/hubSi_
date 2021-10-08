@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <description>Flow de substitution au vrai flow DW Mass Validation pour bouton Home Backup. Suppr et remplacer bouton quand Validation en masse fonctionnelle</description>
+    <interviewLabel>DW Mass Validation - Pas dispo {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>DW Mass Validation - Pas dispo</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Vallidation_en_masse_de_d_claration_web</name>
+        <label>Validation en masse de déclaration web</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Valid_masse_pas_dispo</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b&gt;La validation en masse des déclarations web n&apos;est pas disponible pour le moment.&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Veuillez procéder à une validation unitaire.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Vallidation_en_masse_de_d_claration_web</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

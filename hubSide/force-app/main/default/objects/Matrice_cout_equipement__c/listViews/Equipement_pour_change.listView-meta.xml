@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipement_pour_change</fullName>
+    <columns>Disponible_Echange__c</columns>
+    <columns>NAME</columns>
+    <columns>Date_valeur__c</columns>
+    <columns>Id_externe__c</columns>
+    <columns>Valeur_equipement__c</columns>
+    <columns>GradeCost_1__c</columns>
+    <columns>GradeCost_2__c</columns>
+    <columns>GradeCost_3__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Equipement pour échange</label>
+</ListView>

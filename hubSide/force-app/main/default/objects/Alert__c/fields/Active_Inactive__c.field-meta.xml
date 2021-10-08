@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Inactive__c</fullName>
+    <externalId>false</externalId>
+    <label>Actif/Passif</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actif</fullName>
+                <default>false</default>
+                <label>Actif</label>
+            </value>
+            <value>
+                <fullName>Passif</fullName>
+                <default>false</default>
+                <label>Passif</label>
+            </value>
+            <value>
+                <fullName>SansObjet</fullName>
+                <default>false</default>
+                <label>Sans objet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

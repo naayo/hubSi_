@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attente_client_final__c</fullName>
+    <externalId>false</externalId>
+    <formula>&apos;&apos; 
+&amp;
+IF(
+    AND(TEXT(Asset.Etat_paiement__c) = &quot;unpaid&quot;, Pouss_par_Salesforce__c = false),
+    IMAGE(&quot;/resource/AttentePaiement&quot;, &quot;Paiement&quot; , 32, 32) &amp; &apos; &apos;, 
+    &apos;&apos;
+) 
+&amp;
+IF(
+    TEXT(Attente_Prime__c) = &quot;Oui&quot;,
+    IMAGE(&quot;/resource/Franchise&quot;, &quot;Prime&quot;, 32, 32) &amp; &apos; &apos;, 
+    &apos;&apos;
+)
+&amp;
+IF(
+    AND(TEXT(Attente_documents__c) != &quot;Valid&quot;,TEXT(Attente_documents__c) != &quot;Received&quot;),
+    IMAGE(&quot;/resource/AttenteDocument&quot;, &quot;Document&quot;, 32, 32) &amp; &apos; &apos;,
+    &apos;&apos;
+) 
+&amp;
+IF(
+    TEXT(Autre_attente__c) = &quot;Oui&quot;,
+    IMAGE(&quot;/resource/AutreAttente&quot;, &quot;Autre&quot;, 32, 32),
+    &apos;&apos;
+)
+&amp;
+IF(
+     Attente_colis__c  = True,
+    IMAGE(&quot;/resource/Livraison&quot;, &quot;Livraison&quot;, 32, 32),
+    &apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attente client</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

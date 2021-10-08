@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ins__MobilePhoneTask</fullName>
+    <active>true</active>
+    <description>Mobile Phone Task</description>
+    <label>MobilePhoneTask</label>
+    <picklistValues>
+        <picklist>Actiontype__c</picklist>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coût</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coût %26 Délai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Délai</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Affectation__c</picklist>
+        <values>
+            <fullName>TC Paiement Classique%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TC Paiement urgence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TC demande document</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CallReason__c</picklist>
+        <values>
+            <fullName>ClaimFollowUp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InformationRequest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Canal_communication__c</picklist>
+        <values>
+            <fullName>Appel entrant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appel sortant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail entrant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail sortant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motif_Objet__c</picklist>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Défaut de gamme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hors stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect à qualifier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motif_cloture__c</picklist>
+        <values>
+            <fullName>CB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement adresse effectué</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque demandé%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Valide Choix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client informé SAV refusé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client informé refus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client non joignable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Messagerie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non associé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rappel client programmé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refus client%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Règlé client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Satisfaction_client__c</picklist>
+        <values>
+            <fullName>Moyennement satisfait</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non satisfait</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfait</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sens_communication__c</picklist>
+        <values>
+            <fullName>Entrant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sortant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tech_Stage__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fermé KO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Theme__c</picklist>
+        <values>
+            <fullName>Accord %2F refus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Action_GS__c</picklist>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande Règlement Contrat%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande Règlement Franchise%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande de document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Déclencher réparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Prime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Réparation%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation d%E2%80%99un échange%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Action_TC__c</picklist>
+        <values>
+            <fullName>TransportVoucherRequest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WaiverFormSent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ins__EventStatus__c</picklist>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Shared</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ins__ProviderSiteVisitReason__c</picklist>
+        <values>
+            <fullName>Medical Record Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Review - Provider Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Review - Provider Practitioner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

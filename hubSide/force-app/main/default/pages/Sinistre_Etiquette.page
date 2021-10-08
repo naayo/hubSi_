@@ -1,0 +1,51 @@
+<apex:page controller="Sinistre_EtiquetteController" showHeader="false" standardStylesheets="true">
+    <style type="text/css" media="print">
+        @page {
+            size: 2.12598in 0.669291in ;
+            margin: 0mm;
+        }
+        html, body {
+            display: block;
+        }
+        p {
+            text-align: center;
+            font-weight: bold;
+            display: inline-block;
+            width: 100%;
+            font-size: 10px;
+        }
+        table{
+            display: none;
+        }
+        td {
+            display: inline-block;
+        } 
+        img {
+            margin-top: 5px;
+            margin-left: 5px;
+            page-break-before : always;
+            width: 95%;
+            height: 0.60in; 
+        }
+
+
+
+      </style>
+    
+    <body style="margin:0px auto;">
+        <table width="98%" border="0" cellpadding="0" cellspacing="0">
+            <tr>    
+                <td align="right"><a href="javascript:window.print();"><apex:outputText value="{!$Label.Print}"/></a></td>
+            </tr>
+        </table>
+        <apex:repeat value="{!colisList1}" var="c">
+            <apex:outputText value="{!c.BarCode__c}" escape="false"/>
+        </apex:repeat>
+        <apex:repeat value="{!colisList2}" var="c">
+            <apex:outputText value="{!c.BarCode__c}" escape="false"/>
+        </apex:repeat>
+        <apex:repeat value="{!colisList3}" var="c">
+            <apex:outputText value="{!c.BarCode__c}" escape="false"/>
+        </apex:repeat>
+    </body>
+</apex:page>

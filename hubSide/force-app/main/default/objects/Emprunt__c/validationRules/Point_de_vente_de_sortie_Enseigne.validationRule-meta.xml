@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Point_de_vente_de_sortie_Enseigne</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Point_de_vente_sortie__r.Niveau_retour__c, &quot;Enseigne&quot;), 
+    TEXT(Point_de_vente_sortie__r.Enseigne__c)  &lt;&gt;  TEXT(Point_de_vente_retour__r.Enseigne__c ), 
+    NOT(ISBLANK( Point_de_vente_retour__c )), 
+    NOT ($Setup.Bypass__c.Bypass_validation_rule__c)
+)</errorConditionFormula>
+    <errorDisplayField>Point_de_vente_retour__c</errorDisplayField>
+    <errorMessage>Le retour n&apos;est pas possible en dehors des magasin de l&apos;enseigne.</errorMessage>
+</ValidationRule>

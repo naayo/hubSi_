@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_jours_carence__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Nombre de jours de carence autorisépar emprunt.</description>
+    <externalId>false</externalId>
+    <label>Nombre de jours de carence (par emprunt)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

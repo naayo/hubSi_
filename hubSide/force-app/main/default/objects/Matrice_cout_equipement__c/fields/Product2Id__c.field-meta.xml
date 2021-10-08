@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Catalogue équipement</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.vlocity_ins__RecordTypeName__c</field>
+            <operation>equals</operation>
+            <value>itemCatalog</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Matrice coût equipements</relationshipLabel>
+    <relationshipName>Matrice_co_t_equipements</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

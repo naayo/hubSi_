@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BASE</fullName>
+        <default>false</default>
+        <label>BASE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEANDYOU</fullName>
+        <default>false</default>
+        <label>BE AND  YOU</label>
+    </customValue>
+    <customValue>
+        <fullName>BOUYGUES</fullName>
+        <default>false</default>
+        <label>BOUYGUES</label>
+    </customValue>
+    <customValue>
+        <fullName>CORIOLIS</fullName>
+        <default>false</default>
+        <label>CORIOLIS</label>
+    </customValue>
+    <customValue>
+        <fullName>CREDITMUTUEL</fullName>
+        <default>false</default>
+        <label>CREDIT MUTUEL</label>
+    </customValue>
+    <customValue>
+        <fullName>FREE</fullName>
+        <default>false</default>
+        <label>FREE</label>
+    </customValue>
+    <customValue>
+        <fullName>JOMOBILE</fullName>
+        <default>false</default>
+        <label>JOMOBILE</label>
+    </customValue>
+    <customValue>
+        <fullName>LAPOSTEMOBILE</fullName>
+        <default>false</default>
+        <label>LA POSTE MOBILE</label>
+    </customValue>
+    <customValue>
+        <fullName>NRJ</fullName>
+        <default>false</default>
+        <label>NRJ</label>
+    </customValue>
+    <customValue>
+        <fullName>ORANGE</fullName>
+        <default>false</default>
+        <label>ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>REDSFR</fullName>
+        <default>false</default>
+        <label>RED SFR</label>
+    </customValue>
+    <customValue>
+        <fullName>SFR</fullName>
+        <default>false</default>
+        <label>SFR</label>
+    </customValue>
+    <customValue>
+        <fullName>SIMPLEO</fullName>
+        <default>false</default>
+        <label>SIMPLEO</label>
+    </customValue>
+    <customValue>
+        <fullName>SOSH</fullName>
+        <default>false</default>
+        <label>SOSH</label>
+    </customValue>
+    <customValue>
+        <fullName>VIRGIN</fullName>
+        <default>false</default>
+        <label>VIRGIN</label>
+    </customValue>
+    <customValue>
+        <fullName>OTHER</fullName>
+        <default>false</default>
+        <label>AUTRE</label>
+    </customValue>
+    <description>Telephony operators</description>
+    <masterLabel>Operators</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

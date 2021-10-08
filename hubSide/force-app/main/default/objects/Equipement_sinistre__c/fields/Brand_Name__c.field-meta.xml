@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Name__c</fullName>
+    <description>If Equipement_client__c IS NOT NULL Then = Equipement_client__r.Brand_Name__c
+Else If Product2Id__c IS NOT NULL Then = Product2Id__r.BrandId__r.Name
+Else If BrandId__c IS NOT NULL Then  = BrandId__r.Name
+Else = Brand_not_recognized__c</description>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Equipement_client__c)) , Equipement_client__r.Brand_Name__c  , IF( NOT(ISBLANK(Product2Id__c)) ,  Product2Id__r.BrandId__r.Name ,  IF(NOT(ISBLANK(BrandId__c)),  BrandId__r.Name ,  Brand_not_recognized__c ) ))</formula>
+    <label>Marque</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

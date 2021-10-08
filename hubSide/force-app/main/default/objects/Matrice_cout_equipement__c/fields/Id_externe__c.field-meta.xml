@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_externe__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Utilisé pour la jointure avec le catalogue équipement et par les API sortants de Déstockage.</description>
+    <externalId>true</externalId>
+    <label>Id Externe B-appli Equipement Echange</label>
+    <length>25</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

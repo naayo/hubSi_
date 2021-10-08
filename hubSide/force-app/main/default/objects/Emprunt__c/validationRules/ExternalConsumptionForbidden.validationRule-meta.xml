@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalConsumptionForbidden</fullName>
+    <active>true</active>
+    <description>La consommation externe ne peut être saisie que si l&apos;emprunt ne provient pas de la conversion d&apos;une Réservation</description>
+    <errorConditionFormula>(NOT(ISBLANK(Reservation_origine__c)) ||
+ Produit_emprunte__r.Produit__r.PartnerVoucher__c = false) &amp;&amp;
+NOT(ISBLANK(ExternalCons_EquivDaysNumber__c) )</errorConditionFormula>
+    <errorDisplayField>ExternalCons_EquivDaysNumber__c</errorDisplayField>
+    <errorMessage>La consommation externe ne peut être saisie que si l&apos;emprunt ne provient pas de la conversion d&apos;une Réservation, et que le produit emprunté correspond a un Voucher Partenaire</errorMessage>
+</ValidationRule>

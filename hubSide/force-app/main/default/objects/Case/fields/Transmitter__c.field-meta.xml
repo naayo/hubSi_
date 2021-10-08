@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transmitter__c</fullName>
+    <defaultValue>IF(AND($Profile.Name = &apos;SFAM Qualité&apos;,  $RecordType.DeveloperName = &apos;Reclamation&apos; ),
+&apos;Client&apos;,
+&apos;&apos;)</defaultValue>
+    <description>Typologie du déclarant</description>
+    <externalId>false</externalId>
+    <label>Emetteur</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client</fullName>
+                <default>true</default>
+                <label>Adhérent</label>
+            </value>
+            <value>
+                <fullName>Acpr</fullName>
+                <default>false</default>
+                <label>ACPR</label>
+            </value>
+            <value>
+                <fullName>Asf</fullName>
+                <default>false</default>
+                <label>ASF</label>
+            </value>
+            <value>
+                <fullName>ConsumerAssociations</fullName>
+                <default>false</default>
+                <label>Association de consommateur</label>
+            </value>
+            <value>
+                <fullName>Lawyer</fullName>
+                <default>false</default>
+                <label>Avocat</label>
+            </value>
+            <value>
+                <fullName>Insurer</fullName>
+                <default>false</default>
+                <label>Assureur</label>
+            </value>
+            <value>
+                <fullName>JusticialConciliator</fullName>
+                <default>false</default>
+                <label>Conciliateur de justice</label>
+            </value>
+            <value>
+                <fullName>Curator</fullName>
+                <default>false</default>
+                <label>Curateur</label>
+            </value>
+            <value>
+                <fullName>Ddpp</fullName>
+                <default>false</default>
+                <label>DDPP</label>
+            </value>
+            <value>
+                <fullName>Dgsfp</fullName>
+                <default>false</default>
+                <label>DGSFP</label>
+            </value>
+            <value>
+                <fullName>NationalGendarmeriePolice</fullName>
+                <default>false</default>
+                <label>Gendarmerie - Police</label>
+            </value>
+            <value>
+                <fullName>CourtBailiff</fullName>
+                <default>false</default>
+                <label>Huissier de justice</label>
+            </value>
+            <value>
+                <fullName>Jurisdiction</fullName>
+                <default>false</default>
+                <label>Juridiction</label>
+            </value>
+            <value>
+                <fullName>InsuranceMediator</fullName>
+                <default>false</default>
+                <label>Médiateur des Assurances</label>
+            </value>
+            <value>
+                <fullName>Medycis</fullName>
+                <default>false</default>
+                <label>Medycis</label>
+            </value>
+            <value>
+                <fullName>Notary</fullName>
+                <default>false</default>
+                <label>Notaire</label>
+            </value>
+            <value>
+                <fullName>Omic</fullName>
+                <default>false</default>
+                <label>OMIC</label>
+            </value>
+            <value>
+                <fullName>RegionalPublicBoard</fullName>
+                <default>false</default>
+                <label>Organisme public régional</label>
+            </value>
+            <value>
+                <fullName>LegalProtection</fullName>
+                <default>false</default>
+                <label>Protection juridique</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

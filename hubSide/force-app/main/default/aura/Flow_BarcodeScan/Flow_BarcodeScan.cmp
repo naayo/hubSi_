@@ -1,0 +1,37 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" controller = "Flow_BarcodeScan">
+    
+    <!-- ************************************************************* -->
+    <!-- **************** AUTHOR  : Ariane TANGUY    ***************** -->
+    <!-- **************** VERSION : 1.0              ***************** -->
+    <!-- **************** SINCE   : 02/11/2020       ***************** -->
+    <!-- ************************************************************* -->
+    
+     <!-- inbound variables -->
+    <aura:attribute name="barcodeString" type="String"/>
+    <aura:attribute name="colisQuantity" type="Integer"/>
+    <aura:attribute name="receptionDate" type="Date"/>
+    <aura:attribute name="senderName" type="String"/>
+    <aura:attribute name="newStatus" type="String"/>
+    <aura:attribute name="newSousStatus" type="String"/>
+    <aura:attribute name="newOwnerId" type="String"/>
+    
+    <!-- outbound variables -->
+    <aura:attribute name="showSpinner" type="Boolean" default="true"/>
+    <aura:attribute name="duplicateColisNumber" type="Integer"/>
+    
+    <!-- ************************************************************* -->
+    <!-- ****************      HANDLERS DEFINITION   ***************** -->
+    <!-- ************************************************************* -->
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:renderIf isTrue="{!v.showSpinner}">
+        <div class="slds-container">
+            <center>
+                <div class="spinnerHolder">
+                    <lightning:spinner alternativeText="Loading" size="medium" />
+                </div>
+            </center>
+        </div>
+    </aura:renderIf>
+</aura:component>

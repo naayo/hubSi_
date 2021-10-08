@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fil_d_attente_logistique_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fil d&apos;attente logistique</label>
+    <queue>Fil_d_attente_logistique</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

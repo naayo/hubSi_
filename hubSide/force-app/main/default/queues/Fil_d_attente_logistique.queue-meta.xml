@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Fil d&apos;attente logistique</name>
+    <queueMembers>
+        <roles>
+            <role>Direction_Logistique</role>
+            <role>Equipe_1_Logistique</role>
+            <role>Equipe_2_Logistique</role>
+            <role>Pole_Logistique</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

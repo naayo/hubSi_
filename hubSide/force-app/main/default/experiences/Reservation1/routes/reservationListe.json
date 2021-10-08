@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e6b2c940-acff-4760-8e8d-d2839b31b6c3",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "e0bc96df-0298-4730-8163-a7ecf82144d3",
+  "label" : "Reservation Liste",
+  "objectApiName" : "Reservation__c",
+  "routeType" : "list-a6E",
+  "type" : "route",
+  "urlPrefix" : "reservation"
+}

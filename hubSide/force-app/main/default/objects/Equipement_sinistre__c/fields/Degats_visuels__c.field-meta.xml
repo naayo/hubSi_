@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Degats_visuels__c</fullName>
+    <externalId>false</externalId>
+    <label>Dégâts visuels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ecran cassé</fullName>
+                <default>false</default>
+                <label>Ecran cassé</label>
+            </value>
+            <value>
+                <fullName>LCD inteme cassé</fullName>
+                <default>false</default>
+                <label>LCD inteme cassé</label>
+            </value>
+            <value>
+                <fullName>Face arrière cassée</fullName>
+                <default>false</default>
+                <label>Face arrière cassée</label>
+            </value>
+            <value>
+                <fullName>Tactile HS / Ecran noir</fullName>
+                <default>false</default>
+                <label>Tactile HS / Ecran noir</label>
+            </value>
+            <value>
+                <fullName>Batterie</fullName>
+                <default>false</default>
+                <label>Batterie</label>
+            </value>
+            <value>
+                <fullName>Trace d&apos;oxydation</fullName>
+                <default>false</default>
+                <label>Trace d&apos;oxydation</label>
+            </value>
+            <value>
+                <fullName>Chassie tordu</fullName>
+                <default>false</default>
+                <label>Chassie tordu</label>
+            </value>
+            <value>
+                <fullName>Ne s&apos;allume pas</fullName>
+                <default>false</default>
+                <label>Ne s&apos;allume pas</label>
+            </value>
+            <value>
+                <fullName>Connectique charge</fullName>
+                <default>false</default>
+                <label>Connectique charge</label>
+            </value>
+            <value>
+                <fullName>Connectique oreillette</fullName>
+                <default>false</default>
+                <label>Connectique oreillette</label>
+            </value>
+            <value>
+                <fullName>Bouton de démarrage / veille / home</fullName>
+                <default>false</default>
+                <label>Bouton de démarrage / veille / home</label>
+            </value>
+            <value>
+                <fullName>APN avant cassé</fullName>
+                <default>false</default>
+                <label>APN avant cassé</label>
+            </value>
+            <value>
+                <fullName>APN arrière cassé</fullName>
+                <default>false</default>
+                <label>APN arrière cassé</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

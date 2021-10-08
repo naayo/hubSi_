@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Client empruntant l&apos;objet</description>
+    <externalId>false</externalId>
+    <label>Client</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Le client doit être du type Person Account.</errorMessage>
+        <filterItems>
+            <field>Account.IsPersonAccount</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Emprunts (Client)</relationshipLabel>
+    <relationshipName>Emprunts_client</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

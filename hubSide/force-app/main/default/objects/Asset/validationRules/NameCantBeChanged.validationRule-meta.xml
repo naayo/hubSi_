@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameCantBeChanged</fullName>
+    <active>true</active>
+    <description>Le nom du contrat ne peut être modifié par un profil autre que sys admin ou api - The asset name can&apos;t be updated by profiles other than admin or api.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED( Name ),
+    $Profile.Name != &apos;Administrateur système&apos;, 
+    $Profile.Name != &apos;SFAM API&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Vous n&apos;avez pas les droits suffisants pour cette opération - You don&apos;t have the permission required for this operation.</errorMessage>
+</ValidationRule>

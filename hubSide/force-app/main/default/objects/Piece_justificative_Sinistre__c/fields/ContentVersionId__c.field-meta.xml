@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContentVersionId__c</fullName>
+    <description>Store the Id of the object ContentVersion when a file is uploaded in ContentVersion by the Web or Salesforce in order to get the Id immediately without traversing all relationship until ContentVersion</description>
+    <externalId>false</externalId>
+    <label>ContentVersionId</label>
+    <length>25</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

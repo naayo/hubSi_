@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disponibilite_stock__c</fullName>
+    <defaultValue>&apos;Votre produit n\&apos;est pas disponible actuellement.&apos;</defaultValue>
+    <description>Affiche la disponibilité des stocks du produit en question.</description>
+    <externalId>false</externalId>
+    <label>Disponibilité stock</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

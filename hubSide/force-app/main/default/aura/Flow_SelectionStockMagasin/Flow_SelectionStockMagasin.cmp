@@ -1,0 +1,44 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" controller = "Flow_OnlineReservation">
+    
+    <!-- ************************************************************* -->
+    <!-- **************** AUTHOR  : Ariane TANGUY    ***************** -->
+    <!-- **************** VERSION : 1.0              ***************** -->
+    <!-- **************** SINCE   : 23/06/2020       ***************** -->
+    <!-- ************************************************************* -->
+    
+    <!-- inbound variables -->
+    <aura:attribute name="productId" type="String"/>
+    <aura:attribute name="dateRetrait" type="Date"/>
+    <aura:attribute name="dureeLocation" type="Integer"/>
+    <aura:attribute name="distributeurId" type="String"/>
+    <aura:attribute name="isEmprunt" type="Boolean"/>
+    
+    <!-- outbound variables -->
+    <aura:attribute name="selectedId" type="String"/>
+        
+    <!-- internal variables -->
+    <aura:attribute name="stockMsg" type="String"/>
+    <aura:attribute name="showSpinner" type="Boolean" default="true"/>
+    <aura:attribute name="openFlow" type="Boolean" default="false"/>
+    
+    <!-- ************************************************************* -->
+    <!-- ****************      HANDLERS DEFINITION   ***************** -->
+    <!-- ************************************************************* -->
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:renderIf isTrue="{!v.showSpinner}">
+        <div class="slds-container">
+            <center>
+                <div class="spinnerHolder">
+                    <lightning:spinner alternativeText="Loading" size="medium" />
+                </div>
+            </center>
+        </div>
+    </aura:renderIf>
+    
+    <aura:renderIf isTrue="{!!v.showSpinner}">
+        {!v.stockMsg}
+    </aura:renderIf>
+    
+</aura:component>

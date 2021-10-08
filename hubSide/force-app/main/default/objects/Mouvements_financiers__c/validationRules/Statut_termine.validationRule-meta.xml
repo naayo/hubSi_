@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_termine</fullName>
+    <active>true</active>
+    <description>Si le statut est Terminé il n&apos;est plus modifiable</description>
+    <errorConditionFormula>ISPICKVAL(PRIORVALUE(Statut__c), &apos;Completed&apos;)
+&amp;&amp;
+ISCHANGED(Statut__c)
+&amp;&amp;
+NOT($User.ProfileId = &apos;00e3X000002WyHg&apos;)</errorConditionFormula>
+    <errorDisplayField>Statut__c</errorDisplayField>
+    <errorMessage>Cette indemnisation est terminée, vous ne pouvez plus modifier son statut.</errorMessage>
+</ValidationRule>

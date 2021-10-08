@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proprietaire_stock__c</fullName>
+    <description>Liste permettant de savoir si le distributeur possède un stock</description>
+    <externalId>false</externalId>
+    <label>Propriétaire du stock</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non propriétaire du stock</fullName>
+                <default>false</default>
+                <label>Non propriétaire du stock</label>
+            </value>
+            <value>
+                <fullName>Propriétaire du stock</fullName>
+                <default>false</default>
+                <label>Propriétaire du stock</label>
+            </value>
+            <value>
+                <fullName>Mixte</fullName>
+                <default>false</default>
+                <label>Mixte</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

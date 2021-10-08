@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>NEUF</fullName>
+        <default>false</default>
+        <label>Neuf</label>
+    </customValue>
+    <customValue>
+        <fullName>GRADE1</fullName>
+        <default>false</default>
+        <label>Grade 1</label>
+    </customValue>
+    <customValue>
+        <fullName>GRADE2</fullName>
+        <default>false</default>
+        <label>Grade 2</label>
+    </customValue>
+    <customValue>
+        <fullName>GRADE3</fullName>
+        <default>false</default>
+        <label>Grade 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade 2temp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grade 2temp</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade 1temp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grade 1temp</label>
+    </customValue>
+    <customValue>
+        <fullName>Neuftemp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Neuftemp</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade 3temp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grade 3temp</label>
+    </customValue>
+    <description>Grades des équipements sinistrés - Equipement rank values</description>
+    <masterLabel>Grade équipement sinistré</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

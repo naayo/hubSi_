@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modele_equipement__c</fullName>
+    <externalId>false</externalId>
+    <label>Modèle équipement</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Marque__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Modele_equipement</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Autre</controllingFieldValue>
+            <valueName>Huawei P30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autre</controllingFieldValue>
+            <valueName>Huawei P30 Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 5s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 6s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 7 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 8 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone XS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone XS Max</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 11 Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Iphone 11 Pro Max</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Ipad Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Ipad Pro 11&apos;&apos;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Ipad Pro 12,9&apos;&apos;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>AirPod</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>AirPod 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apple</controllingFieldValue>
+            <valueName>Airpod Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>Galaxy S6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>Galaxy S7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>Galaxy S9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>Galaxy S10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Samsung</controllingFieldValue>
+            <valueName>Galaxy S10 Plus</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

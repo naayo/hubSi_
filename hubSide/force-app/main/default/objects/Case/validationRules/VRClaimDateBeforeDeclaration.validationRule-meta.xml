@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRClaimDateBeforeDeclaration</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Date_sinistre__c),
+Record_Type_Name__c = &apos;Sinistre&apos;, 
+Date_sinistre__c &gt; ClientDeclarationValidationDate__c  
+)</errorConditionFormula>
+    <errorDisplayField>Date_sinistre__c</errorDisplayField>
+    <errorMessage>La date du sinistre ne doit pas être supérieur à la date de déclaration du client</errorMessage>
+</ValidationRule>

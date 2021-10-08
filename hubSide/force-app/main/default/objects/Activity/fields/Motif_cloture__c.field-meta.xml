@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_cloture__c</fullName>
+    <description>Sinistre</description>
+    <externalId>false</externalId>
+    <label>Motif de clôture</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_Action__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cheque demandé​</fullName>
+                <default>false</default>
+                <label>Cheque demandé​</label>
+            </value>
+            <value>
+                <fullName>CB</fullName>
+                <default>false</default>
+                <label>CB</label>
+            </value>
+            <value>
+                <fullName>Refus client​</fullName>
+                <default>false</default>
+                <label>Refus client​</label>
+            </value>
+            <value>
+                <fullName>Client non joignable</fullName>
+                <default>false</default>
+                <label>Client non joignable</label>
+            </value>
+            <value>
+                <fullName>Non associé</fullName>
+                <default>false</default>
+                <label>Non associé</label>
+            </value>
+            <value>
+                <fullName>Règlé client</fullName>
+                <default>false</default>
+                <label>Règlé client</label>
+            </value>
+            <value>
+                <fullName>Client informé refus</fullName>
+                <default>false</default>
+                <label>Client informé refus</label>
+            </value>
+            <value>
+                <fullName>Client Valide Choix</fullName>
+                <default>false</default>
+                <label>Client Valide Choix</label>
+            </value>
+            <value>
+                <fullName>Rappel client programmé</fullName>
+                <default>false</default>
+                <label>Rappel client programmé</label>
+            </value>
+            <value>
+                <fullName>Changement adresse effectué</fullName>
+                <default>false</default>
+                <label>Changement adresse effectué</label>
+            </value>
+            <value>
+                <fullName>Client informé SAV refusé</fullName>
+                <default>false</default>
+                <label>Client informé SAV refusé</label>
+            </value>
+            <value>
+                <fullName>Messagerie</fullName>
+                <default>false</default>
+                <label>Messagerie</label>
+            </value>
+            <value>
+                <fullName>Client non joignable après plusieurs tentatives</fullName>
+                <default>false</default>
+                <label>Client non joignable après plusieurs tentatives</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Autres</label>
+            </value>
+            <value>
+                <fullName>CB ou chèque</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CB ou chèque</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>OrderingParts</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestGS</controllingFieldValue>
+            <controllingFieldValue>EquipmentRepaired</controllingFieldValue>
+            <controllingFieldValue>Note</controllingFieldValue>
+            <controllingFieldValue>GeolocalisationDeactivation</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestTC</controllingFieldValue>
+            <controllingFieldValue>TerminalUnlock</controllingFieldValue>
+            <controllingFieldValue>LaunchExpedition</controllingFieldValue>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>ReturnProductToSupplier</controllingFieldValue>
+            <controllingFieldValue>CompensationChangeToValidate</controllingFieldValue>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <controllingFieldValue>RejectedSinistreToCreate</controllingFieldValue>
+            <controllingFieldValue>CarrierLossAccepted</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierOk</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierKo</controllingFieldValue>
+            <controllingFieldValue>AddressConfirmationRequest</controllingFieldValue>
+            <controllingFieldValue>TransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormSent</controllingFieldValue>
+            <controllingFieldValue>Déclencher réparation</controllingFieldValue>
+            <controllingFieldValue>SwitchTransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormRequest</controllingFieldValue>
+            <controllingFieldValue>DeductiblePaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>runPaiementVersement</controllingFieldValue>
+            <controllingFieldValue>RepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande de document</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <controllingFieldValue>Validation Prime</controllingFieldValue>
+            <controllingFieldValue>Validation Réparation​</controllingFieldValue>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <controllingFieldValue>AnnualSubscriptionPaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>NonCompensationAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>IrreparableEquipment</controllingFieldValue>
+            <controllingFieldValue>DocumentListRequest</controllingFieldValue>
+            <controllingFieldValue>ConditionallyRepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande à traiter</controllingFieldValue>
+            <valueName>Client non joignable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OrderingParts</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestGS</controllingFieldValue>
+            <controllingFieldValue>EquipmentRepaired</controllingFieldValue>
+            <controllingFieldValue>Note</controllingFieldValue>
+            <controllingFieldValue>GeolocalisationDeactivation</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestTC</controllingFieldValue>
+            <controllingFieldValue>TerminalUnlock</controllingFieldValue>
+            <controllingFieldValue>LaunchExpedition</controllingFieldValue>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>ReturnProductToSupplier</controllingFieldValue>
+            <controllingFieldValue>CompensationChangeToValidate</controllingFieldValue>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <controllingFieldValue>RejectedSinistreToCreate</controllingFieldValue>
+            <controllingFieldValue>CarrierLossAccepted</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierOk</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierKo</controllingFieldValue>
+            <controllingFieldValue>AddressConfirmationRequest</controllingFieldValue>
+            <controllingFieldValue>TransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormSent</controllingFieldValue>
+            <controllingFieldValue>Déclencher réparation</controllingFieldValue>
+            <controllingFieldValue>SwitchTransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormRequest</controllingFieldValue>
+            <controllingFieldValue>DeductiblePaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>runPaiementVersement</controllingFieldValue>
+            <controllingFieldValue>RepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande de document</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <controllingFieldValue>Validation Prime</controllingFieldValue>
+            <controllingFieldValue>Validation Réparation​</controllingFieldValue>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <controllingFieldValue>AnnualSubscriptionPaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>NonCompensationAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>IrreparableEquipment</controllingFieldValue>
+            <controllingFieldValue>DocumentListRequest</controllingFieldValue>
+            <controllingFieldValue>ConditionallyRepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande à traiter</controllingFieldValue>
+            <valueName>Rappel client programmé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OrderingParts</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestGS</controllingFieldValue>
+            <controllingFieldValue>EquipmentRepaired</controllingFieldValue>
+            <controllingFieldValue>Note</controllingFieldValue>
+            <controllingFieldValue>GeolocalisationDeactivation</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestTC</controllingFieldValue>
+            <controllingFieldValue>TerminalUnlock</controllingFieldValue>
+            <controllingFieldValue>LaunchExpedition</controllingFieldValue>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>ReturnProductToSupplier</controllingFieldValue>
+            <controllingFieldValue>CompensationChangeToValidate</controllingFieldValue>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <controllingFieldValue>RejectedSinistreToCreate</controllingFieldValue>
+            <controllingFieldValue>CarrierLossAccepted</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierOk</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierKo</controllingFieldValue>
+            <controllingFieldValue>AddressConfirmationRequest</controllingFieldValue>
+            <controllingFieldValue>TransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormSent</controllingFieldValue>
+            <controllingFieldValue>Déclencher réparation</controllingFieldValue>
+            <controllingFieldValue>SwitchTransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormRequest</controllingFieldValue>
+            <controllingFieldValue>DeductiblePaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>runPaiementVersement</controllingFieldValue>
+            <controllingFieldValue>RepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande de document</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <controllingFieldValue>Validation Prime</controllingFieldValue>
+            <controllingFieldValue>Validation Réparation​</controllingFieldValue>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <controllingFieldValue>AnnualSubscriptionPaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>NonCompensationAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>IrreparableEquipment</controllingFieldValue>
+            <controllingFieldValue>DocumentListRequest</controllingFieldValue>
+            <controllingFieldValue>ConditionallyRepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande à traiter</controllingFieldValue>
+            <valueName>Messagerie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OrderingParts</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestGS</controllingFieldValue>
+            <controllingFieldValue>EquipmentRepaired</controllingFieldValue>
+            <controllingFieldValue>Note</controllingFieldValue>
+            <controllingFieldValue>GeolocalisationDeactivation</controllingFieldValue>
+            <controllingFieldValue>InterventionRequestTC</controllingFieldValue>
+            <controllingFieldValue>TerminalUnlock</controllingFieldValue>
+            <controllingFieldValue>LaunchExpedition</controllingFieldValue>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>ReturnProductToSupplier</controllingFieldValue>
+            <controllingFieldValue>CompensationChangeToValidate</controllingFieldValue>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <controllingFieldValue>RejectedSinistreToCreate</controllingFieldValue>
+            <controllingFieldValue>CarrierLossAccepted</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierOk</controllingFieldValue>
+            <controllingFieldValue>ReturnByCarrierKo</controllingFieldValue>
+            <controllingFieldValue>AddressConfirmationRequest</controllingFieldValue>
+            <controllingFieldValue>TransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormSent</controllingFieldValue>
+            <controllingFieldValue>Déclencher réparation</controllingFieldValue>
+            <controllingFieldValue>SwitchTransportVoucherRequest</controllingFieldValue>
+            <controllingFieldValue>WaiverFormRequest</controllingFieldValue>
+            <controllingFieldValue>DeductiblePaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>runPaiementVersement</controllingFieldValue>
+            <controllingFieldValue>RepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande de document</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <controllingFieldValue>Validation Prime</controllingFieldValue>
+            <controllingFieldValue>Validation Réparation​</controllingFieldValue>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <controllingFieldValue>AnnualSubscriptionPaymentAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>NonCompensationAttestationRequest</controllingFieldValue>
+            <controllingFieldValue>IrreparableEquipment</controllingFieldValue>
+            <controllingFieldValue>DocumentListRequest</controllingFieldValue>
+            <controllingFieldValue>ConditionallyRepairableEquipment</controllingFieldValue>
+            <controllingFieldValue>Demande à traiter</controllingFieldValue>
+            <valueName>Client non joignable après plusieurs tentatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <valueName>Cheque demandé​</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <valueName>CB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DemandeReglementReparation</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Contrat​</controllingFieldValue>
+            <controllingFieldValue>Demande Règlement Franchise​</controllingFieldValue>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Refus client​</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAVRejected</controllingFieldValue>
+            <valueName>Client informé SAV refusé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AddressConfirmationRequest</controllingFieldValue>
+            <valueName>Changement adresse effectué</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation d’un échange​</controllingFieldValue>
+            <valueName>Client Valide Choix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refus</controllingFieldValue>
+            <valueName>Client informé refus</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

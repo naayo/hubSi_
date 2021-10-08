@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ChronopostSav</fullName>
+        <default>false</default>
+        <label>Chronopost - SAV</label>
+    </customValue>
+    <customValue>
+        <fullName>ChronopostReparation</fullName>
+        <default>false</default>
+        <label>Chronopost - Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>LaPosteSav</fullName>
+        <default>false</default>
+        <label>La Poste -  SAV</label>
+    </customValue>
+    <customValue>
+        <fullName>LaPosteReparation</fullName>
+        <default>false</default>
+        <label>La Poste -  Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>BulkParcelsSav</fullName>
+        <default>false</default>
+        <label>Colis en vrac - SAV</label>
+    </customValue>
+    <customValue>
+        <fullName>BulkParcelsReparation</fullName>
+        <default>false</default>
+        <label>Colis en vrac - Réparation</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronopost</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chronopost</label>
+    </customValue>
+    <customValue>
+        <fullName>La Poste</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>La Poste</label>
+    </customValue>
+    <masterLabel>Nom transporteur</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

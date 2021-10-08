@@ -1,0 +1,454 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "39523796-20ff-4eee-889a-ec31cce81177",
+  "label" : "Nos magasins",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b50b9e9f-f538-4348-a65a-2cee1b9ca2d6",
+          "columns" : [ {
+            "UUID" : "2b352ec8-29d7-47d7-bf29-85ba34193084",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b50b9e9f-f538-4348-a65a-2cee1b9ca2d6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Nos magasins</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9fc2aabf-8024-4a5e-b0f6-746d18cdb182",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2b352ec8-29d7-47d7-bf29-85ba34193084",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "39d4f142-529c-4b2e-b1f7-eeab53593977",
+          "columns" : [ {
+            "UUID" : "8efbdc55-0efb-4ae5-8559-c5931dc772f7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c3d8b734-8a4f-4994-8d81-7f4406085299",
+            "columnKey" : "5d08b",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "176f089f-c8ed-4814-8a4c-d92a72d5e610",
+            "columnKey" : "546dd",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0ffac386-2e8a-4666-b62b-14f6261f84c6",
+            "columnKey" : "527e7",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 201
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "39d4f142-529c-4b2e-b1f7-eeab53593977",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map1.1}\" style=\"width: 50px; height: 63.2226px;\" /></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9d060c0f-7991-4bc0-a8d4-e41d11b74b86",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 102, 204); background-color: transparent;\">Hubside.Store Aéroville</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(34, 34, 34); background-color: transparent;\">30 Rue des Buissons</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(34, 34, 34);\">﻿95700 Roissy-en-France</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au dimanche</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 10h à 20h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(34, 34, 34);\">01 85 73 55 88</span></p><p><span style=\"font-size: 14px;\">&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0566c2b0-c151-45e7-bded-aa377ccb8242",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8efbdc55-0efb-4ae5-8559-c5931dc772f7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f868b7ed-1c7b-4c25-9b6c-415b1e024879",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: transparent; color: rgb(0, 102, 204); font-size: 14px;\">Hubside.Store Carré Sénart</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">3 Allée du Préambule</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">77127 Lieusaint</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 10h à 20h30</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">et dimanche de 11h à 19h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">01 87 44 68 50&nbsp;</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "93d05341-38b7-4cd3-a73d-c9b83c958630",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c3d8b734-8a4f-4994-8d81-7f4406085299",
+        "regionLabel" : "Column 2",
+        "regionName" : "5d08b",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "46880604-02c1-483d-ae4f-53ff2013acb5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 102, 204); font-size: 14px; background-color: transparent;\">Hubside.Store Euralille</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">100 avenue Willy Brandt</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">59777 Lille</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 9h30 à 20h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">﻿03 59 61 27 41&nbsp;</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7a2397b8-f53a-4f2c-a09b-c20cf938ddc6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "176f089f-c8ed-4814-8a4c-d92a72d5e610",
+        "regionLabel" : "Column 3",
+        "regionName" : "546dd",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" /></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "db8c8c9a-8c97-405e-9686-80368e37536e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: transparent; font-size: 14px; color: rgb(0, 102, 204);\">Hubside.Store Part-Dieu</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">17 rue Docteur Bouchut</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">69003 Lyon</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">04 22 54 21 53</span></p><p>&nbsp;&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fc8fda78-fcce-4054-87bd-a082c164c5a4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0ffac386-2e8a-4666-b62b-14f6261f84c6",
+        "regionLabel" : "Column 4",
+        "regionName" : "527e7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "20162ea6-e05b-4f5f-8e15-a9d13599718d",
+          "columns" : [ {
+            "UUID" : "68e7a39a-adb2-4874-a23e-c62916bcef4c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "954f52de-1e5c-4901-bf0a-b1b2c210f71d",
+            "columnKey" : "985f8",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b9fb7136-f603-4214-99f2-9d16777f06b2",
+            "columnKey" : "c472d",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "824f0299-9a3f-4f9c-8d67-0fe53db14201",
+            "columnKey" : "5750a",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "20162ea6-e05b-4f5f-8e15-a9d13599718d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "57620c1c-8dfb-4371-a9ba-64541e6c4bb9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 102, 204); font-size: 14px; background-color: transparent;\">Hubside.Store Rosny 2</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Avenue du Général De Gaulle</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(32, 33, 36);\">93110 Rosny-sous-Bois</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 10h à 21h</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">et dimanche de 10h à 20h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">01 85 73 55 89</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cd48db13-b338-4475-95fa-d7cdface850c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "68e7a39a-adb2-4874-a23e-c62916bcef4c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "97bcfefa-2664-4118-ad2c-023767657b21",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 102, 204); font-size: 14px;\">Hubside.Store Salaise-sur-Sanne</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: rgb(34, 34, 34); font-size: 14px;\">Route Nationale 7 ZI</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(34, 34, 34); font-size: 14px;\">Rue de Jonchain Sud</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(34, 34, 34); font-size: 14px;\">﻿38150 Salaise-sur-Sanne</span><span style=\"font-size: 14px;\">&nbsp;</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au vendredi de 9h30 à 12h30 et de 14h à 19h</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">et le samedi de 9h30 à 19h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">04 22 54 21 52</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "712d5765-b134-4997-8b61-cc276d8876c1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "954f52de-1e5c-4901-bf0a-b1b2c210f71d",
+        "regionLabel" : "Column 2",
+        "regionName" : "985f8",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "53909e3a-d6d6-4fcf-b090-2f1f268784ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 102, 204); font-size: 14px; background-color: transparent;\">Hubside.Store So Ouest</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">31 Rue d'Alsace</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">92300 Levallois-Perret</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 10h à 20h30</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">01 85 73 55 90</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "389bac39-e26b-4b49-80b9-b1f73df40aad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b9fb7136-f603-4214-99f2-9d16777f06b2",
+        "regionLabel" : "Column 3",
+        "regionName" : "c472d",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5a5e901d-10d6-480e-a452-9d08b581e905",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: transparent; font-size: 14px; color: rgb(0, 102, 204);\">Hubside.Store Valence</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2 avenue Victor Hugo</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">﻿26000 Valence</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f7844c06-9d3e-43b0-b84b-5e4488397f28",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "824f0299-9a3f-4f9c-8d67-0fe53db14201",
+        "regionLabel" : "Column 4",
+        "regionName" : "5750a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ddcc5eff-1a81-4e57-8fc7-a1866f57b27f",
+          "columns" : [ {
+            "UUID" : "ee1bed2f-3e57-45c4-8434-d7f4bb76813c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a36f019e-fb9b-4649-87de-eeb233c0b049",
+            "columnKey" : "4bbac",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7cb26192-eb09-46c5-a577-7a6263e2c8ca",
+            "columnKey" : "30114",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "040741dc-4ca9-4e1f-8d90-ab151fbd6db5",
+            "columnKey" : "dd1d8",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ddcc5eff-1a81-4e57-8fc7-a1866f57b27f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "dc0f591a-7915-4fe6-8c94-d65f84f28f2b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 102, 204); font-size: 14px; background-color: transparent;\">Hubside.Store Vélizy 2</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2 Avenue de l'Europe</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">78140 Vélizy-Villacoublay</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au jeudi et samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 10h à 21h</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">et vendredi et dimanche de 10h à 19h</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">01 41 45 78 06</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d7b92ce6-2422-4f1c-92fb-b3b121de22ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ee1bed2f-3e57-45c4-8434-d7f4bb76813c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Map.1}\" style=\"width: 50px; height: 63.2226px;\" />&nbsp;&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "338349e7-2ed6-4674-82de-f957230979d4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"background-color: transparent; font-size: 14px; color: rgb(0, 102, 204);\">Hubside.Store Villeneuve-d'Ascq V2</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Centre V2</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Boulevard de Valmy</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">59650 Villeneuve-d’Ascq</span><span style=\"font-size: 14px; color: var(--lwc-colorTextDefault,rgb(0, 2, 64)); background-color: transparent;\">﻿</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Du lundi au samedi</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">de 9h30 à 20h30</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">03 59 61 40 31</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e068581f-1f6b-455d-b23f-1725f1775a6b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a36f019e-fb9b-4649-87de-eeb233c0b049",
+        "regionLabel" : "Column 2",
+        "regionName" : "4bbac",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "7cb26192-eb09-46c5-a577-7a6263e2c8ca",
+        "regionLabel" : "Column 3",
+        "regionName" : "30114",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "040741dc-4ca9-4e1f-8d90-ab151fbd6db5",
+        "regionLabel" : "Column 4",
+        "regionName" : "dd1d8",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70f46aeb-1f4b-46b3-ba7c-991b022a2afd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nos magasins"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ba1cc92c-dc0e-4bfd-a1cb-f05f28f54b76",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9bda38e-9a7d-41d5-80f7-3e96e7393314",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nos-magasins"
+}

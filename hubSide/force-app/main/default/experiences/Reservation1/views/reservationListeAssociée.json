@@ -1,0 +1,38 @@
+{
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "2679b2d8-ae68-481c-a543-32423c0124f1",
+  "label" : "Reservation Liste associée",
+  "regions" : [ {
+    "id" : "d6025a4d-b869-46db-b0cb-b94d916adbd5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "782d3ea0-5c44-4833-bcd9-05e70378c355",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9b963e32-8817-4f9c-9e17-aa21831cbc33",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4f9ab839-7a68-4f4f-8215-438f5d8bf417",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a6E"
+}

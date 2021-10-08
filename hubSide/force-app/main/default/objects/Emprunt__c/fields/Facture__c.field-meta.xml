@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facture__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Facture liée à l&apos;emprunt en cours</description>
+    <externalId>false</externalId>
+    <label>Facture</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Facture__c.Contrat__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Contrat__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Facture__c</referenceTo>
+    <relationshipLabel>Emprunts</relationshipLabel>
+    <relationshipName>Emprunts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

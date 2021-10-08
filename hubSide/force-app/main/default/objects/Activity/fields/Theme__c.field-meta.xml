@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Theme__c</fullName>
+    <externalId>false</externalId>
+    <label>Thème</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+            <value>
+                <fullName>Accord / refus</fullName>
+                <default>false</default>
+                <label>Accord / refus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Typologie_de_sinistre__c</fullName>
+    <externalId>false</externalId>
+    <label>Typologie de sinistre</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pickpocketed</fullName>
+                <default>false</default>
+                <label>Vol toute cause</label>
+            </value>
+            <value>
+                <fullName>Robbed</fullName>
+                <default>false</default>
+                <label>Vol caractérisé</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Perte</label>
+            </value>
+            <value>
+                <fullName>Broken</fullName>
+                <default>false</default>
+                <label>Casse</label>
+            </value>
+            <value>
+                <fullName>Oxidised</fullName>
+                <default>false</default>
+                <label>Oxydation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

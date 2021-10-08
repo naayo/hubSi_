@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0677af1d-937a-455c-b988-60e581cfb89e",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "6edfaab0-020a-41e9-bb86-5a88678f092f",
+  "label" : "Nos engagements",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-nos-engagements",
+  "type" : "route",
+  "urlPrefix" : "nos-engagements"
+}

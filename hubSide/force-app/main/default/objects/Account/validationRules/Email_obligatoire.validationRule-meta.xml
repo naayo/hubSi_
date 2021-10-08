@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_obligatoire</fullName>
+    <active>true</active>
+    <description>L&apos;adresse email est obligatoire lors de la création d&apos;un client.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Client_location&quot;, 
+    ISBLANK ( PersonEmail )
+)</errorConditionFormula>
+    <errorMessage>Merci de bien vouloir renseigner un email.</errorMessage>
+</ValidationRule>

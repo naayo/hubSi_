@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sinistre_CL</fullName>
+    <fields>Numero_sinistre__c</fields>
+    <fields>Typologie_Sinistre__c</fields>
+    <fields>Attente_client_final__c</fields>
+    <fields>Montant_sinistre__c</fields>
+    <fields>Delai_dossier_complet__c</fields>
+    <fields>Etat_contrat__c</fields>
+    <fields>OwnerId</fields>
+    <label>Case Sinistre CL</label>
+</CompactLayout>

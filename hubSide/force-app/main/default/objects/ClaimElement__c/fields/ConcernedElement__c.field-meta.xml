@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConcernedElement__c</fullName>
+    <description>Elément concerné par le dossier de réclamation</description>
+    <externalId>false</externalId>
+    <label>Elément concerné</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Formule</fullName>
+                <default>false</default>
+                <label>Formule</label>
+            </value>
+            <value>
+                <fullName>Options</fullName>
+                <default>false</default>
+                <label>Options</label>
+            </value>
+            <value>
+                <fullName>PDS hors Buy Back</fullName>
+                <default>false</default>
+                <label>PDS hors Buy Back</label>
+            </value>
+            <value>
+                <fullName>Buy Back</fullName>
+                <default>false</default>
+                <label>Buy Back</label>
+            </value>
+            <value>
+                <fullName>Sinistre</fullName>
+                <default>false</default>
+                <label>Sinistre</label>
+            </value>
+            <value>
+                <fullName>ODR Formule</fullName>
+                <default>false</default>
+                <label>ODR Formule</label>
+            </value>
+            <value>
+                <fullName>ODR PDS</fullName>
+                <default>false</default>
+                <label>ODR PDS</label>
+            </value>
+            <value>
+                <fullName>Offre commerciale</fullName>
+                <default>false</default>
+                <label>Offre commerciale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

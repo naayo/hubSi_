@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>Code_formule__c</fields>
+    <fields>Date_debut_contrat__c</fields>
+    <fields>Nombre_jours_restant__c</fields>
+    <fields>Nombre_jours_consommes__c</fields>
+    <label>Asset</label>
+</CompactLayout>

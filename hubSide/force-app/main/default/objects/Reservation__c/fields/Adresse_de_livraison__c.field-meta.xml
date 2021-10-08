@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adresse_de_livraison__c</fullName>
+    <externalId>false</externalId>
+    <formula>Client__r.ShippingStreet + &apos; &apos; + Client__r.ShippingPostalCode + &apos; &apos; + Client__r.ShippingCity + &apos; &apos; + Client__r.ShippingCountry</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Adresse de livraison</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

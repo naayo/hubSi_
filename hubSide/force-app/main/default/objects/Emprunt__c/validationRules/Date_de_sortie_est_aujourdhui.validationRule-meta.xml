@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_sortie_est_aujourdhui</fullName>
+    <active>false</active>
+    <description>Lorsque le statut de l&apos;emprunt devient Sortie, la date de sortie ne peut être que celle d&apos;aujourd&apos;hui.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(Status__c), &apos;En magasin&apos;), 
+    ISPICKVAL(Status__c, &apos;Sortie&apos;),
+    Date_sortie__c &lt;&gt; TODAY()
+)</errorConditionFormula>
+    <errorDisplayField>Date_sortie__c</errorDisplayField>
+    <errorMessage>La date de sortie doit être la même que la date d&apos;aujourd&apos;hui.</errorMessage>
+</ValidationRule>

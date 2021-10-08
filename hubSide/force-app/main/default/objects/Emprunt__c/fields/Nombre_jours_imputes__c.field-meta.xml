@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_jours_imputes__c</fullName>
+    <description>Calcule le nombre de jours dans le cas où le produit emprunté serait de gamme inférieure à la gamme offre choisie.
+[SFAMI-2160 : prend l&apos;équivalent nombre de jour de location dans la cadre d&apos;un voucher partenaire]</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    NOT(ISBLANK(ExternalCons_EquivDaysNumber__c)),
+    ExternalCons_EquivDaysNumber__c,
+    IF(
+        OR(Coefficient_decompte__c == 0,ISBLANK(Coefficient_decompte__c ), ISNULL(Coefficient_decompte__c )),
+        0,
+        CEILING( Jours_consommes__c / Coefficient_decompte__c )
+    )
+)</formula>
+    <label>Nombre de jours imputés</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

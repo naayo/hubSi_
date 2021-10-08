@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accessoire</fullName>
+        <default>false</default>
+        <label>Accessoire</label>
+    </customValue>
+    <customValue>
+        <fullName>Mode Livraison</fullName>
+        <default>false</default>
+        <label>Mode Livraison</label>
+    </customValue>
+    <customValue>
+        <fullName>Autre</fullName>
+        <default>false</default>
+        <label>Autre</label>
+    </customValue>
+    <customValue>
+        <fullName>Batterie</fullName>
+        <default>false</default>
+        <label>Batterie</label>
+    </customValue>
+    <customValue>
+        <fullName>Chassis</fullName>
+        <default>false</default>
+        <label>Chassis</label>
+    </customValue>
+    <customValue>
+        <fullName>Connecteur de Charge</fullName>
+        <default>false</default>
+        <label>Connecteur de Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecran</fullName>
+        <default>false</default>
+        <label>Ecran</label>
+    </customValue>
+    <customValue>
+        <fullName>Flex</fullName>
+        <default>false</default>
+        <label>Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>Tactile</fullName>
+        <default>false</default>
+        <label>Tactile</label>
+    </customValue>
+    <customValue>
+        <fullName>Vitre Arrière</fullName>
+        <default>false</default>
+        <label>Vitre Arrière</label>
+    </customValue>
+    <customValue>
+        <fullName>Equipement Echangé</fullName>
+        <default>false</default>
+        <label>Equipement Echangé</label>
+    </customValue>
+    <customValue>
+        <fullName>Appareil Photo AV</fullName>
+        <default>false</default>
+        <label>Appareil Photo AV</label>
+    </customValue>
+    <customValue>
+        <fullName>Appareil Photo AR</fullName>
+        <default>false</default>
+        <label>Appareil Photo AR</label>
+    </customValue>
+    <customValue>
+        <fullName>Soudure</fullName>
+        <default>false</default>
+        <label>Soudure</label>
+    </customValue>
+    <customValue>
+        <fullName>Indemnité transporteur</fullName>
+        <default>false</default>
+        <label>Indemnité transporteur</label>
+    </customValue>
+    <customValue>
+        <fullName>Dalle PC</fullName>
+        <default>false</default>
+        <label>Dalle PC</label>
+    </customValue>
+    <customValue>
+        <fullName>Dalle Mac</fullName>
+        <default>false</default>
+        <label>Dalle Mac</label>
+    </customValue>
+    <customValue>
+        <fullName>Chassis Drône</fullName>
+        <default>false</default>
+        <label>Chassis Drône</label>
+    </customValue>
+    <customValue>
+        <fullName>Caméra Drône</fullName>
+        <default>false</default>
+        <label>Caméra Drône</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecran Console</fullName>
+        <default>false</default>
+        <label>Ecran Console</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecran Surface</fullName>
+        <default>false</default>
+        <label>Ecran Surface</label>
+    </customValue>
+    <customValue>
+        <fullName>Disque Dur</fullName>
+        <default>false</default>
+        <label>Disque Dur</label>
+    </customValue>
+    <customValue>
+        <fullName>Set Ecran</fullName>
+        <default>false</default>
+        <label>Set Ecran</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV1</fullName>
+        <default>false</default>
+        <label>DIV1</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV2</fullName>
+        <default>false</default>
+        <label>DIV2</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV3</fullName>
+        <default>false</default>
+        <label>DIV3</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV4</fullName>
+        <default>false</default>
+        <label>DIV4</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV5</fullName>
+        <default>false</default>
+        <label>DIV5</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV6</fullName>
+        <default>false</default>
+        <label>DIV6</label>
+    </customValue>
+    <customValue>
+        <fullName>DIV7</fullName>
+        <default>false</default>
+        <label>DIV7</label>
+    </customValue>
+    <customValue>
+        <fullName>SAV - Complément fournisseur</fullName>
+        <default>false</default>
+        <label>SAV - Complément fournisseur</label>
+    </customValue>
+    <customValue>
+        <fullName>Coût équipement initial</fullName>
+        <default>false</default>
+        <label>Coût équipement initial</label>
+    </customValue>
+    <customValue>
+        <fullName>Ajustement Apple</fullName>
+        <default>false</default>
+        <label>Ajustement Apple</label>
+    </customValue>
+    <customValue>
+        <fullName>Ajustement Autres marques</fullName>
+        <default>false</default>
+        <label>Ajustement Autres marques</label>
+    </customValue>
+    <customValue>
+        <fullName>Réparation agrée Apple</fullName>
+        <default>false</default>
+        <label>Réparation agrée Apple</label>
+    </customValue>
+    <customValue>
+        <fullName>SWAP APPLE</fullName>
+        <default>false</default>
+        <label>SWAP APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>Réparation APPLE</fullName>
+        <default>false</default>
+        <label>Réparation APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>Forfait de Base</fullName>
+        <default>false</default>
+        <label>Forfait de Base</label>
+    </customValue>
+    <customValue>
+        <fullName>Divers</fullName>
+        <default>false</default>
+        <label>Divers</label>
+    </customValue>
+    <customValue>
+        <fullName>Drone</fullName>
+        <default>false</default>
+        <label>Drone</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecran Cassé</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ecran Cassé</label>
+    </customValue>
+    <customValue>
+        <fullName>Appareil Photo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Appareil Photo</label>
+    </customValue>
+    <masterLabel>Objet</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

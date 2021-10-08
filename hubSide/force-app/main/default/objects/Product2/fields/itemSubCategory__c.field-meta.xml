@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>itemSubCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Sous catégorie</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACCESSOIRE PC</fullName>
+                <default>false</default>
+                <label>ACCESSOIRE PC</label>
+            </value>
+            <value>
+                <fullName>ACCESSOIRE TV</fullName>
+                <default>false</default>
+                <label>ACCESSOIRE TV</label>
+            </value>
+            <value>
+                <fullName>AMPOULE CONNECTEE</fullName>
+                <default>false</default>
+                <label>AMPOULE CONNECTEE</label>
+            </value>
+            <value>
+                <fullName>APPAREIL PHOTO</fullName>
+                <default>false</default>
+                <label>APPAREIL PHOTO</label>
+            </value>
+            <value>
+                <fullName>BATTERIE DE SECOURS</fullName>
+                <default>false</default>
+                <label>BATTERIE DE SECOURS</label>
+            </value>
+            <value>
+                <fullName>BOITIER DE DESINFECTION</fullName>
+                <default>false</default>
+                <label>BOITIER DE DESINFECTION</label>
+            </value>
+            <value>
+                <fullName>BRACELET CONNECTE</fullName>
+                <default>false</default>
+                <label>BRACELET CONNECTE</label>
+            </value>
+            <value>
+                <fullName>CAMERA DE SURVEILLANCE</fullName>
+                <default>false</default>
+                <label>CAMERA DE SURVEILLANCE</label>
+            </value>
+            <value>
+                <fullName>CAMERA SPORTIVE</fullName>
+                <default>false</default>
+                <label>CAMERA SPORTIVE</label>
+            </value>
+            <value>
+                <fullName>CARTE MEMOIRE</fullName>
+                <default>false</default>
+                <label>CARTE MEMOIRE</label>
+            </value>
+            <value>
+                <fullName>CASQUE</fullName>
+                <default>false</default>
+                <label>CASQUE</label>
+            </value>
+            <value>
+                <fullName>CASQUE VR</fullName>
+                <default>false</default>
+                <label>CASQUE VR</label>
+            </value>
+            <value>
+                <fullName>CHARGE INDUCTION</fullName>
+                <default>false</default>
+                <label>CHARGE INDUCTION</label>
+            </value>
+            <value>
+                <fullName>CONSOLE DE JEUX</fullName>
+                <default>false</default>
+                <label>CONSOLE DE JEUX</label>
+            </value>
+            <value>
+                <fullName>COQUE</fullName>
+                <default>false</default>
+                <label>COQUE</label>
+            </value>
+            <value>
+                <fullName>DETECTEUR DE FUMEE</fullName>
+                <default>false</default>
+                <label>DETECTEUR DE FUMEE</label>
+            </value>
+            <value>
+                <fullName>DISQUE DUR</fullName>
+                <default>false</default>
+                <label>DISQUE DUR</label>
+            </value>
+            <value>
+                <fullName>DRONE</fullName>
+                <default>false</default>
+                <label>DRONE</label>
+            </value>
+            <value>
+                <fullName>ECOUTEURS</fullName>
+                <default>false</default>
+                <label>ECOUTEURS</label>
+            </value>
+            <value>
+                <fullName>ECOUTEURS SANS FIL</fullName>
+                <default>false</default>
+                <label>ECOUTEURS SANS FIL</label>
+            </value>
+            <value>
+                <fullName>ENCEINTE</fullName>
+                <default>false</default>
+                <label>ENCEINTE</label>
+            </value>
+            <value>
+                <fullName>ENERGIE</fullName>
+                <default>false</default>
+                <label>ENERGIE</label>
+            </value>
+            <value>
+                <fullName>ETUIS</fullName>
+                <default>false</default>
+                <label>ETUIS</label>
+            </value>
+            <value>
+                <fullName>ETUIS CB</fullName>
+                <default>false</default>
+                <label>ETUIS CB</label>
+            </value>
+            <value>
+                <fullName>GYROPODE</fullName>
+                <default>false</default>
+                <label>GYROPODE</label>
+            </value>
+            <value>
+                <fullName>HOVERBOARD</fullName>
+                <default>false</default>
+                <label>HOVERBOARD</label>
+            </value>
+            <value>
+                <fullName>JEUX VIDEO</fullName>
+                <default>false</default>
+                <label>JEUX VIDEO</label>
+            </value>
+            <value>
+                <fullName>KARTING</fullName>
+                <default>false</default>
+                <label>KARTING</label>
+            </value>
+            <value>
+                <fullName>LAMPE CONNECTE</fullName>
+                <default>false</default>
+                <label>LAMPE CONNECTE</label>
+            </value>
+            <value>
+                <fullName>LCD</fullName>
+                <default>false</default>
+                <label>LCD</label>
+            </value>
+            <value>
+                <fullName>LED</fullName>
+                <default>false</default>
+                <label>LED</label>
+            </value>
+            <value>
+                <fullName>MACBOOK</fullName>
+                <default>false</default>
+                <label>MACBOOK</label>
+            </value>
+            <value>
+                <fullName>MAC MINI</fullName>
+                <default>false</default>
+                <label>MAC MINI</label>
+            </value>
+            <value>
+                <fullName>MANETTE</fullName>
+                <default>false</default>
+                <label>MANETTE</label>
+            </value>
+            <value>
+                <fullName>MONTRE CONNECTEE</fullName>
+                <default>false</default>
+                <label>MONTRE CONNECTEE</label>
+            </value>
+            <value>
+                <fullName>ORDINATEUR</fullName>
+                <default>false</default>
+                <label>ORDINATEUR</label>
+            </value>
+            <value>
+                <fullName>ORDINATEUR PORTABLE</fullName>
+                <default>false</default>
+                <label>ORDINATEUR PORTABLE</label>
+            </value>
+            <value>
+                <fullName>PASSERELLE 4G</fullName>
+                <default>false</default>
+                <label>PASSERELLE 4G</label>
+            </value>
+            <value>
+                <fullName>PESE PERSONNE</fullName>
+                <default>false</default>
+                <label>PESE PERSONNE</label>
+            </value>
+            <value>
+                <fullName>PORTE CARTE</fullName>
+                <default>false</default>
+                <label>PORTE CARTE</label>
+            </value>
+            <value>
+                <fullName>PORTE CLE CONNECTE</fullName>
+                <default>false</default>
+                <label>PORTE CLE CONNECTE</label>
+            </value>
+            <value>
+                <fullName>QLED</fullName>
+                <default>false</default>
+                <label>QLED</label>
+            </value>
+            <value>
+                <fullName>REVEIL CONNECTE</fullName>
+                <default>false</default>
+                <label>REVEIL CONNECTE</label>
+            </value>
+            <value>
+                <fullName>SAC</fullName>
+                <default>false</default>
+                <label>SAC</label>
+            </value>
+            <value>
+                <fullName>TABLETTE</fullName>
+                <default>false</default>
+                <label>TABLETTE</label>
+            </value>
+            <value>
+                <fullName>TELEPHONE</fullName>
+                <default>false</default>
+                <label>TELEPHONE</label>
+            </value>
+            <value>
+                <fullName>TREPIED</fullName>
+                <default>false</default>
+                <label>TREPIED</label>
+            </value>
+            <value>
+                <fullName>TROTINETTE</fullName>
+                <default>false</default>
+                <label>TROTINETTE</label>
+            </value>
+            <value>
+                <fullName>VERRE TREMPE</fullName>
+                <default>false</default>
+                <label>VERRE TREMPE</label>
+            </value>
+            <value>
+                <fullName>VOITURE</fullName>
+                <default>false</default>
+                <label>VOITURE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

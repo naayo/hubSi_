@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "fee0a900-4c1c-4d65-a8c2-ec944f5a5c25",
+  "appPageId" : "4c4cb39a-4361-4b52-9eb7-bc194ca2db38",
+  "configurationTags" : [ ],
+  "id" : "6ab112eb-39b7-4f3e-8ae3-b12b6c089b76",
+  "label" : "testMagasins",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-testmagasins",
+  "type" : "route",
+  "urlPrefix" : "testmagasins"
+}

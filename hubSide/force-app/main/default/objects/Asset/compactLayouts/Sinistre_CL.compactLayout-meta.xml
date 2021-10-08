@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sinistre_CL</fullName>
+    <fields>Formule__c</fields>
+    <fields>Type_de_contrat__c</fields>
+    <fields>Etat_plafond__c</fields>
+    <fields>Etat_reglement__c</fields>
+    <fields>Status</fields>
+    <fields>Indemnisation_contrat_restante__c</fields>
+    <label>Sinistre CL</label>
+</CompactLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Heure_sortie__c</fullName>
+    <description>Heure de sortie de l&apos;objet emprunté</description>
+    <externalId>false</externalId>
+    <label>Heure de sortie</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

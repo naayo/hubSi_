@@ -1,0 +1,4 @@
+{
+    "pspReference": "883620812624219A",
+    "response": "[capture-received]"
+}

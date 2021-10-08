@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>imei</fullName>
+        <default>false</default>
+        <label>IMEI</label>
+    </customValue>
+    <customValue>
+        <fullName>other</fullName>
+        <default>false</default>
+        <label>Autre</label>
+    </customValue>
+    <masterLabel>Type du numéro de série</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

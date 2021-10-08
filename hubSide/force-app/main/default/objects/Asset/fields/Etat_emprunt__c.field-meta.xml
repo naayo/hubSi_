@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat_emprunt__c</fullName>
+    <description>Informe s&apos;il y a un emprunt en cours au niveau du contrat.</description>
+    <externalId>false</externalId>
+    <label>Etat emprunt</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pas d’emprunt</fullName>
+                <default>true</default>
+                <label>Pas d’emprunt</label>
+            </value>
+            <value>
+                <fullName>Emprunt en cours</fullName>
+                <default>false</default>
+                <label>Emprunt en cours</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

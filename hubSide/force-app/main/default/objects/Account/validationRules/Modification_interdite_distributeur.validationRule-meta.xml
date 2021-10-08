@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modification_interdite_distributeur</fullName>
+    <active>true</active>
+    <description>Le nom ne peut être changé pour les vendeurs et les responsables boutique.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Distributeur&quot;, 
+    ISCHANGED( Name ), 
+    OR(
+        $Profile.Name = &apos;SFAM Vendeur&apos;, 
+        $Profile.Name = &apos;SFAM Responsable boutique&apos;
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Le nom du compte n&apos;est pas modifiable.</errorMessage>
+</ValidationRule>

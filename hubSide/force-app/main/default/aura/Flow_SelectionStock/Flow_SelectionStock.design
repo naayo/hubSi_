@@ -1,0 +1,11 @@
+<design:component >
+    <design:attribute name="productId" label="Chosen product"/>
+    <design:attribute name="dateRetrait" label="Date retrait"/>
+    <design:attribute name="dureeLocation" label="Duree location"/>
+    <design:attribute name="enseigne" label="Enseigne"/>
+    <design:attribute name="livraisonDomicile" label="Livraison a domicile ?"/>
+    <design:attribute name="distributeurId" label="Id distributeur"/>
+    <design:attribute name="selectedId" label="Selected stock"/>
+    <design:attribute name="resultOk" label="Result ok ?"/>
+    <design:attribute name="openFlow" label="Flow?"/>
+</design:component>

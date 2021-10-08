@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <assignments>
+        <description>Overwrite Name with the value of Name not recognized</description>
+        <name>Name_not_recognized</name>
+        <label>Name = Name not recognized</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Name_not_recognized__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Category__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Category_not_recognized__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>Overwrite Name with the value of Name in Product2 Item Catalog</description>
+        <name>Product2Id_r_Name</name>
+        <label>Name = Product2Id__r.Name</label>
+        <locationX>314</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Product2Id__r.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Category__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Product2Id__r.itemCategory__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>UpdateAccount_c</name>
+        <label>UpdateAccount__c</label>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.vlocity_ins__PolicyAssetId__r.AccountId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IsProduct2IdNull</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Check if Product2Id__c is null</description>
+        <name>IsProduct2IdNull</name>
+        <label>Is Product2Id__c Null</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Product2Id_r_Name</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Product2Id__c is not null</defaultConnectorLabel>
+        <rules>
+            <name>Product2Id_c_is_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Product2Id__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Name_not_recognized</targetReference>
+            </connector>
+            <label>Product2Id__c is null</label>
+        </rules>
+    </decisions>
+    <description>Update the below fields of Insured Item depending on the values of other fields of the current $Record :
+Account__c
+Name
+Category__c</description>
+    <interviewLabel>Update some fields of Insured Item {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>InsuredItem : BeforeInsert</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>UpdateAccount_c</targetReference>
+        </connector>
+        <object>vlocity_ins__AssetInsuredItem__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>RecordToUpdate</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>vlocity_ins__AssetInsuredItem__c</objectType>
+    </variables>
+</Flow>

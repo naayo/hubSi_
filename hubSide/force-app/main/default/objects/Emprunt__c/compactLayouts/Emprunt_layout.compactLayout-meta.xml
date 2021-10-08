@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emprunt_layout</fullName>
+    <fields>Name</fields>
+    <fields>Client__c</fields>
+    <fields>Produit_emprunte__c</fields>
+    <fields>Jours_consommes__c</fields>
+    <fields>Depassement__c</fields>
+    <label>Emprunt layout</label>
+</CompactLayout>

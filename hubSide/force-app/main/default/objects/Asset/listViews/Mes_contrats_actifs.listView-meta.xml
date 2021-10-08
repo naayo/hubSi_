@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mes_contrats_actifs</fullName>
+    <columns>Code_formule_Tech__c</columns>
+    <columns>Date_souscription__c</columns>
+    <columns>Nombre_jours_restant__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSET.STATUS</field>
+        <operation>equals</operation>
+        <value>valid</value>
+    </filters>
+    <label>Mes contrats actifs</label>
+</ListView>

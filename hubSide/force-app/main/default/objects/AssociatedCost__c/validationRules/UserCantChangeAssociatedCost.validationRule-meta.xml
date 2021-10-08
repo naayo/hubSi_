@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserCantChangeAssociatedCost</fullName>
+    <active>true</active>
+    <description>Le coût unitaire et la main d&apos;oeuvre ne sont modifiables que lorsque permis au niveau du type de coût d&apos;équipement - The unit and manpower costs are only editable</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISCHANGED(UnitCost__c), 
+        ISCHANGED(ManpowerCost__c)
+    ), 
+    EquipmentCostType__r.ChangeableCost__c == FALSE
+)</errorConditionFormula>
+    <errorMessage>Les modifications de coût ne sont pas autorisées - You&apos;re not allowed to edit this associated cost.</errorMessage>
+</ValidationRule>

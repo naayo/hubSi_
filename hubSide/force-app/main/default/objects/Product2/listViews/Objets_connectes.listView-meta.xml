@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objets_connectes</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Description_longue__c</columns>
+    <columns>Marque__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>vlocity_ins__RecordTypeName__c</field>
+        <operation>equals</operation>
+        <value>Produit_location</value>
+    </filters>
+    <filters>
+        <field>Famille_produit__c</field>
+        <operation>equals</operation>
+        <value>Enceinte,Tablette</value>
+    </filters>
+    <label>Objets connectés</label>
+</ListView>

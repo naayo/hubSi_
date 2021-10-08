@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidatorUserId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the the user who approved the alert.</description>
+    <externalId>false</externalId>
+    <label>Valideur</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Alerts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formule_reparation__c</fullName>
+    <externalId>false</externalId>
+    <label>Formule réparation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CodeMO1</fullName>
+                <default>true</default>
+                <label>CodeMO1</label>
+            </value>
+            <value>
+                <fullName>CodeMO2</fullName>
+                <default>false</default>
+                <label>CodeMO2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

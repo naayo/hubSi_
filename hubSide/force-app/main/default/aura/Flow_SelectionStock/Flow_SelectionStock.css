@@ -1,0 +1,42 @@
+.THIS .thumbnail{
+	background: #FFF;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;    
+    font-size: .8rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    min-height:100% !important;
+}
+.THIS .thumbnail p{
+    padding: 10px 0 13px;
+    line-height: 1.14;
+    border: 1px solid transparent;
+    margin:0px;
+}
+
+.THIS .thumbnail:hover{
+    transition: border 0.3s ease-in-out;
+    -webkit-transition: border 0.3s ease-in-out;
+    -moz-transition: border 0.3s ease-in-out;
+    -o-transition: border 0.3s ease-in-out;
+    border: 2px solid #cdd022;
+}
+
+
+.THIS .xcs-selected{
+	color: #cdd022;
+	border: 2px solid #cdd022;
+}
+.THIS .xcs-selected::before{
+	opacity: 1 !important;
+	transform: scale(1);
+}
+
+.THIS .spinnerHolder{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}

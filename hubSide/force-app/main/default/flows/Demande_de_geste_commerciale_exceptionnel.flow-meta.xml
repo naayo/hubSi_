@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>ASS_Alerte_a_creer</name>
+        <label>ASS_Alerte à créer</label>
+        <locationX>842</locationX>
+        <locationY>854</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.Case__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Var_CaseId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.Description__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Commentaires</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.SalesDiscountMotif__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Sales_Discount_Motif</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Cr_ation_d_une_alert</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_demande_assureur</name>
+        <label>Assign demande assureur</label>
+        <locationX>1106</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.BusinessRulesNumber__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGSIN21</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>ASS_Alerte_a_creer</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_erreur_humaine</name>
+        <label>Assign_erreur humaine</label>
+        <locationX>842</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.BusinessRulesNumber__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGSIN14</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.Type_Alert__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Warning</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Approved</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.Validation_Reason__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Validation par défaut car warning</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Create_alert.Active_Inactive__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>SansObjet</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>ASS_Alerte_a_creer</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Autres</name>
+        <label>Autres</label>
+        <locationX>1370</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.BusinessRulesNumber__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGSIN00</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>ASS_Alerte_a_creer</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Contournement_r_glement</name>
+        <label>Contournement réglement</label>
+        <locationX>578</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.BusinessRulesNumber__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGSIN19</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>ASS_Alerte_a_creer</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Pi_ce_non_r_clamee</name>
+        <label>Pièce non réclamée</label>
+        <locationX>314</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Create_alert.BusinessRulesNumber__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGSIN13</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>ASS_Alerte_a_creer</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>annulation_de_pieces_justificatives_majeures</name>
+        <choiceText>Annulation de pièces justificatives majeures</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Annulation de pièces justificatives majeures</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>demande_contournement_reglement_contrat</name>
+        <choiceText>Demande contournement Règlement Contrat</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Demande contournement Règlement Contrat</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>demande_des_assureurs</name>
+        <choiceText>A la demande des assureurs</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>A la demande des assureurs</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>erreur_humaine</name>
+        <choiceText>Mauvaise interprétation du contrat par un GS/Erreur humaine</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Mauvaise interprétation du contrat par un GS/Erreur humaine</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Decision_Motif_discount</name>
+        <label>Decision Motif discount</label>
+        <locationX>842</locationX>
+        <locationY>518</locationY>
+        <defaultConnector>
+            <targetReference>Autres</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pi_ces_non_r_clam_e</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Sales_Discount_Motif</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Annulation de pièces justificatives majeures</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pi_ce_non_r_clamee</targetReference>
+            </connector>
+            <label>Pièces non réclamée</label>
+        </rules>
+        <rules>
+            <name>Demande_contournement_R_glement_Contrat</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Sales_Discount_Motif</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande contournement Règlement Contrat</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contournement_r_glement</targetReference>
+            </connector>
+            <label>Demande contournement Règlement Contrat</label>
+        </rules>
+        <rules>
+            <name>Erreur_humaine_GS</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Sales_Discount_Motif</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>erreur_humaine</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_erreur_humaine</targetReference>
+            </connector>
+            <label>Erreur humaine</label>
+        </rules>
+        <rules>
+            <name>A_La_Demande_des_assureurs</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Sales_Discount_Motif</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>demande_des_assureurs</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_demande_assureur</targetReference>
+            </connector>
+            <label>Demande des assureurs</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_status</name>
+        <label>Decision status</label>
+        <locationX>446</locationX>
+        <locationY>278</locationY>
+        <defaultConnector>
+            <targetReference>Motif_geste_commercial</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>en_cours_d_examen</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Case_ID.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>En cours d&apos;indemnisation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Error</targetReference>
+            </connector>
+            <label>En cours d&apos;examen et autre status supérieur</label>
+        </rules>
+    </decisions>
+    <description>Permet au GS/TC de faire une demande de geste commercial exceptionnel.
+21/07/2021 SFAMI2030 TSC : Erreur humaine RGSIN14/Warning</description>
+    <dynamicChoiceSets>
+        <name>SalesDiscountMotif</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>SalesDiscountMotif__c</picklistField>
+        <picklistObject>Alert__c</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Demande de geste commerciale exceptionnel {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Demande de geste commercial exceptionnel</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Cr_ation_d_une_alert</name>
+        <label>Création d&apos;une alert</label>
+        <locationX>842</locationX>
+        <locationY>974</locationY>
+        <connector>
+            <targetReference>Mise_jour_liste_motif_approbation</targetReference>
+        </connector>
+        <inputReference>Create_alert</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Case_ID</name>
+        <label>Get Case ID</label>
+        <locationX>446</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decision_status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Var_CaseId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Error</name>
+        <label>Error</label>
+        <locationX>50</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>YouCant</name>
+            <fieldText>&lt;p&gt;Vous ne pouvez pas créer de demande tant que le status est &quot;En cours d&apos;indemnisation&quot;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Motif_geste_commercial</name>
+        <label>Motif geste commercial</label>
+        <locationX>842</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Decision_Motif_discount</targetReference>
+        </connector>
+        <fields>
+            <name>Sales_Discount_Motif</name>
+            <choiceReferences>annulation_de_pieces_justificatives_majeures</choiceReferences>
+            <choiceReferences>demande_contournement_reglement_contrat</choiceReferences>
+            <choiceReferences>erreur_humaine</choiceReferences>
+            <choiceReferences>demande_des_assureurs</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Motif de geste commercial</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Commentaires</name>
+            <dataType>String</dataType>
+            <fieldText>Commentaires</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Case_ID</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Mise_jour_liste_motif_approbation</name>
+        <label>Mise à jour liste motif approbation</label>
+        <locationX>842</locationX>
+        <locationY>1094</locationY>
+        <flowName>Update_Approval_motif_list</flowName>
+        <inputAssignments>
+            <name>Var_CaseId</name>
+            <value>
+                <elementReference>Get_Case_ID.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>Create_alert</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Alert__c</objectType>
+    </variables>
+    <variables>
+        <name>Var_CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

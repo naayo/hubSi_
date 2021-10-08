@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nouvelle_reservation</fullName>
+    <availability>online</availability>
+    <description>Permet la création d&apos;une réservation depuis la page client</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Nouvelle réservation</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Reservation_depuis_un_client?AccountId={!Account.Id}&amp;retURL=/{!Account.Id}</url>
+</WebLink>

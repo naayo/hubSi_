@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_cloture__c</fullName>
+    <description>Motif lié à la résiliation demandée par le client</description>
+    <externalId>false</externalId>
+    <label>Motif de clôture</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>clientCancellation</fullName>
+                <default>false</default>
+                <label>Résiliation client</label>
+            </value>
+            <value>
+                <fullName>unpaidCancellation</fullName>
+                <default>false</default>
+                <label>Résiliation impayé</label>
+            </value>
+            <value>
+                <fullName>fraudCancellation</fullName>
+                <default>false</default>
+                <label>Résiliation fraude</label>
+            </value>
+            <value>
+                <fullName>oppositionCancellation</fullName>
+                <default>false</default>
+                <label>Résiliation opposition</label>
+            </value>
+            <value>
+                <fullName>unknown</fullName>
+                <default>false</default>
+                <label>Sans objet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

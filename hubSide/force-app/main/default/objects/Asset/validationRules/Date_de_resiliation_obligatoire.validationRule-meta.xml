@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_resiliation_obligatoire</fullName>
+    <active>true</active>
+    <description>La date de clôture est obligatoire pour les contrats fermés.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &apos;closed&apos;),
+    ISBLANK(Date_cloture__c)
+)</errorConditionFormula>
+    <errorMessage>La date de clôture est obligatoire pour les contrats fermés.</errorMessage>
+</ValidationRule>

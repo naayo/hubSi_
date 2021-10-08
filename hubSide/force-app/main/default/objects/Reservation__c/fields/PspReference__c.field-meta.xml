@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PspReference__c</fullName>
+    <description>Correspond à la référence stockée dans Adyen lorque le client a effectué son dépôt de garantie sur la plateforme de paiement</description>
+    <externalId>false</externalId>
+    <label>Numéro de transaction</label>
+    <length>16</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_community_user_from_editing</fullName>
+    <active>true</active>
+    <description>Empêche un utilisateur community d&apos;apporter des modifications sur son profil en ligne</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISCHANGED( FirstName ),
+        ISCHANGED( MiddleName ),
+        ISCHANGED( LastName ), 
+        ISCHANGED( Suffix ), 
+        ISCHANGED( Email ), 
+        ISCHANGED( Phone ), 
+        ISCHANGED( MobilePhone ), 
+        ISCHANGED( Address )
+    ),
+    OR($Profile.Name == &quot;Passloc Customer community Plus Login User&quot;,$Profile.Name == &quot;Passloc Customer community Login User&quot;)
+)</errorConditionFormula>
+    <errorMessage>Vous n&apos;avez pas les droits suffisants pour modifier votre profil. Merci de contacter un téléconseiller pour effectuer les modifications nécessaires.</errorMessage>
+</ValidationRule>

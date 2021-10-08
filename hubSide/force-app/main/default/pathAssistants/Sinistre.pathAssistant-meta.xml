@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Sinistre</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Attente_colis__c</fieldNames>
+        <fieldNames>Attente_documents__c</fieldNames>
+        <fieldNames>Attente_Prime__c</fieldNames>
+        <fieldNames>Autre_attente__c</fieldNames>
+        <picklistValueName>A attribuer</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Attente_colis__c</fieldNames>
+        <fieldNames>Attente_documents__c</fieldNames>
+        <fieldNames>Attente_Prime__c</fieldNames>
+        <fieldNames>Autre_attente__c</fieldNames>
+        <picklistValueName>Attribué</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Attente_colis__c</fieldNames>
+        <fieldNames>Attente_documents__c</fieldNames>
+        <fieldNames>Attente_Prime__c</fieldNames>
+        <fieldNames>Autre_attente__c</fieldNames>
+        <picklistValueName>En cours d&apos;examen</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Decision_gestionnaire__c</fieldNames>
+        <picklistValueName>En cours d&apos;indemnisation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Dernier_commentaire_incomplet__c</fieldNames>
+        <fieldNames>Attente_colis__c</fieldNames>
+        <fieldNames>Attente_documents__c</fieldNames>
+        <fieldNames>Attente_Prime__c</fieldNames>
+        <fieldNames>Autre_attente__c</fieldNames>
+        <picklistValueName>Incomplet</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Dernier_commentaire__c</fieldNames>
+        <picklistValueName>Reception_dossier</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Dernier_commentaire_refus__c</fieldNames>
+        <picklistValueName>closed_rejected</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Sinistre</recordTypeName>
+</PathAssistant>

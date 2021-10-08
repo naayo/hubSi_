@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Type_de_Co_t_Equipement_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>EquipmentCostType__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Type_de_Co_t_Equipement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>EquipmentCostType__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>R_ception_colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Reception_colis__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>R_ception_colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Reception_colis__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Application dédiée Expertise / Réparation / Logistique</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>SFAM PSM</label>
+    <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Logistique_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM GS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM GS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Reparation_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Reparation_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_client_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>vlocity_ins__AssetInsuredItem__c</pageOrSobjectType>
+        <recordType>vlocity_ins__AssetInsuredItem__c.Equipement_client</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_client_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>vlocity_ins__AssetInsuredItem__c</pageOrSobjectType>
+        <recordType>vlocity_ins__AssetInsuredItem__c.Equipement_client</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contrat_Assurance_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Asset</pageOrSobjectType>
+        <recordType>Asset.Contrat_assurance</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contrat_Assurance_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Asset</pageOrSobjectType>
+        <recordType>Asset.Contrat_assurance</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SinistreBApp</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SinistreBApp</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SinistreReadOnly</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SinistreReadOnly</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Mouvements_financiers_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Mouvements_financiers__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Mouvements_financiers_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Mouvements_financiers__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_expedition</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Colis_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Colis__c</pageOrSobjectType>
+        <recordType>Colis__c.Colis_reception</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Logistique_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPageRestreint</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Expertise_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_a_reparer</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Equipement_sinistr_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Equipement_sinistre__c</pageOrSobjectType>
+        <recordType>Equipement_sinistre__c.Equipement_vole_perdu</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Reparation_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Reparation</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Stock</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur TC</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM GS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM GS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Vendeur</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM ADM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Admin Produit</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Logistique</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>SFAM Expertise</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_SFAM_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_SFAM</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Affectation_Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Affectation_document</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SinistreRecordPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sinistre</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>SAV_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.SAV</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Client_Location_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Client_location</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Profil GS - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Declaration_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Declaration</recordType>
+        <type>Flexipage</type>
+        <profile>Profil TC - OLD</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>Equipement_sinistre__c</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>Colis__c</tabs>
+    <tabs>Reception_colis__c</tabs>
+    <tabs>Name__c</tabs>
+    <tabs>EquipmentCostType__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>SFAM_SAV_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Colis__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Equipement_sinistre__c</tab>
+        </mappings>
+        <mappings>
+            <tab>EquipmentCostType__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Name__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Reception_colis__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Case</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

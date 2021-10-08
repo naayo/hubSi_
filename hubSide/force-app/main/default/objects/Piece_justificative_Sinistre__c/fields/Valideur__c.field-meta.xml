@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valideur__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Personne ayant validé le document</description>
+    <externalId>false</externalId>
+    <label>Valideur</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Pieces_justificatives_Sinistre</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

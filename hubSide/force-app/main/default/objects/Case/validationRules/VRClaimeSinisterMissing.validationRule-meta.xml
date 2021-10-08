@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRClaimeSinisterMissing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name =&apos;Réclamation&apos;,
+ISBLANK(AssociatedSinister__c),
+ISPICKVAL( Theme__c , &apos;Sinister&apos;))</errorConditionFormula>
+    <errorDisplayField>AssociatedSinister__c</errorDisplayField>
+    <errorMessage>Un sinistre doit être sélectionné lorsque le thème &apos;Sinistre&apos; est sélectionné.</errorMessage>
+</ValidationRule>

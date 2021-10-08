@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Typologie sinistre différente du contrat</fullName>
+        <default>false</default>
+        <label>Typologie sinistre différente du contrat</label>
+    </customValue>
+    <customValue>
+        <fullName>Date du sinistre inférieure au contrat</fullName>
+        <default>false</default>
+        <label>Date du sinistre inférieure au contrat</label>
+    </customValue>
+    <customValue>
+        <fullName>Plafond dépassé</fullName>
+        <default>false</default>
+        <label>Plafond dépassé</label>
+    </customValue>
+    <customValue>
+        <fullName>Annulation de pièces justificatives majeures</fullName>
+        <default>false</default>
+        <label>Annulation de pièces justificatives majeures</label>
+    </customValue>
+    <customValue>
+        <fullName>Date de survenance du sinistre de plus de 3 mois</fullName>
+        <default>false</default>
+        <label>Date de survenance du sinistre de plus de 3 mois</label>
+    </customValue>
+    <customValue>
+        <fullName>Mauvaise interprétation du contrat par un GS/Erreur humaine</fullName>
+        <default>false</default>
+        <label>Mauvaise interprétation du contrat par un GS/Erreur humaine</label>
+    </customValue>
+    <customValue>
+        <fullName>Date de survenance du sinistre supérieure à 10 jours de la date de déclaration</fullName>
+        <default>false</default>
+        <label>Date de survenance du sinistre supérieure à 10 jours de la date de déclaration</label>
+    </customValue>
+    <customValue>
+        <fullName>Date de sinistre supérieure à la date du contrat</fullName>
+        <default>false</default>
+        <label>Date de sinistre supérieure à la date du contrat</label>
+    </customValue>
+    <customValue>
+        <fullName>Dépassement d&apos;échange</fullName>
+        <default>false</default>
+        <label>Dépassement d&apos;échange</label>
+    </customValue>
+    <customValue>
+        <fullName>Demande contournement Règlement Contrat</fullName>
+        <default>false</default>
+        <label>Demande contournement Règlement Contrat</label>
+    </customValue>
+    <customValue>
+        <fullName>A la demande des assureurs</fullName>
+        <default>false</default>
+        <label>A la demande des assureurs</label>
+    </customValue>
+    <customValue>
+        <fullName>Geste Commercial financier demandé</fullName>
+        <default>false</default>
+        <label>Geste Commercial financier demandé</label>
+    </customValue>
+    <customValue>
+        <fullName>Dépassement des réparations</fullName>
+        <default>false</default>
+        <label>Dépassement des réparations</label>
+    </customValue>
+    <customValue>
+        <fullName>PrimaryDocNotClaim</fullName>
+        <default>false</default>
+        <label>Pièce majeure plus réclamée</label>
+    </customValue>
+    <customValue>
+        <fullName>Pièces non réclamée</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pièces non réclamée</label>
+    </customValue>
+    <customValue>
+        <fullName>Date du sinistre inférieure à 10 jours de la date de déclaration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Date du sinistre inférieure à 10 jours de la date de déclaration</label>
+    </customValue>
+    <customValue>
+        <fullName>Une mauvaise interprétation du contrat par un gestionnaire sinistre / erreur humaine</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Une mauvaise interprétation du contrat par un gestionnaire sinistre / erreur humaine</label>
+    </customValue>
+    <customValue>
+        <fullName>Autres</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Autres</label>
+    </customValue>
+    <description>Rassemble les différents motifs de gestes commerciaux exceptionnels.</description>
+    <masterLabel>Motif Geste commercial</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
