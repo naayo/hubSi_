@@ -1,13 +1,56 @@
 {
-  "orgName": "Demo company",
+  "orgName": "HubSide Org",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "language": "en_US",
+  "country": "FR",
+  "adminEmail": "baila.toure@cgi.com",
+  "features": [
+    "AddCustomApps:30",
+    "AddCustomObjects:30",
+    "AdditionalFieldHistory:40",
+    "NumPlatformEvents:20",
+    "AuthorApex",
+    "ContactsToMultipleAccounts",
+    "DebugApex",
+    "RecordTypes",
+    "ServiceCloud",
+    "Communities",
+    "PartnerCommunity",
+    "FieldService:25",
+    "FieldServiceDispatcherUser:25",
+    "FieldServiceSchedulingUser:25",
+    "B2BCommerce", "OrderManagement"
+  ],
   "settings": {
+    "apexSettings": {
+      "enableDisableParallelApexTesting": "true"
+    },
+    "orgPreferenceSettings": {
+      "notesReservedPref01": true,
+      "s1DesktopEnabled": true,
+      "s1EncryptedStoragePref2": false,
+      "translation": true,
+      "pathAssistantsEnabled": true
+    },
+    "entitlementSettings": {
+      "enableEntitlements": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true,
+      "enableOotbProfExtUserOpsEnable": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+    "fieldServiceSettings": {
+      "fieldServiceOrgPref": true
     }
   }
 }
