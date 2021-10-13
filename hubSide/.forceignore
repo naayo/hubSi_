@@ -4,10 +4,6 @@
 
 package.xml
 
-# Ignore push
-force-app/main/default/emailservices
-
-
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
